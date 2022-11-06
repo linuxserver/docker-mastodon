@@ -1,0 +1,30 @@
+---
+
+# jenkins variables
+project_name: docker-mastodon
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - EXT_GIT_BRANCH = 'main'
+  - EXT_USER = 'mastodon'
+  - EXT_REPO = 'mastodon'
+  - CONTAINER_NAME = 'mastodon'
+  - BUILD_VERSION_ARG = 'MASTODON_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-mastodon'
+  - DOCKERHUB_IMAGE = 'linuxserver/mastodon'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/mastodon'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/mastodon'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='false'
+  - CI_WEB='false'
+  - CI_PORT='80'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH=''
+  - CI_WEBPATH=''
+  

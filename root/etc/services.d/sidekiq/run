@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+RAILS_ENV=production
+PATH="${PATH}:/opt/ruby/bin:/opt/node/bin:/app/www/bin"
+
+cd /app/www || exit 1
+
+exec \
+    s6-setuidgid abc /usr/bin/bundle exec sidekiq

@@ -1,0 +1,80 @@
+---
+
+# project information
+project_name: mastodon
+project_url: "https://github.com/mastodon/mastodon/"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png"
+project_blurb: |
+  [{{ project_name|capitalize }}]({{ project_url }}) is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
+
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "America/New_York", desc: "Specify a timezone to use EG America/New_York"}
+  - { env_var: "LOCAL_DOMAIN", env_value: "example.com", desc: "This is the unique identifier of your server in the network. It cannot be safely changed later."}
+  - { env_var: "REDIS_HOST", env_value: "redis", desc: "Redis server hostname"}
+  - { env_var: "REDIS_PORT", env_value: "6379", desc: "Redis port"}
+  - { env_var: "DB_HOST", env_value: "db", desc: "Postgres database hostname"}
+  - { env_var: "DB_USER", env_value: "mastodon", desc: "Postgres username"}
+  - { env_var: "DB_NAME", env_value: "mastodon", desc: "Postgres db name"}
+  - { env_var: "DB_PASS", env_value: "mastodon", desc: "Postgres password"}
+  - { env_var: "DB_PORT", env_value: "5432", desc: "Portgres port"}
+  - { env_var: "ES_ENABLED", env_value: "false", desc: "Enable or disable Elasticsearch (requires a separate ES instance)"}
+  - { env_var: "SECRET_KEY_BASE", env_value: "", desc: "Browser session secret. Changing it will break all active browser sessions."}
+  - { env_var: "OTP_SECRET", env_value: "", desc: "MFA secret. Changing it will break two-factor authentication."}
+  - { env_var: "VAPID_PRIVATE_KEY", env_value: "", desc: "Push notification private key. Changing it will break push notifications."}
+  - { env_var: "VAPID_PUBLIC_KEY", env_value: "", desc: "Push notification public key. Changing it will break push notifications."}
+  - { env_var: "SMTP_SERVER", env_value: "mail.example.com", desc: "SMTP server for email notifications"}
+  - { env_var: "SMTP_PORT", env_value: "25", desc: "SMTP server port"}
+  - { env_var: "SMTP_LOGIN", env_value: "", desc: "SMTP username"}
+  - { env_var: "SMTP_PASSWORD", env_value: "", desc: "SMTP password"}
+  - { env_var: "SMTP_FROM_ADDRESS", env_value: "notifications@example.com", desc: "From address for emails send from Mastodon"}
+  - { env_var: "S3_ENABLED", env_value: "false", desc: "Enable or disable S3 storage of uploaded files"}
+
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "WEB_DOMAIN", env_value: "mastodon.example.com", desc: "This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic"}
+  - { env_var: "ES_HOST", env_value: "es", desc: "Elasticsearch server hostname"}
+  - { env_var: "ES_PORT", env_value: "9200", desc: "Elasticsearch port"}
+  - { env_var: "ES_USER", env_value: "elastic", desc: "Elasticsearch username"}
+  - { env_var: "ES_PASS", env_value: "elastic", desc: "Elasticsearch password"}
+  - { env_var: "S3_BUCKET", env_value: "", desc: "S3 bucket hostname"}
+  - { env_var: "AWS_ACCESS_KEY_ID", env_value: "", desc: "S3 bucket access key ID"}
+  - { env_var: "AWS_SECRET_ACCESS_KEY", env_value: "", desc: "S3 bucket secret access key"}
+  - { env_var: "S3_ALIAS_HOST", env_value: "", desc: "Alternate hostname for object fetching if you are front the S3 connections."}
+
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "80", internal_port: "80", port_desc: "Port for web frontend" }
+  - { external_port: "443", internal_port: "443", port_desc: "Port for web frontend" }
+
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files." }
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon secret` once for each.
+
+  To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon mastodon:webpush:generate_vapid_key`
+
+  This container *requires* separate postgres and redis instances to run.
+
+  We support all of the official [environment variables](https://docs.joinmastodon.org/admin/config) for configuration. In place of adding them all to your run/compose you can use an env file such as [this example](https://github.com/mastodon/mastodon/blob/main/.env.production.sample) from the upstream project.
+
+  For more information check out the [mastodon documentation](https://docs.joinmastodon.org/).
+
+# changelog
+changelogs:
+  - { date: "05.11.22:", desc: "Initial Release." }
