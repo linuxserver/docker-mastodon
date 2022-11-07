@@ -13,6 +13,7 @@ ENV RAILS_ENV="production" \
 RUN \
   apk add -U --upgrade --no-cache \
     ffmpeg \
+    file \
     icu-libs \ 
     imagemagick \
     libpq \
