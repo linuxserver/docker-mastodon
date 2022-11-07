@@ -3,12 +3,12 @@
 
 mkdir -p \
     /app/www/tmp \
-    /app/www/public/system/cache
+    /app/www/public/system
     /config/mastodon
 
 chown -R abc:abc \
     /app/www/tmp \
-    /app/www/public/system/cache
+    /app/www/public/system
 
 ln -s /config/mastodon /mastodon
 
