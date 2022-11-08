@@ -57,11 +57,22 @@ The architectures supported by this image are:
 | arm64 | ✅ | arm64v8-\<version tag\> |
 | armhf| ❌ | |
 
+## Version Tags
+
+This image provides various versions that are available via tags. Please read the descriptions carefully and exercise caution when using unstable or development tags.
+
+| Tag | Available | Description |
+| :----: | :----: |--- |
+| latest | ✅ | Stable releases. |
+| develop | ✅ | Pre-releases *only*. |
+
 ## Application Setup
 
 To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon secret` once for each.
 
 To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon mastodon:webpush:generate_vapid_key`
+
+To use `tootctl` you can run something like `docker exec -it -w /app/www mastodon bin/tootctl <command>`
 
 This container *requires* separate postgres and redis instances to run.
 
