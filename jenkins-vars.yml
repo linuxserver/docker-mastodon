@@ -2,11 +2,13 @@
 
 # jenkins variables
 project_name: docker-mastodon
-external_type: github_devel
+external_type: custom_json
 release_type: prerelease
 release_tag: develop
 ls_branch: develop
 repo_vars:
+  - JSON_URL='https://api.github.com/repos/mastodon/mastodon/releases'
+  - JSON_PATH='first(.[] | select(.prerelease==true)) | .tag_name'
   - EXT_GIT_BRANCH = 'main'
   - EXT_USER = 'mastodon'
   - EXT_REPO = 'mastodon'

@@ -39,7 +39,7 @@ RUN \
   mkdir -p /app/www && \
   if [ -z ${MASTODON_VERSION+x} ]; then \
     MASTODON_VERSION=$(curl -sX GET "https://api.github.com/repos/mastodon/mastodon/releases" \
-    | jq -r '.[0] | .tag_name'); \
+    | jq -r 'first(.[] | select(.prerelease==true)) | .tag_name'); \
   fi && \
   curl -s -o \
     /tmp/mastodon.tar.gz -L \

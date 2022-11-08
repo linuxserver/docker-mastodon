@@ -64,7 +64,7 @@ This image provides various versions that are available via tags. Please read th
 | Tag | Available | Description |
 | :----: | :----: |--- |
 | latest | ✅ | Stable releases. |
-| develop | ✅ | Pre-releases. |
+| develop | ✅ | Pre-releases *only*. |
 
 ## Application Setup
 
