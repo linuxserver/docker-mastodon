@@ -14,6 +14,12 @@ available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable releases." }
+  - { tag: "develop", desc: "Pre-releases *only*." }
+
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
@@ -69,6 +75,8 @@ app_setup_block: |
 
   To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon mastodon:webpush:generate_vapid_key`
 
+  To use `tootctl` you can run something like `docker exec -it -w /app/www mastodon bin/tootctl <command>`
+
   This container *requires* separate postgres and redis instances to run.
 
   We support all of the official [environment variables](https://docs.joinmastodon.org/admin/config) for configuration. In place of adding them all to your run/compose you can use an env file such as [this example](https://github.com/mastodon/mastodon/blob/main/.env.production.sample) from the upstream project.
@@ -77,4 +85,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "08.11.22:", desc: "Add develop branch." }
   - { date: "05.11.22:", desc: "Initial Release." }
