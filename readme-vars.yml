@@ -75,6 +75,8 @@ app_setup_block: |
 
   To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon mastodon:webpush:generate_vapid_key`
 
+  To use `tootctl` you can run something like `docker exec -it -w /app/www mastodon bin/tootctl <command>`
+
   This container *requires* separate postgres and redis instances to run.
 
   We support all of the official [environment variables](https://docs.joinmastodon.org/admin/config) for configuration. In place of adding them all to your run/compose you can use an env file such as [this example](https://github.com/mastodon/mastodon/blob/main/.env.production.sample) from the upstream project.
