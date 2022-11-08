@@ -1,0 +1,18 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+mkdir -p \
+    /app/www/tmp \
+    /config/mastodon/public/system
+
+chown -R abc:abc \
+    /app/www/tmp
+
+ln -s /config/mastodon/public/system /app/www/public/system
+
+cd /app/www/ || exit 1
+
+s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
+
+chown -R abc:abc \
+    /config

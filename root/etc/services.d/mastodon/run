@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+RAILS_ENV=production
+PATH="${PATH}:/opt/ruby/bin:/opt/node/bin:/app/www/bin"
+RAILS_SERVE_STATIC_FILES=false
+
+exec \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 3000" \
+        cd /app/www s6-setuidgid abc /usr/bin/bundle exec rails s -p 3000
