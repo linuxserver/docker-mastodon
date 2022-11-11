@@ -50,10 +50,10 @@ RUN \
     /tmp/mastodon.tar.gz -C \
     /app/www/ --strip-components=1 && \
   cd /app/www && \
-  gem install nokogiri --platform=ruby -- --use-system-libraries && \
   bundle config set --local deployment 'true' && \
   bundle config set --local without 'development test' && \
   bundle config set silence_root_warning true && \
+  bundle config set force_ruby_platform true && \
   bundle install -j"$(nproc)" && \
   yarn install --pure-lockfile && \
   OTP_SECRET=precompile_placeholder SECRET_KEY_BASE=precompile_placeholder rails assets:precompile && \
