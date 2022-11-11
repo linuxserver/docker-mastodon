@@ -49,7 +49,6 @@ RUN \
     /tmp/mastodon.tar.gz -C \
     /app/www/ --strip-components=1 && \
   cd /app/www && \
-  gem install nokogiri --platform=ruby -- --use-system-libraries && \
   bundle config set --local deployment 'true' && \
   bundle config set --local without 'development test' && \
   bundle config set silence_root_warning true && \
