@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 
 RAILS_ENV=production
-PATH="${PATH}:/opt/ruby/bin:/opt/node/bin:/app/www/bin"
+PATH="${PATH}:/app/www/bin"
 RAILS_SERVE_STATIC_FILES=false
 
 exec \

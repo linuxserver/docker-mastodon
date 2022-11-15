@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 
 NODE_ENV=production
-PATH="${PATH}:/opt/ruby/bin:/opt/node/bin:/app/www/bin"
+PATH="${PATH}:/app/www/bin"
 
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 4000" \

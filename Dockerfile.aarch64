@@ -8,7 +8,7 @@ LABEL maintainer="TheSpad"
 
 ENV RAILS_ENV="production" \
     NODE_ENV="production" \
-    PATH="${PATH}:/opt/ruby/bin:/opt/node/bin:/app/www/bin"
+    PATH="${PATH}:/app/www/bin"
 
 RUN \
   apk add -U --upgrade --no-cache \
