@@ -17,5 +17,4 @@ cd /app/www/ || exit 1
 
 s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
 
-chown -R abc:abc \
-    /config
+find /config -path /config/mastodon/public/system -prune -o -exec chown abc:abc {} +
