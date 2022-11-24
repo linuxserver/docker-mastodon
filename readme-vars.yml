@@ -79,6 +79,8 @@ app_setup_block: |
 
   This container *requires* separate postgres and redis instances to run.
 
+  If you are reverse proxying this container you must proxy the *https* port otherwise you will end up with a redirect loop.
+
   We support all of the official [environment variables](https://docs.joinmastodon.org/admin/config) for configuration. In place of adding them all to your run/compose you can use an env file such as [this example](https://github.com/mastodon/mastodon/blob/main/.env.production.sample) from the upstream project.
 
   For more information check out the [mastodon documentation](https://docs.joinmastodon.org/).
