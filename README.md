@@ -80,6 +80,10 @@ We support all of the official [environment variables](https://docs.joinmastodon
 
 For more information check out the [mastodon documentation](https://docs.joinmastodon.org/).
 
+### Strict reverse proxies
+
+This image automatically redirects to https with a self-signed certificate. If you are using a reverse proxy which validates certificates, you need to [disable this check for the container](https://docs.linuxserver.io/faq#strict-proxy).
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
@@ -206,7 +210,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e SMTP_PASSWORD=` | SMTP password |
 | `-e SMTP_FROM_ADDRESS=notifications@example.com` | From address for emails send from Mastodon |
 | `-e S3_ENABLED=false` | Enable or disable S3 storage of uploaded files |
-| `-e WEB_DOMAIN=mastodon.example.com` | This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic |
+| `-e WEB_DOMAIN=mastodon.example.com` | This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See [https://docs.joinmastodon.org/admin/config/#basic](https://docs.joinmastodon.org/admin/config/#basic) |
 | `-e ES_HOST=es` | Elasticsearch server hostname |
 | `-e ES_PORT=9200` | Elasticsearch port |
 | `-e ES_USER=elastic` | Elasticsearch username |
