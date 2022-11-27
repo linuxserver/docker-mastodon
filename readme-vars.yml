@@ -49,7 +49,7 @@ param_env_vars:
 
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "WEB_DOMAIN", env_value: "mastodon.example.com", desc: "This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See https://docs.joinmastodon.org/admin/config/#basic"}
+  - { env_var: "WEB_DOMAIN", env_value: "mastodon.example.com", desc: "This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See [https://docs.joinmastodon.org/admin/config/#basic](https://docs.joinmastodon.org/admin/config/#basic)"}
   - { env_var: "ES_HOST", env_value: "es", desc: "Elasticsearch server hostname"}
   - { env_var: "ES_PORT", env_value: "9200", desc: "Elasticsearch port"}
   - { env_var: "ES_USER", env_value: "elastic", desc: "Elasticsearch username"}
@@ -82,6 +82,10 @@ app_setup_block: |
   We support all of the official [environment variables](https://docs.joinmastodon.org/admin/config) for configuration. In place of adding them all to your run/compose you can use an env file such as [this example](https://github.com/mastodon/mastodon/blob/main/.env.production.sample) from the upstream project.
 
   For more information check out the [mastodon documentation](https://docs.joinmastodon.org/).
+
+  ### Strict reverse proxies
+
+  This image automatically redirects to https with a self-signed certificate. If you are using a reverse proxy which validates certificates, you need to [disable this check for the container](https://docs.linuxserver.io/faq#strict-proxy).
 
 # changelog
 changelogs:
