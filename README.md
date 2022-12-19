@@ -80,6 +80,12 @@ We support all of the official [environment variables](https://docs.joinmastodon
 
 For more information check out the [mastodon documentation](https://docs.joinmastodon.org/).
 
+### Running separate sidekiq instances
+
+It is currently only supported to run a single queue per container instance *or* all queues in a single container instance.
+
+All containers must share the same `/config`` mount and be on a common docker network.
+
 ### Strict reverse proxies
 
 This image automatically redirects to https with a self-signed certificate. If you are using a reverse proxy which validates certificates, you need to [disable this check for the container](https://docs.linuxserver.io/faq#strict-proxy).

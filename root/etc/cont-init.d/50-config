@@ -8,6 +8,7 @@ touch /etc/services.d/php-fpm/down
 if [[ ${SIDEKIQ_ONLY,,} == "true" ]]; then
     touch /etc/services.d/mastodon/down
     touch /etc/services.d/streaming/down
+    touch /etc/services.d/nginx/down
 fi
 
 mkdir -p \
