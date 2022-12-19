@@ -4,6 +4,12 @@
 # Disable php-fpm service as Mastodon doesn't use it
 touch /etc/services.d/php-fpm/down
 
+# Disable other services if this is a sidekiq-only container
+if [[ ${SIDEKIQ_ONLY,,} == "true" ]]; then
+    touch /etc/services.d/mastodon/down
+    touch /etc/services.d/streaming/down
+fi
+
 mkdir -p \
     /app/www/tmp \
     /config/mastodon/public/system
@@ -15,7 +21,10 @@ ln -s /config/mastodon/public/system /app/www/public/system
 
 cd /app/www/ || exit 1
 
-s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
+# Don't run DB prep if this is a sidekiq-only container
+if [[ ${SIDEKIQ_ONLY,,} =~ "true" ]]; then
+    s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
+fi
 
 chown abc:abc \
     /config/mastodon/public/system

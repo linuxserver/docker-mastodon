@@ -1,10 +1,21 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-RAILS_ENV=production
-PATH="${PATH}:/app/www/bin"
+export RAILS_ENV=production
+export PATH="${PATH}:/app/www/bin"
 
 cd /app/www || exit 1
 
-exec \
-    s6-setuidgid abc /usr/bin/bundle exec sidekiq
+if [[ ${SIDEKIQ_ONLY,,} == "true" ]] && [[ -n ${SIDEKIQ_QUEUE} ]]; then
+    exec \
+        s6-setuidgid abc /usr/bin/bundle exec sidekiq -q "${SIDEKIQ_QUEUE}" -c "${SIDEKIQ_THREADS:5}"
+elif [[ ${SIDEKIQ_ONLY,,} == "true" ]] && [[ -z ${SIDEKIQ_QUEUE} ]]; then
+    echo "*** No sidekiq queue specified, aborting ***"
+    sleep infinity
+elif [[ ${SIDEKIQ_DEFAULT,,} == "true"  ]]; then
+    exec \
+        s6-setuidgid abc /usr/bin/bundle exec sidekiq -q default -c "${SIDEKIQ_THREADS:5}"
+else
+    exec \
+        s6-setuidgid abc /usr/bin/bundle exec sidekiq -c "${SIDEKIQ_THREADS:5}"
+fi

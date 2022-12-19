@@ -129,6 +129,11 @@ services:
       - AWS_ACCESS_KEY_ID= #optional
       - AWS_SECRET_ACCESS_KEY= #optional
       - S3_ALIAS_HOST= #optional
+      - SIDEKIQ_ONLY=false #optional
+      - SIDEKIQ_QUEUE= #optional
+      - SIDEKIQ_DEFAULT=false #optional
+      - SIDEKIQ_THREADS=5 #optional
+      - DB_POOL=false #optional
     volumes:
       - /path/to/appdata/config:/config
     ports:
@@ -173,6 +178,11 @@ docker run -d \
   -e AWS_ACCESS_KEY_ID= `#optional` \
   -e AWS_SECRET_ACCESS_KEY= `#optional` \
   -e S3_ALIAS_HOST= `#optional` \
+  -e SIDEKIQ_ONLY=false `#optional` \
+  -e SIDEKIQ_QUEUE= `#optional` \
+  -e SIDEKIQ_DEFAULT=false `#optional` \
+  -e SIDEKIQ_THREADS=5 `#optional` \
+  -e DB_POOL=false `#optional` \
   -p 80:80 \
   -p 443:443 \
   -v /path/to/appdata/config:/config \
@@ -219,6 +229,11 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e AWS_ACCESS_KEY_ID=` | S3 bucket access key ID |
 | `-e AWS_SECRET_ACCESS_KEY=` | S3 bucket secret access key |
 | `-e S3_ALIAS_HOST=` | Alternate hostname for object fetching if you are front the S3 connections. |
+| `-e SIDEKIQ_ONLY=false` | Only run the sidekiq service in this container instance. For large scale instances that need better queue handling. |
+| `-e SIDEKIQ_QUEUE=` | The name of the sidekiq queue to run in this container. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-queues). |
+| `-e SIDEKIQ_DEFAULT=false` | Set to `true` on the main container if you're running additional sidekiq instances. It will run the `default` queue. |
+| `-e SIDEKIQ_THREADS=5` | The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads). |
+| `-e DB_POOL=false` | The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads). |
 | `-v /config` | Contains all relevant configuration files. |
 
 ## Environment variables from files (Docker secrets)
@@ -330,4 +345,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.12.22:** - Support separate sidekiq queue instances.
 * **05.11.22:** - Initial Release.
