@@ -62,7 +62,7 @@ opt_param_env_vars:
   - { env_var: "SIDEKIQ_QUEUE", env_value: "", desc: "The name of the sidekiq queue to run in this container. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-queues)."}
   - { env_var: "SIDEKIQ_DEFAULT", env_value: "false", desc: "Set to `true` on the main container if you're running additional sidekiq instances. It will run the `default` queue."}
   - { env_var: "SIDEKIQ_THREADS", env_value: "5", desc: "The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
-  - { env_var: "DB_POOL", env_value: "false", desc: "The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
+  - { env_var: "DB_POOL", env_value: "5", desc: "The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
 
 param_usage_include_ports: true
 param_ports:

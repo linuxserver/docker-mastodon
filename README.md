@@ -133,7 +133,7 @@ services:
       - SIDEKIQ_QUEUE= #optional
       - SIDEKIQ_DEFAULT=false #optional
       - SIDEKIQ_THREADS=5 #optional
-      - DB_POOL=false #optional
+      - DB_POOL=5 #optional
     volumes:
       - /path/to/appdata/config:/config
     ports:
@@ -182,7 +182,7 @@ docker run -d \
   -e SIDEKIQ_QUEUE= `#optional` \
   -e SIDEKIQ_DEFAULT=false `#optional` \
   -e SIDEKIQ_THREADS=5 `#optional` \
-  -e DB_POOL=false `#optional` \
+  -e DB_POOL=5 `#optional` \
   -p 80:80 \
   -p 443:443 \
   -v /path/to/appdata/config:/config \
@@ -233,7 +233,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e SIDEKIQ_QUEUE=` | The name of the sidekiq queue to run in this container. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-queues). |
 | `-e SIDEKIQ_DEFAULT=false` | Set to `true` on the main container if you're running additional sidekiq instances. It will run the `default` queue. |
 | `-e SIDEKIQ_THREADS=5` | The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads). |
-| `-e DB_POOL=false` | The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads). |
+| `-e DB_POOL=5` | The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads). |
 | `-v /config` | Contains all relevant configuration files. |
 
 ## Environment variables from files (Docker secrets)
