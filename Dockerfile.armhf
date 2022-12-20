@@ -8,4 +8,4 @@ LABEL maintainer="TheSpad"
 
 # This image does not support armhf
 
-COPY root/ /
+COPY root-armhf/ /
