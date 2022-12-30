@@ -23,7 +23,7 @@ ln -s /config/mastodon/public/system /app/www/public/system
 cd /app/www/ || exit 1
 
 # Don't run DB prep if this is a sidekiq-only container
-if [[ ${SIDEKIQ_ONLY,,} =~ "true" ]]; then
+if [[ ${SIDEKIQ_ONLY,,} != "true" ]]; then
     s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
 fi
 
