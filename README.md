@@ -351,5 +351,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **09.01.23:** - Updated nginx conf to fix bring inline with Mastodon configuration (fixes Elk integration).
 * **19.12.22:** - Support separate sidekiq queue instances.
 * **05.11.22:** - Initial Release.
