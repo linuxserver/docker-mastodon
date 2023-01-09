@@ -1,4 +1,4 @@
-## Version 2022/11/07 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/main/root/defaults/nginx/site-confs/default.conf.sample
+## Version 2023/01/09 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/main/root/defaults/nginx/site-confs/default.conf.sample
 
 map $http_upgrade $connection_upgrade {
     default upgrade;
@@ -95,7 +95,7 @@ server {
         try_files $uri =404;
     }
 
-    location ^~ /api/v1/streaming/ {
+    location ^~ /api/v1/streaming {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
