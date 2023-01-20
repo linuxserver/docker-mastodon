@@ -2,7 +2,7 @@ alpine-baselayout-3.2.0-r18
 alpine-keys-2.4-r1
 alsa-lib-1.2.5.1-r1
 aom-libs-3.2.0-r0
-apache2-utils-2.4.54-r0
+apache2-utils-2.4.55-r0
 apk-tools-2.12.7-r3
 apr-1.7.0-r1
 apr-util-1.6.1-r11
@@ -30,7 +30,7 @@ fribidi-1.0.11-r0
 gdbm-1.22-r0
 gdk-pixbuf-2.42.8-r0
 ghostscript-9.55.0-r0
-git-2.34.5-r0
+git-2.34.6-r0
 glib-2.70.1-r0
 gmp-6.2.1-r1
 gnutls-3.7.1-r1
