@@ -2,20 +2,20 @@
 # shellcheck shell=bash
 
 # Disable php-fpm service as Mastodon doesn't use it
-touch /etc/services.d/php-fpm/down
+s6-svc -D /run/service/svc-php-fpm
 
 # Disable other services if this is a sidekiq-only container
 if [[ ${SIDEKIQ_ONLY,,} == "true" ]]; then
-    touch /etc/services.d/mastodon/down
-    touch /etc/services.d/streaming/down
-    touch /etc/services.d/nginx/down
+    s6-svc -D /run/service/svc-mastodon
+    s6-svc -D /run/service/svc-nginx
+    s6-svc -D /run/service/svc-streaming
 fi
 
 mkdir -p \
     /app/www/tmp \
     /config/mastodon/public/system
 
-chown -R abc:abc \
+lsiown -R abc:abc \
     /app/www/tmp
 
 # Remove old pid in the event of an unclean shutdown
@@ -35,5 +35,5 @@ if [[ ${SIDEKIQ_ONLY,,} != "true" ]]; then
     s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
 fi
 
-chown abc:abc \
+lsiown abc:abc \
     /config/mastodon/public/system

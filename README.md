@@ -358,8 +358,10 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **16.04.23:** - Rebase to alpine 3.17 with php8.1.
 * **09.02.23:** - Add Glitch branch.
 * **26.01.23:** - Add aliases for key generation & tootctl to better support secrets.
+* **09.01.23:** - Updated nginx conf to fix bring inline with Mastodon configuration (fixes Elk integration).
 * **19.12.22:** - Support separate sidekiq queue instances.
 * **08.11.22:** - Add develop branch.
 * **05.11.22:** - Initial Release.
