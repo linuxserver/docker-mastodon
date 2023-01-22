@@ -107,6 +107,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "16.04.23:", desc: "Rebase to alpine 3.17 with php8.1." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "09.01.23:", desc: "Updated nginx conf to fix bring inline with Mastodon configuration (fixes Elk integration)." }
   - { date: "19.12.22:", desc: "Support separate sidekiq queue instances." }

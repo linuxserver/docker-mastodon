@@ -15,16 +15,16 @@ cd /app/www || exit 1
 if [[ ${SIDEKIQ_ONLY,,} == "true" ]] && [[ -n ${SIDEKIQ_QUEUE} ]]; then
     echo "*** Starting sidekiq handling ${SIDEKIQ_QUEUE} queue with ${SIDEKIQ_THREADS} threads ***"
     exec \
-        s6-setuidgid abc /usr/bin/bundle exec sidekiq -q "${SIDEKIQ_QUEUE}" -c ${SIDEKIQ_THREADS}
+        s6-setuidgid abc /usr/bin/bundle exec sidekiq -q "${SIDEKIQ_QUEUE}" -c "${SIDEKIQ_THREADS}"
 elif [[ ${SIDEKIQ_ONLY,,} == "true" ]] && [[ -z ${SIDEKIQ_QUEUE} ]]; then
     echo "*** No sidekiq queue specified, aborting ***"
     sleep infinity
-elif [[ ${SIDEKIQ_DEFAULT,,} == "true"  ]]; then
+elif [[ ${SIDEKIQ_DEFAULT,,} == "true" ]]; then
     echo "*** Starting sidekiq handling default queue with ${SIDEKIQ_THREADS} threads ***"
     exec \
-        s6-setuidgid abc /usr/bin/bundle exec sidekiq -q default -c ${SIDEKIQ_THREADS}
+        s6-setuidgid abc /usr/bin/bundle exec sidekiq -q default -c "${SIDEKIQ_THREADS}"
 else
     echo "*** Starting sidekiq handling all queues with ${SIDEKIQ_THREADS} threads ***"
     exec \
-        s6-setuidgid abc /usr/bin/bundle exec sidekiq -c ${SIDEKIQ_THREADS}
+        s6-setuidgid abc /usr/bin/bundle exec sidekiq -c "${SIDEKIQ_THREADS}"
 fi
