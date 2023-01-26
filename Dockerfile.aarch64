@@ -26,8 +26,6 @@ RUN \
     yarn && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
-    g++ \
-    gcc \
     gcompat \
     icu-dev \
     libidn-dev \    
