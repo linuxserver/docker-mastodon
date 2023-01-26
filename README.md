@@ -68,11 +68,17 @@ This image provides various versions that are available via tags. Please read th
 
 ## Application Setup
 
-To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon secret` once for each.
+We provide aliases for the common commands that execute in the correct context so that environment variables from secrets are available to them:
 
-To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it -w /app/www --entrypoint rake lscr.io/linuxserver/mastodon mastodon:webpush:generate_vapid_key`
+* To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-secret` once for each.
 
-To use `tootctl` you can run something like `docker exec -it -w /app/www mastodon bin/tootctl <command>`
+* To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-vapid`
+
+Both of the secret generation aliases above can be run without any other setup having been carried out.
+
+* To use `tootctl` you can run something like `docker exec -it lscr.io/linuxserver/mastodon bin/tootctl <command>`
+
+Using `tootctl` requires you to complete the initial Mastodon configuration first.
 
 This container *requires* separate postgres and redis instances to run.
 
@@ -351,6 +357,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **26.01.23:** - Add aliases for key generation & tootctl to better support secrets.
 * **19.12.22:** - Support separate sidekiq queue instances.
 * **08.11.22:** - Add develop branch.
 * **05.11.22:** - Initial Release.
