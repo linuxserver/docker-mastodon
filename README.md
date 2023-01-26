@@ -76,7 +76,7 @@ We provide aliases for the common commands that execute in the correct context s
 
 Both of the secret generation aliases above can be run without any other setup having been carried out.
 
-* To use `tootctl` you can run something like `docker exec -it lscr.io/linuxserver/mastodon bin/tootctl <command>`
+* To use `tootctl` you can run something like `docker exec -it lscr.io/linuxserver/mastodon tootctl <command>`
 
 Using `tootctl` requires you to complete the initial Mastodon configuration first.
 
