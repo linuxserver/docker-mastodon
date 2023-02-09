@@ -27,6 +27,7 @@ RUN \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
     icu-dev \
+    jq \
     libidn-dev \    
     libpq-dev \
     libxml2-dev \
@@ -37,12 +38,12 @@ RUN \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
   if [ -z ${MASTODON_VERSION+x} ]; then \
-    MASTODON_VERSION=$(curl -sX GET "https://api.github.com/repos/mastodon/mastodon/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    MASTODON_VERSION=$(curl -sX GET https://api.github.com/repos/glitch-soc/mastodon/commits/main \
+    | jq -r '. | .sha'); \
   fi && \
   curl -s -o \
     /tmp/mastodon.tar.gz -L \
-    "https://github.com/mastodon/mastodon/archive/refs/tags/${MASTODON_VERSION}.tar.gz" && \
+    "https://github.com/glitch-soc/mastodon/archive/${MASTODON_VERSION}.tar.gz" && \
   tar xf \
     /tmp/mastodon.tar.gz -C \
     /app/www/ --strip-components=1 && \
