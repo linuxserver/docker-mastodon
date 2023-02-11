@@ -65,6 +65,7 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Stable releases. |
 | develop | ✅ | Pre-releases *only*. |
+| glitch | ✅ | [glitch-soc](https://github.com/glitch-soc/mastodon) fork releases. |
 ## Application Setup
 
 We provide aliases for the common commands that execute in the correct context so that environment variables from secrets are available to them:
@@ -357,6 +358,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **09.02.23:** - Add Glitch branch.
 * **09.01.23:** - Updated nginx conf to fix bring inline with Mastodon configuration (fixes Elk integration).
 * **19.12.22:** - Support separate sidekiq queue instances.
 * **05.11.22:** - Initial Release.
