@@ -13,13 +13,13 @@ project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-  - { tag: "glitch", desc: "[glitch-soc](https://github.com/glitch-soc/mastodon) fork releases." }
 
 # development version
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases." }
   - { tag: "develop", desc: "Pre-releases *only*." }
+  - { tag: "glitch", desc: "[glitch-soc](https://github.com/glitch-soc/mastodon) fork releases." }
 
 # container parameters
 common_param_env_vars_enabled: true
