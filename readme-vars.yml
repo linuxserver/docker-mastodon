@@ -19,6 +19,7 @@ development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases." }
   - { tag: "develop", desc: "Pre-releases *only*." }
+  - { tag: "glitch", desc: "[glitch-soc](https://github.com/glitch-soc/mastodon) fork releases." }
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -106,6 +107,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "09.01.23:", desc: "Updated nginx conf to fix bring inline with Mastodon configuration (fixes Elk integration)." }
   - { date: "19.12.22:", desc: "Support separate sidekiq queue instances." }
   - { date: "05.11.22:", desc: "Initial Release." }
