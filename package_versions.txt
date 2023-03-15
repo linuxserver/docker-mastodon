@@ -320,7 +320,7 @@ braces                                                                         2
 braces                                                                         3.0.2                  npm           
 brorand                                                                        1.1.0                  npm           
 brotli-libs                                                                    1.0.9-r5               apk           
-browser                                                                        4.2.0                  gem           
+browser                                                                        5.3.1                  gem           
 browserify-aes                                                                 1.2.0                  npm           
 browserify-cipher                                                              1.0.1                  npm           
 browserify-des                                                                 1.0.2                  npm           
@@ -1107,6 +1107,7 @@ performance-now                                                                2
 pg                                                                             1.4.5                  gem           
 pg                                                                             8.5.1                  npm           
 pg-connection-string                                                           2.4.0                  npm           
+pg-connection-string                                                           2.5.0                  npm           
 pg-int8                                                                        1.0.1                  npm           
 pg-pool                                                                        3.2.2                  npm           
 pg-protocol                                                                    1.4.0                  npm           
@@ -1276,7 +1277,7 @@ readline                                                                       8
 readline-ext                                                                   0.1.1                  gem           
 redcarpet                                                                      3.6.0                  gem           
 redis                                                                          4.0.6                  npm           
-redis                                                                          4.5.1                  gem           
+redis                                                                          4.8.1                  gem           
 redis-errors                                                                   1.2.0                  npm           
 redis-namespace                                                                1.10.0                 gem           
 redis-parser                                                                   3.0.0                  npm           
