@@ -18,6 +18,11 @@ mkdir -p \
 chown -R abc:abc \
     /app/www/tmp
 
+# Remove old pid in the event of an unclean shutdown
+if [[ -f /app/www/tmp/pids/server.pid ]]; then
+    rm /app/www/tmp/pids/server.pid
+fi
+
 ln -s /config/mastodon/public/system /app/www/public/system
 
 cd /app/www/ || exit 1
