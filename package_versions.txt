@@ -298,7 +298,7 @@ binary-extensions                                                              1
 binary-extensions                                                              2.1.0                  npm           
 bindata                                                                        2.4.14                 gem           
 bluebird                                                                       3.7.2                  npm           
-blurhash                                                                       0.1.6                  gem           
+blurhash                                                                       0.1.7                  gem           
 blurhash                                                                       2.0.4                  npm           
 bmp-js                                                                         0.1.0                  npm           
 bn.js                                                                          4.12.0                 npm           
@@ -1004,12 +1004,12 @@ nginx                                                                          1
 nice-try                                                                       1.0.5                  npm           
 nio4r                                                                          2.5.8                  gem           
 nkf                                                                            0.1.0                  gem           
-node                                                                           16.19.1                binary        
+node                                                                           16.20.0                binary        
 node-fetch                                                                     2.6.7                  npm           
 node-gyp-build                                                                 4.3.0                  npm           
 node-libs-browser                                                              2.2.1                  npm           
 node-releases                                                                  2.0.6                  npm           
-nodejs                                                                         16.19.1-r0             apk           
+nodejs                                                                         16.20.0-r0             apk           
 nokogiri                                                                       1.14.1                 gem           
 normalize-path                                                                 2.1.1                  npm           
 normalize-path                                                                 3.0.0                  npm           
@@ -1043,7 +1043,7 @@ open3                                                                          0
 opencollective-postinstall                                                     2.0.3                  npm           
 opener                                                                         1.5.2                  npm           
 openid_connect                                                                 1.4.2                  gem           
-openssl                                                                        1.1.1t-r2              apk           
+openssl                                                                        1.1.1t-r3              apk           
 openssl                                                                        2.2.2                  gem           
 openssl                                                                        3.0.0                  gem           
 openssl-signature_algorithm                                                    1.2.1                  gem           
@@ -1320,10 +1320,10 @@ rollup-plugin-terser                                                           7
 rotp                                                                           6.2.0                  gem           
 rqrcode                                                                        2.1.2                  gem           
 rqrcode_core                                                                   1.2.0                  gem           
-ruby                                                                           3.0.5-r0               apk           
-ruby                                                                           3.0.5p211              binary        
+ruby                                                                           3.0.6-r0               apk           
+ruby                                                                           3.0.6p216              binary        
 ruby-bundler                                                                   2.2.33-r0              apk           
-ruby-libs                                                                      3.0.5-r0               apk           
+ruby-libs                                                                      3.0.6-r0               apk           
 ruby-progressbar                                                               1.11.0                 gem           
 ruby-saml                                                                      1.13.0                 gem           
 ruby2_keywords                                                                 0.0.5                  gem           
@@ -1465,7 +1465,7 @@ throng                                                                         4
 through2                                                                       2.0.5                  npm           
 tiff                                                                           4.4.0-r1               apk           
 tilt                                                                           2.0.11                 gem           
-time                                                                           0.1.0                  gem           
+time                                                                           0.1.1                  gem           
 timeout                                                                        0.1.1                  gem           
 timeout                                                                        0.3.1                  gem           
 timers-browserify                                                              2.0.11                 npm           
@@ -1505,7 +1505,7 @@ type-check                                                                     0
 type-fest                                                                      0.16.0                 npm           
 type-is                                                                        1.6.18                 npm           
 typedarray                                                                     0.0.6                  npm           
-tzdata                                                                         2022f-r1               apk           
+tzdata                                                                         2023b-r1               apk           
 tzinfo                                                                         2.0.6                  gem           
 tzinfo-data                                                                    1.2022.7               gem           
 un                                                                             0.1.0                  gem           
@@ -1532,7 +1532,7 @@ unquote                                                                        1
 unset-value                                                                    1.0.0                  npm           
 upath                                                                          1.2.0                  npm           
 update-browserslist-db                                                         1.0.9                  npm           
-uri                                                                            0.10.1                 gem           
+uri                                                                            0.10.2                 gem           
 uri-js                                                                         4.4.0                  npm           
 urix                                                                           0.1.0                  npm           
 url                                                                            0.11.0                 npm           
