@@ -475,7 +475,7 @@ destroy                                                                        1
 detect-file                                                                    1.0.0                  npm           
 detect-it                                                                      4.0.1                  npm           
 detect-passive-events                                                          2.0.3                  npm           
-devise                                                                         4.9.0                  gem           
+devise                                                                         4.9.2                  gem           
 devise-two-factor                                                              4.0.2                  gem           
 did_you_mean                                                                   1.5.0                  gem           
 diffie-hellman                                                                 5.0.3                  npm           
@@ -492,7 +492,7 @@ domelementtype                                                                 2
 domexception                                                                   4.0.0                  npm           
 domhandler                                                                     5.0.3                  npm           
 domutils                                                                       3.0.1                  npm           
-doorkeeper                                                                     5.6.5                  gem           
+doorkeeper                                                                     5.6.6                  gem           
 dotenv                                                                         16.0.3                 npm           
 dotenv                                                                         2.8.1                  gem           
 dotenv-rails                                                                   2.8.1                  gem           
@@ -633,7 +633,7 @@ ghostscript                                                                    9
 git                                                                            2.34.7-r0              apk           
 glib                                                                           2.70.1-r0              apk           
 glob                                                                           7.2.0                  npm           
-glob                                                                           9.3.2                  npm           
+glob                                                                           9.3.4                  npm           
 glob-parent                                                                    3.1.0                  npm           
 glob-parent                                                                    5.1.2                  npm           
 global-modules                                                                 1.0.0                  npm           
@@ -889,7 +889,7 @@ lodash.uniq                                                                    4
 logger                                                                         1.4.3                  gem           
 lograge                                                                        0.12.0                 gem           
 logrotate                                                                      3.18.1-r4              apk           
-loofah                                                                         2.19.1                 gem           
+loofah                                                                         2.20.0                 gem           
 loose-envify                                                                   1.4.0                  npm           
 lru-cache                                                                      5.1.1                  npm           
 lru-cache                                                                      6.0.0                  npm           
@@ -930,7 +930,7 @@ minimalistic-assert                                                            1
 minimalistic-crypto-utils                                                      1.0.1                  npm           
 minimatch                                                                      3.1.2                  npm           
 minimatch                                                                      5.0.1                  npm           
-minimatch                                                                      7.4.2                  npm           
+minimatch                                                                      8.0.3                  npm           
 minimist                                                                       1.2.7                  npm           
 minipass                                                                       3.1.3                  npm           
 minipass                                                                       4.2.5                  npm           
@@ -1451,7 +1451,7 @@ type-fest                                                                      0
 type-is                                                                        1.6.18                 npm           
 tzdata                                                                         2023b-r1               apk           
 tzinfo                                                                         2.0.6                  gem           
-tzinfo-data                                                                    1.2023.2               gem           
+tzinfo-data                                                                    1.2023.3               gem           
 un                                                                             0.1.0                  gem           
 unbox-primitive                                                                1.0.2                  npm           
 uncontrollable                                                                 7.2.0                  npm           
