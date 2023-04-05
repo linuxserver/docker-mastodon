@@ -23,7 +23,10 @@ if [[ -f /app/www/tmp/pids/server.pid ]]; then
     rm /app/www/tmp/pids/server.pid
 fi
 
-ln -s /config/mastodon/public/system /app/www/public/system
+if [[ ! -L "/app/www/public/system" ]]; then
+    rm -rf "/app/www/public/system"
+    ln -s "/config/mastodon/public/system" "/app/www/public/system"
+fi
 
 cd /app/www/ || exit 1
 
