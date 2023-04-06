@@ -1449,7 +1449,7 @@ type                                                                           2
 type-check                                                                     0.3.2                  npm           
 type-fest                                                                      0.16.0                 npm           
 type-is                                                                        1.6.18                 npm           
-tzdata                                                                         2023b-r1               apk           
+tzdata                                                                         2023c-r0               apk           
 tzinfo                                                                         2.0.6                  gem           
 tzinfo-data                                                                    1.2023.3               gem           
 un                                                                             0.1.0                  gem           
