@@ -628,7 +628,7 @@ get-own-enumerable-property-symbols                                            3
 get-symbol-description                                                         1.0.0                  npm           
 get-value                                                                      2.0.6                  npm           
 getoptlong                                                                     0.1.1                  gem           
-ghostscript                                                                    9.55.0-r0              apk           
+ghostscript                                                                    9.55.0-r1              apk           
 git                                                                            2.34.7-r0              apk           
 glib                                                                           2.70.1-r0              apk           
 glob                                                                           7.2.0                  npm           
