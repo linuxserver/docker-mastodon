@@ -107,6 +107,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "13.04.23:", desc: "Move ssl.conf include to default.conf." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "26.01.23:", desc: "Add aliases for key generation & tootctl to better support secrets." }
   - { date: "19.12.22:", desc: "Support separate sidekiq queue instances." }

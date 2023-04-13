@@ -358,6 +358,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.04.23:** - Move ssl.conf include to default.conf.
 * **09.02.23:** - Add Glitch branch.
 * **26.01.23:** - Add aliases for key generation & tootctl to better support secrets.
 * **19.12.22:** - Support separate sidekiq queue instances.
