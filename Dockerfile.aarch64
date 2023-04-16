@@ -11,7 +11,8 @@ LABEL maintainer="TheSpad"
 ENV RAILS_ENV="production" \
     NODE_ENV="production" \
     NODE_OPTIONS="--openssl-legacy-provider" \
-    PATH="${PATH}:/app/www/bin"
+    PATH="${PATH}:/app/www/bin" \
+    S6_STAGE2_HOOK="/init-hook"
 
 RUN \
   apk add -U --upgrade --no-cache \
