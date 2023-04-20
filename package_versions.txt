@@ -977,7 +977,7 @@ ms                                                                             2
 msgpack                                                                        1.6.0                  gem           
 multi_json                                                                     1.15.0                 gem           
 multipart-post                                                                 2.1.1                  gem           
-musl                                                                           1.2.2-r8               apk           
+musl                                                                           1.2.2-r9               apk           
 musl-utils                                                                     1.2.2-r8               apk           
 mutex_m                                                                        0.1.1                  gem           
 nano                                                                           5.9-r0                 apk           
