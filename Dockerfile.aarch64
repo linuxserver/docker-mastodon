@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm64v8-3.15
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm64v8-3.17
 
 ARG BUILD_DATE
 ARG VERSION
@@ -10,7 +10,9 @@ LABEL maintainer="TheSpad"
 
 ENV RAILS_ENV="production" \
     NODE_ENV="production" \
-    PATH="${PATH}:/app/www/bin"
+    NODE_OPTIONS="--openssl-legacy-provider" \
+    PATH="${PATH}:/app/www/bin" \
+    S6_STAGE2_HOOK="/init-hook"
 
 RUN \
   apk add -U --upgrade --no-cache \
