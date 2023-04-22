@@ -672,7 +672,7 @@ http                                                                           5
 http-cookie                                                                    1.0.5                  gem           
 http-errors                                                                    2.0.0                  npm           
 http-form_data                                                                 2.3.0                  gem           
-http-link-header                                                               1.1.0                  npm           
+http-link-header                                                               1.1.1                  npm           
 http-proxy-agent                                                               5.0.0                  npm           
 http_accept_language                                                           2.1.1                  gem           
 httpclient                                                                     2.8.3                  gem           
@@ -778,9 +778,9 @@ jsesc                                                                          0
 jsesc                                                                          2.5.2                  npm           
 json                                                                           2.6.1                  gem           
 json                                                                           2.6.3                  gem           
-json-canonicalization                                                          0.3.0                  gem           
+json-canonicalization                                                          0.3.1                  gem           
 json-jwt                                                                       1.15.3                 gem           
-json-ld                                                                        3.2.3                  gem           
+json-ld                                                                        3.2.4                  gem           
 json-ld-preloaded                                                              3.2.2                  gem           
 json-parse-better-errors                                                       1.0.2                  npm           
 json-parse-even-better-errors                                                  2.3.1                  npm           
@@ -955,7 +955,7 @@ musl                                                                           1
 musl-utils                                                                     1.2.3-r4               apk           
 mutex_m                                                                        0.1.1                  gem           
 nano                                                                           7.0-r0                 apk           
-nanoid                                                                         3.3.4                  npm           
+nanoid                                                                         3.3.6                  npm           
 nanomatch                                                                      1.2.13                 npm           
 ncurses-libs                                                                   6.3_p20221119-r0       apk           
 ncurses-terminfo-base                                                          6.3_p20221119-r0       apk           
@@ -1026,7 +1026,7 @@ orc                                                                            0
 orm_adapter                                                                    0.5.0                  gem           
 os-browserify                                                                  0.3.0                  npm           
 ostruct                                                                        0.5.2                  gem           
-ox                                                                             2.14.14                gem           
+ox                                                                             2.14.16                gem           
 p-limit                                                                        2.3.0                  npm           
 p-limit                                                                        3.1.0                  npm           
 p-locate                                                                       3.0.0                  npm           
@@ -1073,7 +1073,7 @@ pg-int8                                                                        1
 pg-pool                                                                        3.2.2                  npm           
 pg-protocol                                                                    1.4.0                  npm           
 pg-types                                                                       2.2.0                  npm           
-pghero                                                                         3.3.1                  gem           
+pghero                                                                         3.3.2                  gem           
 pgpass                                                                         1.0.4                  npm           
 php-cli                                                                        8.1.18                 binary        
 php-fpm                                                                        8.1.18                 binary        
@@ -1097,7 +1097,7 @@ pkgconf                                                                        1
 popt                                                                           1.19-r0                apk           
 posix-character-classes                                                        0.1.1                  npm           
 posix-spawn                                                                    0.3.15                 gem           
-postcss                                                                        8.4.21                 npm           
+postcss                                                                        8.4.22                 npm           
 postcss-calc                                                                   8.2.4                  npm           
 postcss-colormin                                                               6.0.0                  npm           
 postcss-convert-values                                                         6.0.0                  npm           
@@ -1187,7 +1187,7 @@ randombytes                                                                    2
 randomfill                                                                     1.0.4                  npm           
 range-parser                                                                   1.2.1                  npm           
 raw-body                                                                       2.5.1                  npm           
-rdf                                                                            3.2.9                  gem           
+rdf                                                                            3.2.10                 gem           
 rdf-normalize                                                                  0.5.1                  gem           
 react                                                                          16.14.0                npm           
 react-dom                                                                      16.14.0                npm           
@@ -1257,7 +1257,7 @@ require-from-string                                                            2
 require-main-filename                                                          2.0.0                  npm           
 require-package-name                                                           2.0.1                  npm           
 requires-port                                                                  1.0.0                  npm           
-reselect                                                                       4.1.7                  npm           
+reselect                                                                       4.1.8                  npm           
 resolv                                                                         0.2.1                  gem           
 resolv-replace                                                                 0.1.0                  gem           
 resolve                                                                        1.22.1                 npm           
