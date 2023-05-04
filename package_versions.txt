@@ -640,7 +640,7 @@ get-symbol-description                                                         1
 get-value                                                                      2.0.6                  npm           
 getoptlong                                                                     0.1.1                  gem           
 ghostscript                                                                    9.55.0-r1              apk           
-git                                                                            2.34.7-r0              apk           
+git                                                                            2.34.8-r0              apk           
 gitlab-omniauth-openid-connect                                                 0.10.1                 gem           
 glib                                                                           2.70.1-r0              apk           
 glob                                                                           7.2.0                  npm           
@@ -977,7 +977,7 @@ msgpack                                                                        1
 multi_json                                                                     1.15.0                 gem           
 multipart-post                                                                 2.1.1                  gem           
 musl                                                                           1.2.2-r9               apk           
-musl-utils                                                                     1.2.2-r8               apk           
+musl-utils                                                                     1.2.2-r9               apk           
 mutex_m                                                                        0.1.1                  gem           
 nano                                                                           5.9-r0                 apk           
 nanoid                                                                         3.3.4                  npm           
