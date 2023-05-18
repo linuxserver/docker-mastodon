@@ -336,7 +336,7 @@ busybox                                                                        1
 bytes                                                                          3.1.2                  npm           
 c-ares                                                                         1.18.1-r0              apk           
 ca-certificates                                                                20230506-r0            apk           
-ca-certificates-bundle                                                         20220614-r0            apk           
+ca-certificates-bundle                                                         20230506-r0            apk           
 cacache                                                                        12.0.4                 npm           
 cacache                                                                        15.0.5                 npm           
 cache-base                                                                     1.0.1                  npm           
@@ -863,7 +863,7 @@ libmount                                                                       2
 libogg                                                                         1.3.5-r0               apk           
 libpciaccess                                                                   0.16-r0                apk           
 libpng                                                                         1.6.37-r1              apk           
-libpq                                                                          14.7-r0                apk           
+libpq                                                                          14.8-r0                apk           
 libproc                                                                        3.3.17-r0              apk           
 libretls                                                                       3.3.4-r3               apk           
 librsvg                                                                        2.50.7-r1              apk           
