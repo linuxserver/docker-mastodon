@@ -13,7 +13,7 @@ ENV RAILS_ENV="production" \
     PATH="${PATH}:/app/www/bin"
 
 RUN \
-  apk add -U --upgrade --no-cache \
+  apk add --no-cache \
     ffmpeg \
     file \
     icu-libs \ 

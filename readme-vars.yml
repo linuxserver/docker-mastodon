@@ -107,6 +107,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.05.23:", desc: "Adjust apk flags." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "26.01.23:", desc: "Add aliases for key generation & tootctl to better support secrets." }
   - { date: "19.12.22:", desc: "Support separate sidekiq queue instances." }
