@@ -15,7 +15,7 @@ ENV RAILS_ENV="production" \
     S6_STAGE2_HOOK="/init-hook"
 
 RUN \
-  apk add -U --upgrade --no-cache \
+  apk add --no-cache \
     ffmpeg \
     file \
     icu-libs \ 
