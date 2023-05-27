@@ -184,8 +184,7 @@ NAME                                                                           V
 @types/node                                                                    14.11.1                npm           
 @types/parse-json                                                              4.0.0                  npm           
 @types/prop-types                                                              15.7.3                 npm           
-@types/react                                                                   17.0.44                npm           
-@types/react                                                                   18.0.26                npm           
+@types/react                                                                   18.2.6                 npm           
 @types/react-redux                                                             7.1.20                 npm           
 @types/react-transition-group                                                  4.4.3                  npm           
 @types/resolve                                                                 1.17.1                 npm           
@@ -220,7 +219,6 @@ abortcontroller-polyfill                                                       1
 accepts                                                                        1.3.8                  npm           
 acorn                                                                          6.4.1                  npm           
 acorn                                                                          8.8.2                  npm           
-acorn-globals                                                                  7.0.1                  npm           
 acorn-walk                                                                     8.2.0                  npm           
 actioncable                                                                    6.1.7.3                gem           
 actionmailbox                                                                  6.1.7.3                gem           
@@ -285,10 +283,10 @@ autoprefixer                                                                   1
 avahi-libs                                                                     0.8-r6                 apk           
 awrence                                                                        1.2.1                  gem           
 aws-eventstream                                                                1.2.0                  gem           
-aws-partitions                                                                 1.752.0                gem           
-aws-sdk-core                                                                   3.171.0                gem           
-aws-sdk-kms                                                                    1.63.0                 gem           
-aws-sdk-s3                                                                     1.121.0                gem           
+aws-partitions                                                                 1.761.0                gem           
+aws-sdk-core                                                                   3.172.0                gem           
+aws-sdk-kms                                                                    1.64.0                 gem           
+aws-sdk-s3                                                                     1.122.0                gem           
 aws-sigv4                                                                      1.5.2                  gem           
 axios                                                                          1.4.0                  npm           
 babel-loader                                                                   8.3.0                  npm           
@@ -409,7 +407,7 @@ compression-webpack-plugin                                                     6
 concat-map                                                                     0.0.1                  npm           
 concurrent-ruby                                                                1.2.2                  gem           
 concurrent_ruby                                                                                       java-archive  
-connection_pool                                                                2.4.0                  gem           
+connection_pool                                                                2.4.1                  gem           
 console-browserify                                                             1.2.0                  npm           
 console-control-strings                                                        1.1.0                  npm           
 constants-browserify                                                           1.0.0                  npm           
@@ -453,7 +451,7 @@ csstype                                                                        2
 csstype                                                                        3.0.6                  npm           
 csv                                                                            3.2.5                  gem           
 cups-libs                                                                      2.4.2-r1               apk           
-curl                                                                           8.0.1-r0               apk           
+curl                                                                           8.1.0-r1               apk           
 data-urls                                                                      4.0.0                  npm           
 date                                                                           3.2.2                  gem           
 date                                                                           3.3.3                  gem           
@@ -463,7 +461,6 @@ debug                                                                          4
 decamelize                                                                     1.2.0                  npm           
 decimal.js                                                                     10.4.3                 npm           
 decode-uri-component                                                           0.2.2                  npm           
-deep-is                                                                        0.1.3                  npm           
 deepmerge                                                                      4.2.2                  npm           
 define-properties                                                              1.1.4                  npm           
 define-property                                                                0.2.5                  npm           
@@ -533,9 +530,7 @@ escalade                                                                       3
 escape-html                                                                    1.0.3                  npm           
 escape-string-regexp                                                           1.0.5                  npm           
 escape-string-regexp                                                           4.0.0                  npm           
-escodegen                                                                      2.0.0                  npm           
 eslint-scope                                                                   4.0.3                  npm           
-esprima                                                                        4.0.1                  npm           
 esrecurse                                                                      4.3.0                  npm           
 estraverse                                                                     4.3.0                  npm           
 estraverse                                                                     5.3.0                  npm           
@@ -568,7 +563,6 @@ faraday-rack                                                                   1
 faraday-retry                                                                  1.0.3                  gem           
 fast-deep-equal                                                                3.1.3                  npm           
 fast-json-stable-stringify                                                     2.1.0                  npm           
-fast-levenshtein                                                               2.0.6                  npm           
 fast_blank                                                                     1.0.1                  gem           
 fastimage                                                                      2.2.6                  gem           
 favico.js                                                                      0.3.10                 npm           
@@ -632,7 +626,7 @@ getoptlong                                                                     0
 ghostscript                                                                    10.01.1-r0             apk           
 git                                                                            2.38.5-r0              apk           
 glib                                                                           2.74.7-r0              apk           
-glob                                                                           10.2.2                 npm           
+glob                                                                           10.2.6                 npm           
 glob                                                                           7.2.0                  npm           
 glob-parent                                                                    3.1.0                  npm           
 glob-parent                                                                    5.1.2                  npm           
@@ -687,7 +681,7 @@ httplog                                                                        1
 https-browserify                                                               1.0.0                  npm           
 https-proxy-agent                                                              5.0.1                  npm           
 hwdata-pci                                                                     0.364-r0               apk           
-i18n                                                                           1.12.0                 gem           
+i18n                                                                           1.13.0                 gem           
 iconv-lite                                                                     0.4.24                 npm           
 iconv-lite                                                                     0.6.3                  npm           
 icss-utils                                                                     5.1.0                  npm           
@@ -784,7 +778,7 @@ jpeg-js                                                                        0
 jq                                                                             1.6-r2                 apk           
 js-tokens                                                                      4.0.0                  npm           
 js-yaml                                                                        4.1.0                  npm           
-jsdom                                                                          21.1.2                 npm           
+jsdom                                                                          22.0.0                 npm           
 jsesc                                                                          0.5.0                  npm           
 jsesc                                                                          2.5.2                  npm           
 json                                                                           2.6.1                  gem           
@@ -815,7 +809,6 @@ klona                                                                          2
 lame                                                                           3.100-r2               apk           
 lcms2                                                                          2.14-r0                apk           
 leven                                                                          3.1.0                  npm           
-levn                                                                           0.3.0                  npm           
 libacl                                                                         2.3.1-r1               apk           
 libass                                                                         0.16.0-r1              apk           
 libasyncns                                                                     0.8-r1                 apk           
@@ -825,7 +818,7 @@ libbsd                                                                         0
 libbz2                                                                         1.0.8-r4               apk           
 libc-utils                                                                     0.7.2-r3               apk           
 libcrypto3                                                                     3.0.8-r4               apk           
-libcurl                                                                        8.0.1-r0               apk           
+libcurl                                                                        8.1.0-r1               apk           
 libdav1d                                                                       1.0.0-r2               apk           
 libde265                                                                       1.0.11-r1              apk           
 libdrm                                                                         2.4.114-r0             apk           
@@ -901,7 +894,7 @@ lodash.uniq                                                                    4
 logger                                                                         1.5.0                  gem           
 lograge                                                                        0.12.0                 gem           
 logrotate                                                                      3.20.1-r3              apk           
-loofah                                                                         2.20.0                 gem           
+loofah                                                                         2.21.3                 gem           
 loose-envify                                                                   1.4.0                  npm           
 lru-cache                                                                      5.1.1                  npm           
 lru-cache                                                                      6.0.0                  npm           
@@ -942,10 +935,11 @@ minimalistic-assert                                                            1
 minimalistic-crypto-utils                                                      1.0.1                  npm           
 minimatch                                                                      3.1.2                  npm           
 minimatch                                                                      5.0.1                  npm           
-minimatch                                                                      9.0.0                  npm           
+minimatch                                                                      9.0.1                  npm           
 minimist                                                                       1.2.7                  npm           
 minipass                                                                       3.1.3                  npm           
 minipass                                                                       5.0.0                  npm           
+minipass                                                                       6.0.2                  npm           
 minipass-collect                                                               1.0.2                  npm           
 minipass-flush                                                                 1.0.5                  npm           
 minipass-pipeline                                                              1.2.4                  npm           
@@ -954,7 +948,7 @@ minizlib                                                                       2
 mixin-deep                                                                     1.3.2                  npm           
 mkdirp                                                                         0.5.5                  npm           
 mkdirp                                                                         1.0.4                  npm           
-mkdirp                                                                         2.1.6                  npm           
+mkdirp                                                                         3.0.1                  npm           
 mousetrap                                                                      1.6.5                  npm           
 ms                                                                             2.0.0                  npm           
 ms                                                                             2.1.2                  npm           
@@ -963,7 +957,7 @@ msgpack                                                                        1
 multi_json                                                                     1.15.0                 gem           
 multipart-post                                                                 2.3.0                  gem           
 musl                                                                           1.2.3-r5               apk           
-musl-utils                                                                     1.2.3-r4               apk           
+musl-utils                                                                     1.2.3-r5               apk           
 mutex_m                                                                        0.1.1                  gem           
 nano                                                                           7.0-r0                 apk           
 nanoid                                                                         3.3.6                  npm           
@@ -1028,7 +1022,6 @@ openssl                                                                        3
 openssl                                                                        3.0.8-r4               apk           
 openssl                                                                        3.1.0                  gem           
 openssl-signature_algorithm                                                    1.3.0                  gem           
-optionator                                                                     0.8.3                  npm           
 optparse                                                                       0.2.0                  gem           
 opus                                                                           1.3.1-r1               apk           
 orc                                                                            0.4.33-r0              apk           
@@ -1076,8 +1069,7 @@ performance-now                                                                0
 performance-now                                                                2.1.0                  npm           
 pg                                                                             1.5.3                  gem           
 pg                                                                             8.5.1                  npm           
-pg-connection-string                                                           2.4.0                  npm           
-pg-connection-string                                                           2.5.0                  npm           
+pg-connection-string                                                           2.6.0                  npm           
 pg-int8                                                                        1.0.1                  npm           
 pg-pool                                                                        3.2.2                  npm           
 pg-protocol                                                                    1.4.0                  npm           
@@ -1147,7 +1139,6 @@ postgres-bytea                                                                 1
 postgres-date                                                                  1.0.7                  npm           
 postgres-interval                                                              1.2.0                  npm           
 pp                                                                             0.3.0                  gem           
-prelude-ls                                                                     1.1.2                  npm           
 premailer                                                                      1.21.0                 gem           
 premailer-rails                                                                1.12.0                 gem           
 pretty-bytes                                                                   5.6.0                  npm           
@@ -1198,8 +1189,8 @@ range-parser                                                                   1
 raw-body                                                                       2.5.1                  npm           
 rdf                                                                            3.2.10                 gem           
 rdf-normalize                                                                  0.5.1                  gem           
-react                                                                          16.14.0                npm           
-react-dom                                                                      16.14.0                npm           
+react                                                                          18.2.0                 npm           
+react-dom                                                                      18.2.0                 npm           
 react-event-listener                                                           0.6.6                  npm           
 react-fast-compare                                                             3.2.0                  npm           
 react-helmet                                                                   6.1.0                  npm           
@@ -1280,13 +1271,13 @@ responders                                                                     3
 ret                                                                            0.1.15                 npm           
 rexml                                                                          3.2.5                  gem           
 rimraf                                                                         3.0.2                  npm           
-rimraf                                                                         5.0.0                  npm           
+rimraf                                                                         5.0.1                  npm           
 rinda                                                                          0.1.1                  gem           
 ripemd160                                                                      2.0.2                  npm           
 rollup                                                                         2.72.1                 npm           
 rollup-plugin-terser                                                           7.0.2                  npm           
 rotp                                                                           6.2.2                  gem           
-rqrcode                                                                        2.1.2                  gem           
+rqrcode                                                                        2.2.0                  gem           
 rqrcode_core                                                                   1.2.0                  gem           
 rrweb-cssom                                                                    0.6.0                  npm           
 ruby                                                                           3.1.4-r0               apk           
@@ -1310,7 +1301,7 @@ sass-loader                                                                    1
 saxes                                                                          6.0.0                  npm           
 scanelf                                                                        1.3.5-r1               apk           
 scenic                                                                         1.7.0                  gem           
-scheduler                                                                      0.19.1                 npm           
+scheduler                                                                      0.23.0                 npm           
 schema-utils                                                                   1.0.0                  npm           
 schema-utils                                                                   2.7.1                  npm           
 schema-utils                                                                   3.0.0                  npm           
@@ -1320,7 +1311,7 @@ securerandom                                                                   0
 semantic_range                                                                 3.0.0                  gem           
 semver                                                                         5.7.1                  npm           
 semver                                                                         6.3.0                  npm           
-semver                                                                         7.5.0                  npm           
+semver                                                                         7.5.1                  npm           
 send                                                                           0.18.0                 npm           
 serialize-javascript                                                           4.0.0                  npm           
 serialize-javascript                                                           5.0.1                  npm           
@@ -1422,7 +1413,7 @@ terser-webpack-plugin                                                          4
 tesseract.js                                                                   2.1.5                  npm           
 tesseract.js-core                                                              2.2.0                  npm           
 test_app                                                                       1.0.0                  npm           
-thor                                                                           1.2.1                  gem           
+thor                                                                           1.2.2                  gem           
 tiff                                                                           4.4.0-r3               apk           
 tilt                                                                           2.1.0                  gem           
 time                                                                           0.2.2                  gem           
@@ -1457,7 +1448,6 @@ tty-screen                                                                     0
 twemoji-parser                                                                 11.0.2                 npm           
 twitter-text                                                                   3.1.0                  gem           
 twitter-text                                                                   3.1.0                  npm           
-type-check                                                                     0.3.2                  npm           
 type-fest                                                                      0.16.0                 npm           
 type-is                                                                        1.6.18                 npm           
 tzdata                                                                         2023c-r0               apk           
@@ -1526,7 +1516,7 @@ webpack                                                                        4
 webpack-assets-manifest                                                        4.0.6                  npm           
 webpack-bundle-analyzer                                                        4.8.0                  npm           
 webpack-cli                                                                    3.3.12                 npm           
-webpack-merge                                                                  5.8.0                  npm           
+webpack-merge                                                                  5.9.0                  npm           
 webpack-sources                                                                1.4.3                  npm           
 webpacker                                                                      5.4.4                  gem           
 websocket-driver                                                               0.7.5                  gem           
@@ -1544,7 +1534,6 @@ wicg-inert                                                                     3
 wide-align                                                                     1.1.5                  npm           
 wildcard                                                                       2.0.0                  npm           
 wisper                                                                         2.0.1                  gem           
-word-wrap                                                                      1.2.3                  npm           
 workbox-background-sync                                                        6.5.4                  npm           
 workbox-broadcast-update                                                       6.5.4                  npm           
 workbox-build                                                                  6.5.4                  npm           
@@ -1588,7 +1577,7 @@ yargs-parser                                                                   2
 yarn                                                                           1.22.19                npm           
 yarn                                                                           1.22.19-r0             apk           
 yocto-queue                                                                    0.1.0                  npm           
-zeitwerk                                                                       2.6.7                  gem           
+zeitwerk                                                                       2.6.8                  gem           
 zlib                                                                           1.2.13-r0              apk           
 zlib                                                                           2.1.1                  gem           
 zlibjs                                                                         0.3.1                  npm           
