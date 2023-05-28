@@ -107,6 +107,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.05.23:", desc: "Adjust apk flags." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "09.01.23:", desc: "Updated nginx conf to fix bring inline with Mastodon configuration (fixes Elk integration)." }
   - { date: "19.12.22:", desc: "Support separate sidekiq queue instances." }
