@@ -107,6 +107,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.05.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3" }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "26.01.23:", desc: "Add aliases for key generation & tootctl to better support secrets." }
   - { date: "19.12.22:", desc: "Support separate sidekiq queue instances." }
