@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.15
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.18
 
 ARG BUILD_DATE
 ARG VERSION
@@ -10,7 +10,9 @@ LABEL maintainer="TheSpad"
 
 ENV RAILS_ENV="production" \
     NODE_ENV="production" \
-    PATH="${PATH}:/app/www/bin"
+    NODE_OPTIONS="--openssl-legacy-provider" \
+    PATH="${PATH}:/app/www/bin" \
+    S6_STAGE2_HOOK="/init-hook"
 
 RUN \
   apk add --no-cache \
@@ -42,7 +44,7 @@ RUN \
   fi && \
   curl -s -o \
     /tmp/mastodon.tar.gz -L \
-    "https://github.com/mastodon/mastodon/archive/refs/tags/${MASTODON_VERSION}.tar.gz" && \
+    "https://github.com/mastodon/mastodon/archive/${MASTODON_VERSION}.tar.gz" && \
   tar xf \
     /tmp/mastodon.tar.gz -C \
     /app/www/ --strip-components=1 && \
