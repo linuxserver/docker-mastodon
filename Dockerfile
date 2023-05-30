@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.17
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.18
 
 ARG BUILD_DATE
 ARG VERSION
@@ -15,7 +15,7 @@ ENV RAILS_ENV="production" \
     S6_STAGE2_HOOK="/init-hook"
 
 RUN \
-  apk add -U --upgrade --no-cache \
+  apk add --no-cache \
     ffmpeg \
     file \
     icu-libs \ 
@@ -29,7 +29,6 @@ RUN \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
     icu-dev \
-    jq \
     libidn-dev \    
     libpq-dev \
     libxml2-dev \
