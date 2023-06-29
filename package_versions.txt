@@ -447,7 +447,7 @@ cssstyle                                                                       2
 csstype                                                                        2.6.13                 npm           
 csstype                                                                        3.0.6                  npm           
 csv                                                                            3.1.9                  gem           
-cups-libs                                                                      2.3.3-r7               apk           
+cups-libs                                                                      2.3.3-r8               apk           
 curl                                                                           8.1.2-r0               apk           
 cyclist                                                                        1.0.1                  npm           
 d                                                                              1.0.1                  npm           
