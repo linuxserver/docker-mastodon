@@ -1124,7 +1124,6 @@ picocolors                                                                     1
 picomatch                                                                      2.3.1                                npm           
 piexifjs                                                                       1.0.6                                npm           
 pixman                                                                         0.42.2-r1                            apk           
-pkg-config                                                                     1.5.1                                gem           
 pkg-dir                                                                        3.0.0                                npm           
 pkg-dir                                                                        4.2.0                                npm           
 pkgconf                                                                        1.9.5-r0                             apk           
@@ -1509,6 +1508,7 @@ unset-value                                                                    1
 upath                                                                          1.2.0                                npm           
 update-browserslist-db                                                         1.0.11                               npm           
 uri                                                                            0.12.1                               gem           
+uri                                                                            0.12.2                               gem           
 uri-js                                                                         4.4.1                                npm           
 urix                                                                           0.1.0                                npm           
 url                                                                            0.11.1                               npm           
