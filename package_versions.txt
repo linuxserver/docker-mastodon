@@ -1464,7 +1464,7 @@ test_app                                                                       1
 thor                                                                           1.2.1                  gem           
 throng                                                                         4.0.0                  npm           
 through2                                                                       2.0.5                  npm           
-tiff                                                                           4.4.0-r3               apk           
+tiff                                                                           4.4.0-r4               apk           
 tilt                                                                           2.0.11                 gem           
 time                                                                           0.1.1                  gem           
 timeout                                                                        0.1.1                  gem           
