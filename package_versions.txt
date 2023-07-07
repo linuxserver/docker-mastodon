@@ -1014,7 +1014,7 @@ node-gyp-build                                                                 4
 node-libs-browser                                                              2.2.1                                npm           
 node-releases                                                                  2.0.12                               npm           
 nodejs                                                                         18.16.1-r0                           apk           
-nokogiri                                                                       1.15.2                               gem           
+nokogiri                                                                       1.15.3                               gem           
 normalize-path                                                                 2.1.1                                npm           
 normalize-path                                                                 3.0.0                                npm           
 normalize-range                                                                0.1.2                                npm           
@@ -1321,7 +1321,7 @@ safe-regex                                                                     1
 safe-regex-test                                                                1.0.0                                npm           
 safer-buffer                                                                   2.1.2                                npm           
 safety_net_attestation                                                         0.4.0                                gem           
-sanitize                                                                       6.0.1                                gem           
+sanitize                                                                       6.0.2                                gem           
 sass                                                                           1.63.6                               npm           
 sass-loader                                                                    10.4.1                               npm           
 saxes                                                                          6.0.0                                npm           
