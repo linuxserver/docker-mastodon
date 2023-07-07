@@ -1336,7 +1336,7 @@ safe-regex                                                                     1
 safe-regex-test                                                                1.0.0                  npm           
 safer-buffer                                                                   2.1.2                  npm           
 safety_net_attestation                                                         0.4.0                  gem           
-sanitize                                                                       6.0.1                  gem           
+sanitize                                                                       6.0.2                  gem           
 sass                                                                           1.58.0                 npm           
 sass-loader                                                                    10.2.0                 npm           
 sax                                                                            1.2.4                  npm           
