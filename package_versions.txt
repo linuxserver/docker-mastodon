@@ -1061,7 +1061,7 @@ orc                                                                            0
 orm_adapter                                                                    0.5.0                                gem           
 os-browserify                                                                  0.3.0                                npm           
 ostruct                                                                        0.5.5                                gem           
-ox                                                                             2.14.16                              gem           
+ox                                                                             2.14.17                              gem           
 p-limit                                                                        2.3.0                                npm           
 p-limit                                                                        3.1.0                                npm           
 p-locate                                                                       3.0.0                                npm           
