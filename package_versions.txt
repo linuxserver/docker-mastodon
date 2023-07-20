@@ -639,7 +639,7 @@ get-own-enumerable-property-symbols                                            3
 get-symbol-description                                                         1.0.0                  npm           
 get-value                                                                      2.0.6                  npm           
 getoptlong                                                                     0.1.1                  gem           
-ghostscript                                                                    9.55.0-r1              apk           
+ghostscript                                                                    9.55.0-r2              apk           
 git                                                                            2.34.8-r0              apk           
 gitlab-omniauth-openid-connect                                                 0.10.1                 gem           
 glib                                                                           2.70.5-r0              apk           
@@ -844,7 +844,7 @@ libblkid                                                                       2
 libbsd                                                                         0.11.3-r1              apk           
 libbz2                                                                         1.0.8-r1               apk           
 libc-utils                                                                     0.7.2-r3               apk           
-libcrypto1.1                                                                   1.1.1u-r1              apk           
+libcrypto1.1                                                                   1.1.1u-r2              apk           
 libcurl                                                                        8.1.2-r0               apk           
 libdav1d                                                                       0.9.2-r0               apk           
 libde265                                                                       1.0.12-r0              apk           
@@ -870,7 +870,7 @@ libretls                                                                       3
 librsvg                                                                        2.50.7-r1              apk           
 libsrt                                                                         1.4.2-r1               apk           
 libssh                                                                         0.9.6-r1               apk           
-libssl1.1                                                                      1.1.1u-r1              apk           
+libssl1.1                                                                      1.1.1u-r2              apk           
 libstdc++                                                                      10.3.1_git20211027-r0  apk           
 libtasn1                                                                       4.18.0-r1              apk           
 libtheora                                                                      1.1.1-r16              apk           
@@ -1000,7 +1000,7 @@ net-smtp                                                                       0
 net-smtp                                                                       0.3.3                  gem           
 nettle                                                                         3.7.3-r0               apk           
 next-tick                                                                      1.0.0                  npm           
-nghttp2-libs                                                                   1.46.0-r0              apk           
+nghttp2-libs                                                                   1.46.0-r1              apk           
 nginx                                                                          1.20.2-r1              apk           
 nice-try                                                                       1.0.5                  npm           
 nio4r                                                                          2.5.8                  gem           
@@ -1044,7 +1044,7 @@ open3                                                                          0
 opencollective-postinstall                                                     2.0.3                  npm           
 opener                                                                         1.5.2                  npm           
 openid_connect                                                                 1.4.2                  gem           
-openssl                                                                        1.1.1u-r1              apk           
+openssl                                                                        1.1.1u-r2              apk           
 openssl                                                                        2.2.2                  gem           
 openssl                                                                        3.0.0                  gem           
 openssl-signature_algorithm                                                    1.2.1                  gem           
