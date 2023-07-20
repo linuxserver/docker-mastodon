@@ -846,7 +846,7 @@ libbluray                                                                      1
 libbsd                                                                         0.11.7-r1                            apk           
 libbz2                                                                         1.0.8-r5                             apk           
 libc-utils                                                                     0.7.2-r5                             apk           
-libcrypto3                                                                     3.1.1-r2                             apk           
+libcrypto3                                                                     3.1.1-r3                             apk           
 libcurl                                                                        8.1.2-r0                             apk           
 libdav1d                                                                       1.2.1-r0                             apk           
 libde265                                                                       1.0.12-r0                            apk           
@@ -883,7 +883,7 @@ libsndfile                                                                     1
 libsodium                                                                      1.0.18-r3                            apk           
 libsrt                                                                         1.5.2-r0                             apk           
 libssh                                                                         0.10.5-r0                            apk           
-libssl3                                                                        3.1.1-r2                             apk           
+libssl3                                                                        3.1.1-r3                             apk           
 libstdc++                                                                      12.2.1_git20220924-r10               apk           
 libtasn1                                                                       4.19.0-r1                            apk           
 libtheora                                                                      1.1.1-r17                            apk           
@@ -1015,12 +1015,12 @@ nginx                                                                          1
 nice-try                                                                       1.0.5                                npm           
 nio4r                                                                          2.5.9                                gem           
 nkf                                                                            0.1.2                                gem           
-node                                                                           18.16.1                              binary        
+node                                                                           18.17.0                              binary        
 node-fetch                                                                     2.6.11                               npm           
 node-gyp-build                                                                 4.6.0                                npm           
 node-libs-browser                                                              2.2.1                                npm           
 node-releases                                                                  2.0.13                               npm           
-nodejs                                                                         18.16.1-r0                           apk           
+nodejs                                                                         18.17.0-r0                           apk           
 nokogiri                                                                       1.15.3                               gem           
 normalize-path                                                                 2.1.1                                npm           
 normalize-path                                                                 3.0.0                                npm           
@@ -1053,7 +1053,7 @@ opencollective-postinstall                                                     2
 opener                                                                         1.5.2                                npm           
 openid_connect                                                                 1.4.2                                gem           
 openssl                                                                        3.1.0                                gem           
-openssl                                                                        3.1.1-r2                             apk           
+openssl                                                                        3.1.1-r3                             apk           
 openssl-signature_algorithm                                                    1.3.0                                gem           
 optparse                                                                       0.3.1                                gem           
 opus                                                                           1.4-r0                               apk           
