@@ -878,7 +878,7 @@ libproc2                                                                       4
 libpulse                                                                       16.1-r10                             apk           
 libraw                                                                         0.21.1-r1                            apk           
 librist                                                                        0.2.7-r0                             apk           
-librsvg                                                                        2.56.2-r0                            apk           
+librsvg                                                                        2.56.3-r0                            apk           
 libsndfile                                                                     1.2.0-r2                             apk           
 libsodium                                                                      1.0.18-r3                            apk           
 libsrt                                                                         1.5.2-r0                             apk           
