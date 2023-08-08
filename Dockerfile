@@ -53,7 +53,7 @@ RUN \
   bundle config set --local without 'development test' && \
   bundle config set silence_root_warning true && \
   bundle install -j"$(nproc)" && \
-  yarn install --pure-lockfile && \
+  yarn install --pure-lockfile --production && \
   OTP_SECRET=precompile_placeholder SECRET_KEY_BASE=precompile_placeholder rails assets:precompile && \
   echo "**** cleanup ****" && \
   apk del --purge \

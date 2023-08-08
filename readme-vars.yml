@@ -107,7 +107,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "30.05.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3." }
+  - { date: "08.08.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3." }
   - { date: "25.05.23:", desc: "Adjust apk flags." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "09.01.23:", desc: "Updated nginx conf to fix bring inline with Mastodon configuration (fixes Elk integration)." }
