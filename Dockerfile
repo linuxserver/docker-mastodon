@@ -23,7 +23,6 @@ RUN \
     libpq \
     libidn \
     nodejs \
-    openssl1.1-compat \
     ruby \
     ruby-bundler \
     yarn && \
