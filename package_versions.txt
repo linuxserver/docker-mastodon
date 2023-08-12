@@ -95,6 +95,7 @@ NAME                                                                           V
 @babel/plugin-transform-private-methods                                        7.22.5                               npm           
 @babel/plugin-transform-private-property-in-object                             7.22.5                               npm           
 @babel/plugin-transform-property-literals                                      7.22.5                               npm           
+@babel/plugin-transform-react-constant-elements                                7.22.5                               npm           
 @babel/plugin-transform-react-display-name                                     7.22.5                               npm           
 @babel/plugin-transform-react-inline-elements                                  7.22.5                               npm           
 @babel/plugin-transform-react-jsx                                              7.22.5                               npm           
@@ -159,6 +160,7 @@ NAME                                                                           V
 @jridgewell/sourcemap-codec                                                    1.4.14                               npm           
 @jridgewell/sourcemap-codec                                                    1.4.15                               npm           
 @jridgewell/trace-mapping                                                      0.3.18                               npm           
+@material-design-icons/svg                                                     0.14.10                              npm           
 @nicolo-ribaudo/semver-v6                                                      6.3.3                                npm           
 @npmcli/fs                                                                     1.1.1                                npm           
 @npmcli/move-file                                                              1.1.2                                npm           
@@ -183,6 +185,20 @@ NAME                                                                           V
 @rollup/plugin-replace                                                         2.4.2                                npm           
 @rollup/pluginutils                                                            3.1.0                                npm           
 @surma/rollup-plugin-off-main-thread                                           2.2.3                                npm           
+@svgr/babel-plugin-add-jsx-attribute                                           5.4.0                                npm           
+@svgr/babel-plugin-remove-jsx-attribute                                        5.4.0                                npm           
+@svgr/babel-plugin-remove-jsx-empty-expression                                 5.0.1                                npm           
+@svgr/babel-plugin-replace-jsx-attribute-value                                 5.0.1                                npm           
+@svgr/babel-plugin-svg-dynamic-title                                           5.4.0                                npm           
+@svgr/babel-plugin-svg-em-dimensions                                           5.4.0                                npm           
+@svgr/babel-plugin-transform-react-native-svg                                  5.4.0                                npm           
+@svgr/babel-plugin-transform-svg-component                                     5.5.0                                npm           
+@svgr/babel-preset                                                             5.5.0                                npm           
+@svgr/core                                                                     5.5.0                                npm           
+@svgr/hast-util-to-babel-ast                                                   5.5.0                                npm           
+@svgr/plugin-jsx                                                               5.5.0                                npm           
+@svgr/plugin-svgo                                                              5.5.0                                npm           
+@svgr/webpack                                                                  5.5.0                                npm           
 @tootallnate/once                                                              2.0.0                                npm           
 @trysound/sax                                                                  0.2.0                                npm           
 @types/babel__core                                                             7.20.1                               npm           
@@ -198,6 +214,7 @@ NAME                                                                           V
 @types/node                                                                    20.3.1                               npm           
 @types/parse-json                                                              4.0.0                                npm           
 @types/prop-types                                                              15.7.5                               npm           
+@types/q                                                                       1.5.5                                npm           
 @types/react                                                                   18.2.12                              npm           
 @types/react-dom                                                               18.2.5                               npm           
 @types/react-transition-group                                                  4.4.6                                npm           
@@ -276,6 +293,7 @@ apr-util                                                                       1
 aproba                                                                         2.0.0                                npm           
 are-we-there-yet                                                               4.0.0                                npm           
 argon2-libs                                                                    20190702-r4                          apk           
+argparse                                                                       1.0.10                               npm           
 argparse                                                                       2.0.1                                npm           
 arr-diff                                                                       4.0.0                                npm           
 arr-flatten                                                                    1.1.0                                npm           
@@ -283,6 +301,8 @@ arr-union                                                                      3
 array-buffer-byte-length                                                       1.0.0                                npm           
 array-flatten                                                                  1.1.1                                npm           
 array-unique                                                                   0.3.2                                npm           
+array.prototype.reduce                                                         1.0.5                                npm           
+arraybuffer.prototype.slice                                                    1.0.1                                npm           
 arrow-key-navigation                                                           1.2.0                                npm           
 asn1.js                                                                        5.4.1                                npm           
 assert                                                                         1.5.0                                npm           
@@ -381,6 +401,7 @@ cairo-gobject                                                                  1
 call-bind                                                                      1.0.2                                npm           
 callsites                                                                      3.1.0                                npm           
 camelcase                                                                      5.3.1                                npm           
+camelcase                                                                      6.3.0                                npm           
 caniuse-api                                                                    3.0.0                                npm           
 caniuse-lite                                                                   1.0.30001503                         npm           
 caniuse-lite                                                                   1.0.30001515                         npm           
@@ -407,6 +428,7 @@ climate_control                                                                0
 cliui                                                                          5.0.0                                npm           
 clone-deep                                                                     4.0.1                                npm           
 cluster-key-slot                                                               1.1.2                                npm           
+coa                                                                            2.0.2                                npm           
 cocoon                                                                         1.2.15                               gem           
 cocoon-js-vanilla                                                              1.3.0                                npm           
 collection-visit                                                               1.0.0                                npm           
@@ -457,15 +479,21 @@ crypto-browserify                                                              3
 crypto-random-string                                                           2.0.0                                npm           
 css-declaration-sorter                                                         6.4.0                                npm           
 css-loader                                                                     5.2.7                                npm           
+css-select                                                                     2.1.0                                npm           
 css-select                                                                     5.1.0                                npm           
+css-select-base-adapter                                                        0.1.1                                npm           
+css-tree                                                                       1.0.0-alpha.37                       npm           
+css-tree                                                                       1.1.3                                npm           
 css-tree                                                                       2.2.1                                npm           
 css-tree                                                                       2.3.1                                npm           
+css-what                                                                       3.4.2                                npm           
 css-what                                                                       6.1.0                                npm           
 css_parser                                                                     1.14.0                               gem           
 cssesc                                                                         3.0.0                                npm           
 cssnano                                                                        6.0.1                                npm           
 cssnano-preset-default                                                         6.0.1                                npm           
 cssnano-utils                                                                  4.0.0                                npm           
+csso                                                                           4.2.0                                npm           
 csso                                                                           5.0.5                                npm           
 cssstyle                                                                       3.0.0                                npm           
 csstype                                                                        3.1.2                                npm           
@@ -504,12 +532,15 @@ discard                                                                        1
 dist                                                                           1.0.0                                npm           
 dom-helpers                                                                    3.4.0                                npm           
 dom-helpers                                                                    5.2.1                                npm           
+dom-serializer                                                                 0.2.2                                npm           
 dom-serializer                                                                 2.0.0                                npm           
 domain-browser                                                                 1.2.0                                npm           
 domain_name                                                                    0.5.20190701                         gem           
+domelementtype                                                                 1.3.1                                npm           
 domelementtype                                                                 2.3.0                                npm           
 domexception                                                                   4.0.0                                npm           
 domhandler                                                                     5.0.3                                npm           
+domutils                                                                       1.7.0                                npm           
 domutils                                                                       3.1.0                                npm           
 doorkeeper                                                                     5.6.6                                gem           
 dotenv                                                                         16.3.1                               npm           
@@ -538,6 +569,7 @@ encodeurl                                                                      1
 encryptor                                                                      3.0.0                                gem           
 english                                                                        0.7.2                                gem           
 enhanced-resolve                                                               4.5.0                                npm           
+entities                                                                       2.2.0                                npm           
 entities                                                                       4.5.0                                npm           
 erb                                                                            4.0.2                                gem           
 errno                                                                          0.1.8                                npm           
@@ -546,6 +578,8 @@ error-stack-parser                                                             2
 error_highlight                                                                0.5.1                                gem           
 erubi                                                                          1.12.0                               gem           
 es-abstract                                                                    1.21.2                               npm           
+es-abstract                                                                    1.22.1                               npm           
+es-array-method-boxes-properly                                                 1.0.0                                npm           
 es-set-tostringtag                                                             2.0.1                                npm           
 es-to-primitive                                                                1.2.1                                npm           
 escalade                                                                       3.1.1                                npm           
@@ -553,6 +587,7 @@ escape-html                                                                    1
 escape-string-regexp                                                           1.0.5                                npm           
 escape-string-regexp                                                           4.0.0                                npm           
 eslint-scope                                                                   4.0.3                                npm           
+esprima                                                                        4.0.1                                npm           
 esrecurse                                                                      4.3.0                                npm           
 estraverse                                                                     4.3.0                                npm           
 estraverse                                                                     5.3.0                                npm           
@@ -795,6 +830,7 @@ is-weakref                                                                     1
 is-windows                                                                     1.0.2                                npm           
 isarray                                                                        0.0.1                                npm           
 isarray                                                                        1.0.0                                npm           
+isarray                                                                        2.0.5                                npm           
 isexe                                                                          2.0.0                                npm           
 isobject                                                                       2.1.0                                npm           
 isobject                                                                       3.0.1                                npm           
@@ -807,6 +843,7 @@ jpeg-autorotate                                                                7
 jpeg-js                                                                        0.4.4                                npm           
 jq                                                                             1.6-r3                               apk           
 js-tokens                                                                      4.0.0                                npm           
+js-yaml                                                                        3.14.1                               npm           
 js-yaml                                                                        4.1.0                                npm           
 jsdom                                                                          22.1.0                               npm           
 jsesc                                                                          0.5.0                                npm           
@@ -951,8 +988,10 @@ marky                                                                          1
 mbedtls                                                                        2.28.4-r0                            apk           
 md-paperclip-azure                                                             2.2.0                                gem           
 md5.js                                                                         1.3.5                                npm           
+mdn-data                                                                       2.0.14                               npm           
 mdn-data                                                                       2.0.28                               npm           
 mdn-data                                                                       2.0.30                               npm           
+mdn-data                                                                       2.0.4                                npm           
 media-typer                                                                    0.3.0                                npm           
 memoize-one                                                                    6.0.0                                npm           
 memory-fs                                                                      0.4.1                                npm           
@@ -1031,6 +1070,7 @@ normalize-path                                                                 2
 normalize-path                                                                 3.0.0                                npm           
 normalize-range                                                                0.1.2                                npm           
 npmlog                                                                         7.0.1                                npm           
+nth-check                                                                      1.0.2                                npm           
 nth-check                                                                      2.1.1                                npm           
 numactl                                                                        2.0.16-r4                            apk           
 nwsapi                                                                         2.2.5                                npm           
@@ -1040,7 +1080,9 @@ object-inspect                                                                 1
 object-keys                                                                    1.1.1                                npm           
 object-visit                                                                   1.0.1                                npm           
 object.assign                                                                  4.1.4                                npm           
+object.getownpropertydescriptors                                               2.1.6                                npm           
 object.pick                                                                    1.3.0                                npm           
+object.values                                                                  1.1.6                                npm           
 observer                                                                       0.1.1                                gem           
 oj                                                                             3.15.0                               gem           
 omniauth                                                                       1.9.2                                gem           
@@ -1204,6 +1246,7 @@ puma                                                                           6
 pundit                                                                         2.3.0                                gem           
 punycode                                                                       1.4.1                                npm           
 punycode                                                                       2.3.0                                npm           
+q                                                                              1.5.1                                npm           
 qs                                                                             6.11.0                               npm           
 qs                                                                             6.11.2                               npm           
 querystring-es3                                                                0.2.1                                npm           
@@ -1327,6 +1370,7 @@ ruby-saml                                                                      1
 ruby2_keywords                                                                 0.0.5                                gem           
 rubyzip                                                                        2.3.2                                gem           
 rufus-scheduler                                                                3.9.1                                gem           
+safe-array-concat                                                              1.0.0                                npm           
 safe-buffer                                                                    5.1.2                                npm           
 safe-buffer                                                                    5.2.1                                npm           
 safe-regex                                                                     1.1.0                                npm           
@@ -1336,6 +1380,7 @@ safety_net_attestation                                                         0
 sanitize                                                                       6.0.2                                gem           
 sass                                                                           1.64.1                               npm           
 sass-loader                                                                    10.4.1                               npm           
+sax                                                                            1.2.4                                npm           
 saxes                                                                          6.0.0                                npm           
 scanelf                                                                        1.3.7-r1                             apk           
 scenic                                                                         1.7.0                                gem           
@@ -1401,10 +1446,12 @@ speexdsp                                                                       1
 spirv-tools                                                                    1.3.243.0-r1                         apk           
 split-string                                                                   3.1.0                                npm           
 split2                                                                         4.2.0                                npm           
+sprintf-js                                                                     1.0.3                                npm           
 sprockets                                                                      3.7.2                                gem           
 sprockets-rails                                                                3.4.2                                gem           
 ssl_client                                                                     1.36.1-r2                            apk           
 ssri                                                                           8.0.1                                npm           
+stable                                                                         0.1.8                                npm           
 stack-generator                                                                2.0.10                               npm           
 stackframe                                                                     1.3.4                                npm           
 stacktrace-gps                                                                 3.1.2                                npm           
@@ -1439,6 +1486,8 @@ supports-color                                                                 5
 supports-color                                                                 6.1.0                                npm           
 supports-color                                                                 7.2.0                                npm           
 supports-preserve-symlinks-flag                                                1.0.0                                npm           
+svg-parser                                                                     2.0.4                                npm           
+svgo                                                                           1.3.2                                npm           
 svgo                                                                           3.0.2                                npm           
 svt-av1-libs                                                                   1.6.0-r0                             apk           
 swd                                                                            1.3.0                                gem           
@@ -1495,6 +1544,9 @@ twitter-text                                                                   3
 twitter-text                                                                   3.1.0                                npm           
 type-fest                                                                      0.16.0                               npm           
 type-is                                                                        1.6.18                               npm           
+typed-array-buffer                                                             1.0.0                                npm           
+typed-array-byte-length                                                        1.0.0                                npm           
+typed-array-byte-offset                                                        1.0.0                                npm           
 typed-array-length                                                             1.0.4                                npm           
 typescript                                                                     5.1.3                                npm           
 tzdata                                                                         2023c-r1                             apk           
@@ -1517,6 +1569,7 @@ unique-string                                                                  2
 universalify                                                                   0.2.0                                npm           
 universalify                                                                   2.0.0                                npm           
 unpipe                                                                         1.0.0                                npm           
+unquote                                                                        1.1.1                                npm           
 unset-value                                                                    1.0.0                                npm           
 upath                                                                          1.2.0                                npm           
 update-browserslist-db                                                         1.0.11                               npm           
@@ -1535,6 +1588,7 @@ utf-8-validate                                                                 6
 util                                                                           0.10.3                               npm           
 util                                                                           0.11.1                               npm           
 util-deprecate                                                                 1.0.2                                npm           
+util.promisify                                                                 1.0.1                                npm           
 utils-merge                                                                    1.0.1                                npm           
 utmps-libs                                                                     0.1.2.1-r1                           apk           
 uuid                                                                           9.0.0                                npm           
@@ -1578,6 +1632,7 @@ which                                                                          1
 which                                                                          2.0.2                                npm           
 which-boxed-primitive                                                          1.0.2                                npm           
 which-module                                                                   2.0.1                                npm           
+which-typed-array                                                              1.1.11                               npm           
 which-typed-array                                                              1.1.9                                npm           
 wicg-inert                                                                     3.1.2                                npm           
 wide-align                                                                     1.1.5                                npm           
