@@ -1052,11 +1052,11 @@ net-smtp                                                                       0
 netcat-openbsd                                                                 1.219-r1                             apk           
 nettle                                                                         3.8.1-r2                             apk           
 nghttp2-libs                                                                   1.55.1-r0                            apk           
-nginx                                                                          1.24.0                               binary        
 nginx                                                                          1.24.0-r6                            apk           
 nice-try                                                                       1.0.5                                npm           
 nio4r                                                                          2.5.9                                gem           
 nkf                                                                            0.1.2                                gem           
+node                                                                           18.17.0                              binary        
 node-fetch                                                                     2.6.11                               npm           
 node-gyp-build                                                                 4.6.0                                npm           
 node-libs-browser                                                              2.2.1                                npm           
