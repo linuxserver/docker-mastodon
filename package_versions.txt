@@ -1057,7 +1057,6 @@ nginx                                                                          1
 nice-try                                                                       1.0.5                                npm           
 nio4r                                                                          2.5.9                                gem           
 nkf                                                                            0.1.2                                gem           
-node                                                                           18.17.0                              binary        
 node-fetch                                                                     2.6.11                               npm           
 node-gyp-build                                                                 4.6.0                                npm           
 node-libs-browser                                                              2.2.1                                npm           
@@ -1154,6 +1153,7 @@ pg-protocol                                                                    1
 pg-types                                                                       2.2.0                                npm           
 pghero                                                                         3.3.3                                gem           
 pgpass                                                                         1.0.5                                npm           
+php-fpm                                                                        8.2.8                                binary        
 php82                                                                          8.2.8-r0                             apk           
 php82-common                                                                   8.2.8-r0                             apk           
 php82-ctype                                                                    8.2.8-r0                             apk           
