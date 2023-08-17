@@ -1052,7 +1052,6 @@ net-smtp                                                                       0
 netcat-openbsd                                                                 1.219-r1                             apk           
 nettle                                                                         3.8.1-r2                             apk           
 nghttp2-libs                                                                   1.55.1-r0                            apk           
-nginx                                                                          1.24.0                               binary        
 nginx                                                                          1.24.0-r6                            apk           
 nice-try                                                                       1.0.5                                npm           
 nio4r                                                                          2.5.9                                gem           
@@ -1153,7 +1152,6 @@ pg-protocol                                                                    1
 pg-types                                                                       2.2.0                                npm           
 pghero                                                                         3.3.3                                gem           
 pgpass                                                                         1.0.5                                npm           
-php-fpm                                                                        8.2.8                                binary        
 php82                                                                          8.2.8-r0                             apk           
 php82-common                                                                   8.2.8-r0                             apk           
 php82-ctype                                                                    8.2.8-r0                             apk           
