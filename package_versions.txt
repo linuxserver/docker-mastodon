@@ -331,7 +331,6 @@ builder                                                                        3
 builtin-modules                                                                3.3.0                  npm           
 builtin-status-codes                                                           3.0.0                  npm           
 bundler                                                                        2.2.33                 gem           
-busybox                                                                        1.34.1                 binary        
 busybox                                                                        1.34.1-r7              apk           
 bytes                                                                          3.1.2                  npm           
 c-ares                                                                         1.19.1-r0              apk           
@@ -863,7 +862,7 @@ libmount                                                                       2
 libogg                                                                         1.3.5-r0               apk           
 libpciaccess                                                                   0.16-r0                apk           
 libpng                                                                         1.6.37-r1              apk           
-libpq                                                                          14.8-r0                apk           
+libpq                                                                          14.9-r0                apk           
 libproc                                                                        3.3.17-r0              apk           
 libretls                                                                       3.3.4-r3               apk           
 librsvg                                                                        2.50.7-r1              apk           
@@ -1102,7 +1101,6 @@ pg-protocol                                                                    1
 pg-types                                                                       2.2.0                  npm           
 pghero                                                                         3.1.0                  gem           
 pgpass                                                                         1.0.4                  npm           
-php-cli                                                                        8.0.25                 binary        
 php-fpm                                                                        8.0.25                 binary        
 php8                                                                           8.0.25-r0              apk           
 php8-common                                                                    8.0.25-r0              apk           
@@ -1321,7 +1319,6 @@ rotp                                                                           6
 rqrcode                                                                        2.1.2                  gem           
 rqrcode_core                                                                   1.2.0                  gem           
 ruby                                                                           3.0.6-r0               apk           
-ruby                                                                           3.0.6p216              binary        
 ruby-bundler                                                                   2.2.33-r0              apk           
 ruby-libs                                                                      3.0.6-r0               apk           
 ruby-progressbar                                                               1.11.0                 gem           
