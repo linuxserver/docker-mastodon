@@ -81,7 +81,6 @@ RUN \
     # Remove build logs, temp files, and cache.
     /app/www/vendor/bundle/ruby/*/build_info/ \
     /app/www/vendor/bundle/ruby/*/cache/ \
-    /app/www/node_modules/.cache \
     /app/www/tmp/cache \
     $HOME/.bundle/cache \
     $HOME/.composer \
