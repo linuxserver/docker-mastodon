@@ -60,6 +60,10 @@ RUN \
     build-dependencies && \
   yarn cache clean && \
   rm -rf \
+    /app/www/node_modules/.cache \
+    /app/www/tmp/cache \
+    $HOME/.bundle/cache \
+    $HOME/.composer \
     /tmp/*
 
 COPY root/ /
