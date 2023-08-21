@@ -19,6 +19,8 @@ RUN \
     ffmpeg \
     file \
     imagemagick \
+    libpq \
+    libidn \
     nodejs \
     ruby \
     ruby-bundler && \
