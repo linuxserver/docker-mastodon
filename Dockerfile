@@ -106,7 +106,8 @@ RUN \
     -o -name 'Makefile' \
     -o -name 'README*' \) \
 		-type f -delete && \
-	rm -rf /app/www/streaming/node_modules/*/test
+	rm -rf /app/www/streaming/node_modules/*/test && \
+  rm -rf /app/www/node_modules
 
 COPY root/ /
 
