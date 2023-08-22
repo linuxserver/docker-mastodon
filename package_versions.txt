@@ -397,7 +397,7 @@ nginx                             1.24.0-r6               apk
 nio4r                             2.5.9                   gem           
 nkf                               0.1.2                   gem           
 nodejs                            18.17.0-r0              apk           
-nokogiri                          1.15.3                  gem           
+nokogiri                          1.15.4                  gem           
 npmlog                            7.0.1                   npm           
 numactl                           2.0.16-r4               apk           
 nwsapi                            2.2.7                   npm           
