@@ -644,7 +644,7 @@ whatwg-mimetype                   3.0.0                   npm
 whatwg-url                        12.0.1                  npm           
 wide-align                        1.1.5                   npm           
 wisper                            2.0.1                   gem           
-ws                                8.13.0                  npm           
+ws                                8.14.0                  npm           
 x264-libs                         0.164_git20220602-r1    apk           
 x265-libs                         3.5-r4                  apk           
 xml-name-validator                4.0.0                   npm           
