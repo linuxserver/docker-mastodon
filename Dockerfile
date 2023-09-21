@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.15
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.18
 
 ARG BUILD_DATE
 ARG VERSION
@@ -10,30 +10,30 @@ LABEL maintainer="TheSpad"
 
 ENV RAILS_ENV="production" \
     NODE_ENV="production" \
-    PATH="${PATH}:/app/www/bin"
+    NODE_OPTIONS="--openssl-legacy-provider" \
+    PATH="${PATH}:/app/www/bin" \
+    S6_STAGE2_HOOK="/init-hook"
 
 RUN \
   apk add --no-cache \
     ffmpeg \
     file \
-    icu-libs \ 
     imagemagick \
     libpq \
     libidn \
     nodejs \
     ruby \
-    ruby-bundler \
-    yarn && \
+    ruby-bundler && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
     icu-dev \
-    libidn-dev \    
+    libidn-dev \
     libpq-dev \
     libxml2-dev \
     libxslt-dev \
     openssl-dev \
-    npm \
-    ruby-dev && \
+    ruby-dev \
+    yarn && \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
   if [ -z ${MASTODON_VERSION+x} ]; then \
@@ -42,23 +42,71 @@ RUN \
   fi && \
   curl -s -o \
     /tmp/mastodon.tar.gz -L \
-    "https://github.com/mastodon/mastodon/archive/refs/tags/${MASTODON_VERSION}.tar.gz" && \
+    "https://github.com/mastodon/mastodon/archive/${MASTODON_VERSION}.tar.gz" && \
   tar xf \
     /tmp/mastodon.tar.gz -C \
     /app/www/ --strip-components=1 && \
   cd /app/www && \
+  # https://github.com/mastodon/mastodon/pull/24702
+  sed -En "s/.*\brequire\('([^']+)'\).*/\"\1\"/p" streaming/index.js > streaming-requires.txt && \
+  jq --slurpfile requires streaming-requires.txt \
+    '{ dependencies: .dependencies | with_entries(select([.key] | inside($requires))) }' \
+    package.json > streaming/package.json && \
   bundle config set --local deployment 'true' && \
-  bundle config set --local without 'development test' && \
+  bundle config set --local without 'development test exclude' && \
   bundle config set silence_root_warning true && \
-  bundle install -j"$(nproc)" && \
-  yarn install --pure-lockfile && \
+  bundle install -j"$(nproc)" --no-cache && \
+  yarn install --production --frozen-lockfile --check-files && \
+	cd streaming && \
+	yarn install --production --check-files && \
   OTP_SECRET=precompile_placeholder SECRET_KEY_BASE=precompile_placeholder rails assets:precompile && \
   echo "**** cleanup ****" && \
+  yarn cache clean && \
   apk del --purge \
     build-dependencies && \
-  yarn cache clean && \
+  # Remove assets not needed in runtime because they were compiled & copied to public
+  rm -r \
+    /app/www/app/javascript/fonts \
+    /app/www/app/javascript/icons \
+    /app/www/app/javascript/packs \
+    /app/www/app/javascript/styles && \
   rm -rf \
-    /tmp/*
+    # Remove vendored sources for building native extensions.
+    /app/www/vendor/bundle/ruby/*/gems/hiredis-*/vendor/hiredis \
+    /app/www/vendor/bundle/ruby/*/gems/nokogiri-*/gumbo-parser \
+    /app/www/vendor/bundle/ruby/*/gems/nokogiri-*/patches \
+    /app/www/vendor/bundle/ruby/*/gems/pghero-*/app/assets \
+    # Remove build logs, temp files, and cache.
+    /app/www/vendor/bundle/ruby/*/build_info/ \
+    /app/www/vendor/bundle/ruby/*/cache/ \
+    /app/www/tmp/cache \
+    $HOME/.bundle/cache \
+    $HOME/.composer \
+    /tmp/* && \
+	find /app/www/vendor/bundle/ruby/*/extensions/ \( -name gem_make.out -o -name mkmf.log \) -delete && \
+  # Remove tests, documentations and other useless files.
+	find /app/www/vendor/bundle/ruby/*/gems/ \( -name 'doc' \
+    -o -name 'spec' \
+    -o -name 'test' \) \
+		-type d -maxdepth 2 -exec rm -fr "{}" + && \
+	find /app/www/vendor/bundle/ruby/*/gems/ \( -name 'README*' \
+    -o -name 'CHANGELOG*' \
+    -o -name 'CONTRIBUT*' \
+    -o -name '*LICENSE*' \
+    -o -name 'Rakefile' \
+    -o -name '.*' \) \
+		-type f -delete && \
+  # Remove source maps, TS files, docs, tests and other useless files.
+	find /app/www/streaming/node_modules \( -name '.*' \
+    -o -name '*.map' \
+    -o -name '*.md' \
+    -o -name '*.ts' \
+    -o -name 'LICENSE*' \
+    -o -name 'Makefile' \
+    -o -name 'README*' \) \
+		-type f -delete && \
+	rm -rf /app/www/streaming/node_modules/*/test && \
+  rm -rf /app/www/node_modules
 
 COPY root/ /
 
