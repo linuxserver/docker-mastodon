@@ -84,7 +84,7 @@ app_setup_block: |
   * To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-vapid`
 
   Both of the secret generation aliases above can be run without any other setup having been carried out.
-  
+
   * To use `tootctl` you can run something like `docker exec -it lscr.io/linuxserver/mastodon /tootctl <command>`
 
   Using `tootctl` requires you to complete the initial Mastodon configuration first.
@@ -99,7 +99,7 @@ app_setup_block: |
 
   It is currently only supported to run a single queue per container instance *or* all queues in a single container instance.
 
-  All containers must share the same `/config`` mount and be on a common docker network.
+  All containers must share the same `/config` mount and be on a common docker network.
 
   ### Strict reverse proxies
 

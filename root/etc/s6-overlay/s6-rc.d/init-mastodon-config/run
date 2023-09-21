@@ -25,5 +25,5 @@ if [[ ${SIDEKIQ_ONLY,,} != "true" ]]; then
     s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
 fi
 
-lsiown abc:abc \
-    /config/mastodon/public/system
+lsiown -R abc:abc \
+    /config
