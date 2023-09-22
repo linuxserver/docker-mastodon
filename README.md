@@ -90,7 +90,7 @@ For more information check out the [mastodon documentation](https://docs.joinmas
 
 It is currently only supported to run a single queue per container instance *or* all queues in a single container instance.
 
-All containers must share the same `/config`` mount and be on a common docker network.
+All containers must share the same `/config` mount and be on a common docker network.
 
 ### Strict reverse proxies
 
