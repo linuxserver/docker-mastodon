@@ -104,7 +104,7 @@ app_setup_block: |
 
   ### NO_CHOWN Option
 
-  On larger Mastodon instances, our init process to verify that permissions are set correctly can noticeably slow down the container startup. If you are experiencing this, you can set `NO_CHOWN`` to `true` to skip that step of the init.
+  On larger Mastodon instances, our init process to verify that permissions are set correctly can noticeably slow down the container startup. If you are experiencing this, you can set `NO_CHOWN` to `true` to skip that step of the init.
 
   *Do NOT set this on first run of the container. If you enable this option you are taking full responsibility for ensuring that the permissions in your /config mount are correct. If you're even slightly unsure, don't set it.*
 
