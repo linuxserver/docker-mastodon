@@ -92,6 +92,12 @@ It is currently only supported to run a single queue per container instance *or*
 
 All containers must share the same `/config` mount and be on a common docker network.
 
+### NO_CHOWN Option
+
+On larger Mastodon instances, our init process to verify that permissions are set correctly can noticeably slow down the container startup. If you are experiencing this, you can set `NO_CHOWN` to `true` to skip that step of the init.
+
+*Do NOT set this on first run of the container. If you enable this option you are taking full responsibility for ensuring that the permissions in your /config mount are correct. If you're even slightly unsure, don't set it.*
+
 ### Strict reverse proxies
 
 This image automatically redirects to https with a self-signed certificate. If you are using a reverse proxy which validates certificates, you need to [disable this check for the container](https://docs.linuxserver.io/faq#strict-proxy).
@@ -146,6 +152,7 @@ services:
       - SIDEKIQ_DEFAULT=false #optional
       - SIDEKIQ_THREADS=5 #optional
       - DB_POOL=5 #optional
+      - NO_CHOWN= #optional
     volumes:
       - /path/to/appdata/config:/config
     ports:
@@ -195,6 +202,7 @@ docker run -d \
   -e SIDEKIQ_DEFAULT=false `#optional` \
   -e SIDEKIQ_THREADS=5 `#optional` \
   -e DB_POOL=5 `#optional` \
+  -e NO_CHOWN= `#optional` \
   -p 80:80 \
   -p 443:443 \
   -v /path/to/appdata/config:/config \
@@ -247,6 +255,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e SIDEKIQ_DEFAULT=false` | Set to `true` on the main container if you're running additional sidekiq instances. It will run the `default` queue. |
 | `-e SIDEKIQ_THREADS=5` | The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads). |
 | `-e DB_POOL=5` | The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads). |
+| `-e NO_CHOWN=` | Set to `true` to skip chown of /config on init. *READ THE APPLICATION NOTES BEFORE SETTING THIS*. |
 | `-v /config` | Contains all relevant configuration files. |
 
 ## Environment variables from files (Docker secrets)
