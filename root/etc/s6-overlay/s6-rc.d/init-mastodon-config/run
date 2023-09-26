@@ -25,5 +25,7 @@ if [[ ${SIDEKIQ_ONLY,,} != "true" ]]; then
     s6-setuidgid abc /usr/bin/bundle exec rails db:prepare
 fi
 
-lsiown -R abc:abc \
-    /config
+if [[ ${NO_CHOWN,,} != "true" ]]; then
+    lsiown -R abc:abc \
+        /config
+fi
