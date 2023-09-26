@@ -64,6 +64,7 @@ opt_param_env_vars:
   - { env_var: "SIDEKIQ_DEFAULT", env_value: "false", desc: "Set to `true` on the main container if you're running additional sidekiq instances. It will run the `default` queue."}
   - { env_var: "SIDEKIQ_THREADS", env_value: "5", desc: "The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
   - { env_var: "DB_POOL", env_value: "5", desc: "The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
+  - { env_var: "NO_CHOWN", env_value: "", desc: "Set to `true` to skip chown of /config on init. *READ THE APPLICATION NOTES BEFORE SETTING THIS*."}
 
 param_usage_include_ports: true
 param_ports:
@@ -100,6 +101,12 @@ app_setup_block: |
   It is currently only supported to run a single queue per container instance *or* all queues in a single container instance.
 
   All containers must share the same `/config` mount and be on a common docker network.
+
+  ### NO_CHOWN Option
+
+  On larger Mastodon instances, our init process to verify that permissions are set correctly can noticeably slow down the container startup. If you are experiencing this, you can set `NO_CHOWN` to `true` to skip that step of the init.
+
+  *Do NOT set this on first run of the container. If you enable this option you are taking full responsibility for ensuring that the permissions in your /config mount are correct. If you're even slightly unsure, don't set it.*
 
   ### Strict reverse proxies
 
