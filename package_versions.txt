@@ -554,7 +554,7 @@ shadow                            4.13-r4                 apk
 shared-mime-info                  2.2-r5                  apk           
 shellwords                        0.1.0                   gem           
 side-channel                      1.0.4                   npm           
-sidekiq                           6.5.10                  gem           
+sidekiq                           6.5.11                  gem           
 sidekiq-bulk                      0.2.0                   gem           
 sidekiq-scheduler                 5.0.3                   gem           
 sidekiq-unique-jobs               7.1.29                  gem           
