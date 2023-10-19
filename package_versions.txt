@@ -199,7 +199,7 @@ freetype                          2.13.0-r5               apk
 fresh                             0.5.2                   npm           
 fribidi                           1.0.13-r0               apk           
 fugit                             1.8.1                   gem           
-function-bind                     1.1.1                   npm           
+function-bind                     1.1.2                   npm           
 gauge                             5.0.1                   npm           
 gdk-pixbuf                        2.42.10-r5              apk           
 get-intrinsic                     1.2.1                   npm           
@@ -376,7 +376,7 @@ msgpack                           1.7.1                   gem
 multi_json                        1.15.0                  gem           
 multipart-post                    2.3.0                   gem           
 musl                              1.2.4-r2                apk           
-musl-utils                        1.2.4-r1                apk           
+musl-utils                        1.2.4-r2                apk           
 mutex_m                           0.1.2                   gem           
 nano                              7.2-r1                  apk           
 ncurses-terminfo-base             6.4_p20230506-r0        apk           
@@ -394,12 +394,12 @@ nghttp2-libs                      1.55.1-r0               apk
 nginx                             1.24.0-r6               apk           
 nio4r                             2.5.9                   gem           
 nkf                               0.1.2                   gem           
-nodejs                            18.17.1-r0              apk           
+nodejs                            18.18.2-r0              apk           
 nokogiri                          1.15.4                  gem           
 npmlog                            7.0.1                   npm           
 numactl                           2.0.16-r4               apk           
 nwsapi                            2.2.7                   npm           
-object-inspect                    1.12.3                  npm           
+object-inspect                    1.13.0                  npm           
 observer                          0.1.1                   gem           
 oj                                3.16.1                  gem           
 omniauth                          2.1.1                   gem           
