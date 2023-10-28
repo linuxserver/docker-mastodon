@@ -23,7 +23,8 @@ RUN \
     libidn \
     nodejs \
     ruby \
-    ruby-bundler && \
+    ruby-bundler \
+    yaml && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
     gcompat \
@@ -35,6 +36,7 @@ RUN \
     openssl-dev \
     python3-dev \
     ruby-dev \
+    yaml-dev \
     yarn && \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
