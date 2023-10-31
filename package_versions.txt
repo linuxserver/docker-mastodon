@@ -486,7 +486,7 @@ psych                             5.1.1                   gem
 public_suffix                     5.0.3                   gem           
 puma                              6.4.0                   gem           
 pundit                            2.3.0                   gem           
-punycode                          2.3.0                   npm           
+punycode                          2.3.1                   npm           
 qs                                6.11.0                  npm           
 querystringify                    2.2.0                   npm           
 raabro                            1.4.0                   gem           
@@ -512,6 +512,7 @@ range-parser                      1.2.1                   npm
 raw-body                          2.5.1                   npm           
 rdf                               3.2.11                  gem           
 rdf-normalize                     0.6.1                   gem           
+rdoc                              6.5.0                   gem           
 readable-stream                   4.4.2                   npm           
 readline                          0.0.3                   gem           
 readline                          8.2.1-r1                apk           
@@ -539,6 +540,7 @@ ruby                              3.2.2-r0                apk
 ruby-bundler                      2.4.15-r0               apk           
 ruby-libs                         3.2.2-r0                apk           
 ruby-progressbar                  1.13.0                  gem           
+ruby-rdoc                         3.2.2-r0                apk           
 ruby-saml                         1.15.0                  gem           
 ruby2_keywords                    0.0.5                   gem           
 rubyzip                           2.3.2                   gem           
