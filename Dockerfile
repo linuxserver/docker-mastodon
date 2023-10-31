@@ -56,7 +56,7 @@ RUN \
     '{ dependencies: .dependencies | with_entries(select([.key] | inside($requires))) }' \
     package.json > streaming/package.json && \
   bundle config set --local deployment 'true' && \
-  bundle config set --local without 'development test' && \
+  bundle config set --local without 'development test exclude' && \
   bundle config set silence_root_warning true && \
   bundle install -j"$(nproc)" --no-cache && \
   yarn install --production --frozen-lockfile --check-files && \
