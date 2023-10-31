@@ -24,6 +24,7 @@ RUN \
     nodejs \
     ruby \
     ruby-bundler \
+    ruby-rdoc \
     yaml && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
