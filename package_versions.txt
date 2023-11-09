@@ -1,6 +1,6 @@
 NAME                              VERSION                 TYPE         
 @ioredis/commands                 1.2.0                   npm           
-@opentelemetry/api                1.6.0                   npm           
+@opentelemetry/api                1.7.0                   npm           
 @rails/actiontext                 7.1.1                   npm           
 @rails/webpacker                  5.4.3                   npm           
 @tootallnate/once                 2.0.0                   npm           
@@ -207,7 +207,7 @@ gauge                             5.0.1                   npm
 gdk-pixbuf                        2.42.10-r5              apk           
 get-intrinsic                     1.2.2                   npm           
 getoptlong                        0.2.0                   gem           
-ghostscript                       10.01.2-r0              apk           
+ghostscript                       10.02.0-r0              apk           
 git                               2.40.1-r0               apk           
 glib                              2.76.4-r0               apk           
 globalid                          1.2.1                   gem           
@@ -247,8 +247,8 @@ icu-data-en                       73.2-r2                 apk
 icu-libs                          73.2-r2                 apk           
 idn-ruby                          0.1.5                   gem           
 ieee754                           1.2.1                   npm           
-imagemagick                       7.1.1.13-r0             apk           
-imagemagick-libs                  7.1.1.13-r0             apk           
+imagemagick                       7.1.1.13-r1             apk           
+imagemagick-libs                  7.1.1.13-r1             apk           
 inherits                          2.0.4                   npm           
 io-console                        0.6.0                   gem           
 io-nonblock                       0.2.0                   gem           
