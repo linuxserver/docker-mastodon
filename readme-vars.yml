@@ -39,8 +39,8 @@ param_env_vars:
   - { env_var: "ES_ENABLED", env_value: "false", desc: "Enable or disable Elasticsearch (requires a separate ES instance)"}
   - { env_var: "SECRET_KEY_BASE", env_value: "", desc: "Browser session secret. Changing it will break all active browser sessions."}
   - { env_var: "OTP_SECRET", env_value: "", desc: "MFA secret. Changing it after initial setup will break two-factor authentication."}
-  - { env_var: "VAPID_PRIVATE_KEY", env_value: "", desc: "Push notification private key. Changing it will break push notifications."}
-  - { env_var: "VAPID_PUBLIC_KEY", env_value: "", desc: "Push notification public key. Changing it will break push notifications."}
+  - { env_var: "VAPID_PRIVATE_KEY", env_value: "", desc: "Push notification private key. Changing it after initial setup will break push notifications."}
+  - { env_var: "VAPID_PUBLIC_KEY", env_value: "", desc: "Push notification public key. Changing it after initial setup will break push notifications."}
   - { env_var: "SMTP_SERVER", env_value: "mail.example.com", desc: "SMTP server for email notifications"}
   - { env_var: "SMTP_PORT", env_value: "25", desc: "SMTP server port"}
   - { env_var: "SMTP_LOGIN", env_value: "", desc: "SMTP username"}
