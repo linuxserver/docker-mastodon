@@ -312,7 +312,7 @@ libopenmpt                        0.7.2-r0                apk
 libpciaccess                      0.17-r2                 apk           
 libplacebo                        5.264.1-r1              apk           
 libpng                            1.6.39-r3               apk           
-libpq                             15.4-r0                 apk           
+libpq                             15.5-r0                 apk           
 libproc2                          4.0.4-r0                apk           
 libpulse                          16.1-r10                apk           
 libraw                            0.21.1-r1               apk           
