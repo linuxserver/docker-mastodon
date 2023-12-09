@@ -26,7 +26,7 @@ agent-base                        6.0.2                   npm
 alpine-baselayout                 3.4.3-r1                apk           
 alpine-baselayout-data            3.4.3-r1                apk           
 alpine-keys                       2.4-r1                  apk           
-alpine-release                    3.18.4-r0               apk           
+alpine-release                    3.18.5-r0               apk           
 alsa-lib                          1.2.9-r1                apk           
 android_key_attestation           0.3.0                   gem           
 ansi-regex                        5.0.1                   npm           
@@ -659,7 +659,7 @@ whatwg-mimetype                   3.0.0                   npm
 whatwg-url                        12.0.1                  npm           
 wide-align                        1.1.5                   npm           
 wisper                            2.0.1                   gem           
-ws                                8.14.2                  npm           
+ws                                8.15.0                  npm           
 x264-libs                         0.164_git20220602-r1    apk           
 x265-libs                         3.5-r4                  apk           
 xml-name-validator                4.0.0                   npm           
