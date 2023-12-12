@@ -110,7 +110,7 @@ css_parser                        1.14.0                  gem
 cssstyle                          3.0.0                   npm           
 csv                               3.2.6                   gem           
 cups-libs                         2.4.7-r0                apk           
-curl                              8.4.0-r0                apk           
+curl                              8.5.0-r0                apk           
 data-urls                         4.0.0                   npm           
 date                              3.3.3                   gem           
 dbus-libs                         1.14.8-r0               apk           
@@ -264,7 +264,7 @@ is-fullwidth-code-point           3.0.0                   npm
 is-potential-custom-element-name  1.0.1                   npm           
 jbig2dec                          0.19-r3                 apk           
 jmespath                          1.6.2                   gem           
-jq                                1.6-r3                  apk           
+jq                                1.6-r4                  apk           
 jsdom                             22.1.0                  npm           
 json                              2.6.3                   gem           
 json-canonicalization             1.0.0                   gem           
@@ -290,7 +290,7 @@ libbsd                            0.11.7-r1               apk
 libbz2                            1.0.8-r5                apk           
 libc-utils                        0.7.2-r5                apk           
 libcrypto3                        3.1.4-r1                apk           
-libcurl                           8.4.0-r0                apk           
+libcurl                           8.5.0-r0                apk           
 libdav1d                          1.2.1-r0                apk           
 libde265                          1.0.12-r0               apk           
 libdrm                            2.4.115-r4              apk           
@@ -486,7 +486,7 @@ psych                             5.0.1                   gem
 psych                             5.1.1                   gem           
 public_suffix                     5.0.3                   gem           
 puma                              6.4.0                   gem           
-pundit                            2.3.0                   gem           
+pundit                            2.3.1                   gem           
 punycode                          2.3.1                   npm           
 qs                                6.11.0                  npm           
 querystringify                    2.2.0                   npm           
