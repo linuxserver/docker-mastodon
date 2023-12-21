@@ -2,8 +2,9 @@
 # shellcheck shell=bash
 
 export NODE_ENV=production
+export HOME=/config
 export PATH="${PATH}:/app/www/bin"
 
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 4000" \
-    cd /app/www s6-setuidgid abc node ./streaming
+    cd /app/www s6-setuidgid abc yarn workspace @mastodon/streaming start
