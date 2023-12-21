@@ -509,7 +509,7 @@ raw-body                          2.5.1                   npm
 rdf                               3.3.1                   gem           
 rdf-normalize                     0.6.1                   gem           
 rdoc                              6.5.0                   gem           
-readable-stream                   4.4.2                   npm           
+readable-stream                   4.5.1                   npm           
 readline                          0.0.3                   gem           
 readline                          8.2.1-r1                apk           
 readline-ext                      0.1.5                   gem           
