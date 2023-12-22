@@ -68,7 +68,7 @@ bcp47_spec                        0.2.1                  gem
 bcrypt                            3.1.20                 gem           
 benchmark                         0.2.1                  gem           
 bigdecimal                        3.1.3                  gem           
-bigdecimal                        3.1.4                  gem           
+bigdecimal                        3.1.5                  gem           
 bindata                           2.4.15                 gem           
 bintrees                          1.0.2                  npm           
 blurhash                          0.1.7                  gem           
@@ -96,7 +96,7 @@ case_transform                    0.2                    gem
 cbor                              0.5.9.6                gem           
 cgi                               0.3.6                  gem           
 charlock_holmes                   0.7.7                  gem           
-chewy                             7.3.5                  gem           
+chewy                             7.4.0                  gem           
 chownr                            2.0.0                  npm           
 chunky_png                        1.4.0                  gem           
 cjson                             1.7.16-r1              apk           
@@ -245,7 +245,7 @@ gmp                               6.3.0-r0               apk
 gopd                              1.0.1                  npm           
 graceful-fs                       4.2.11                 npm           
 graphite2                         1.3.14-r6              apk           
-haml                              6.2.0                  gem           
+haml                              6.3.0                  gem           
 haml-rails                        2.1.0                  gem           
 harfbuzz                          8.3.0-r0               apk           
 has-property-descriptors          1.0.0                  npm           
@@ -305,7 +305,7 @@ jmespath                          1.6.2                  gem
 jq                                1.7.1-r0               apk           
 jsdom                             23.0.1                 npm           
 json                              2.6.3                  gem           
-json                              2.7.0                  gem           
+json                              2.7.1                  gem           
 json-canonicalization             1.0.0                  gem           
 json-jwt                          1.15.3                 gem           
 json-ld                           3.3.1                  gem           
@@ -537,7 +537,7 @@ private_address_check             0.5.0                  gem
 proc-log                          3.0.0                  npm           
 process                           0.11.10                npm           
 procps-ng                         4.0.4-r0               apk           
-prom-client                       15.0.0                 npm           
+prom-client                       15.1.0                 npm           
 promise-retry                     2.0.1                  npm           
 propshaft                         0.8.0                  gem           
 proxy-addr                        2.0.7                  npm           
@@ -737,7 +737,7 @@ wide-align                        1.1.5                  npm
 wisper                            2.0.1                  gem           
 wrap-ansi                         7.0.0                  npm           
 wrap-ansi                         8.1.0                  npm           
-ws                                8.15.0                 npm           
+ws                                8.15.1                 npm           
 x264-libs                         0.164_git20231001-r0   apk           
 x265-libs                         3.5-r4                 apk           
 xml-name-validator                5.0.0                  npm           
