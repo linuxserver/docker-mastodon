@@ -73,7 +73,7 @@ param_ports:
 
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
 
 # application setup block
 app_setup_block_enabled: true
@@ -114,6 +114,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19 with php 8.3."}
   - { date: "21.09.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3." }
   - { date: "25.05.23:", desc: "Adjust apk flags." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
