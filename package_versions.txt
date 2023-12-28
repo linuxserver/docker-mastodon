@@ -93,6 +93,7 @@ cocoon                            1.2.15                  gem
 color-support                     1.1.3                   npm           
 color_diff                        0.1                     gem           
 combined-stream                   1.0.8                   npm           
+composer                          2.6.6                   binary        
 concurrent-ruby                   1.2.2                   gem           
 concurrent_ruby                                           java-archive  
 connection_pool                   2.4.1                   gem           
@@ -509,7 +510,7 @@ raw-body                          2.5.1                   npm
 rdf                               3.3.1                   gem           
 rdf-normalize                     0.6.1                   gem           
 rdoc                              6.5.0                   gem           
-readable-stream                   4.5.1                   npm           
+readable-stream                   4.5.2                   npm           
 readline                          0.0.3                   gem           
 readline                          8.2.1-r1                apk           
 readline-ext                      0.1.5                   gem           
@@ -651,7 +652,7 @@ whatwg-mimetype                   3.0.0                   npm
 whatwg-url                        12.0.1                  npm           
 wide-align                        1.1.5                   npm           
 wisper                            2.0.1                   gem           
-ws                                8.15.1                  npm           
+ws                                8.16.0                  npm           
 x264-libs                         0.164_git20220602-r1    apk           
 x265-libs                         3.5-r4                  apk           
 xml-name-validator                4.0.0                   npm           
