@@ -414,8 +414,8 @@ methods                           1.1.2                  npm
 mime                              1.6.0                  npm           
 mime-db                           1.52.0                 npm           
 mime-types                        2.1.35                 npm           
-mime-types                        3.5.1                  gem           
-mime-types-data                   3.2023.1003            gem           
+mime-types                        3.5.2                  gem           
+mime-types-data                   3.2023.1205            gem           
 mini_mime                         1.1.5                  gem           
 minimatch                         9.0.3                  npm           
 minipass                          3.3.6                  npm           
