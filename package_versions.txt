@@ -5,7 +5,6 @@ NAME                              VERSION                 TYPE
 @tootallnate/once                 2.0.0                   npm           
 abab                              2.0.6                   npm           
 abbrev                            0.1.1                   gem           
-abort-controller                  3.0.0                   npm           
 accepts                           1.3.8                   npm           
 actioncable                       7.0.8                   gem           
 actionmailbox                     7.0.8                   gem           
@@ -35,7 +34,7 @@ apk-tools                         2.14.0-r2               apk
 apr                               1.7.4-r0                apk           
 apr-util                          1.6.3-r1                apk           
 aproba                            2.0.0                   npm           
-are-we-there-yet                  4.0.1                   npm           
+are-we-there-yet                  4.0.2                   npm           
 argon2-libs                       20190702-r4             apk           
 array-flatten                     1.1.1                   npm           
 asynckit                          0.4.0                   npm           
@@ -52,7 +51,6 @@ aws-sigv4                         1.6.0                   gem
 azure-storage-blob                2.0.3                   gem           
 azure-storage-common              2.0.4                   gem           
 base64                            0.1.1                   gem           
-base64-js                         1.5.1                   npm           
 bash                              5.2.15-r5               apk           
 bcp47_spec                        0.2.1                   gem           
 bcrypt                            3.1.18                  gem           
@@ -66,7 +64,6 @@ bootsnap                          1.16.0                  gem
 brotli-libs                       1.0.9-r14               apk           
 browser                           5.3.1                   gem           
 brpoplpush-redis_script           0.1.3                   gem           
-buffer                            6.0.3                   npm           
 buffer-writer                     2.0.0                   npm           
 builder                           3.2.4                   gem           
 bundler                           2.4.13                  gem           
@@ -119,7 +116,6 @@ decimal.js                        10.4.3                  npm
 define-data-property              1.1.1                   npm           
 delayed-stream                    1.0.0                   npm           
 delegate                          0.3.0                   gem           
-delegates                         1.0.0                   npm           
 denque                            2.1.0                   npm           
 depd                              2.0.0                   npm           
 destroy                           1.2.0                   npm           
@@ -154,8 +150,6 @@ escape-html                       1.0.3                   npm
 et-orbi                           1.2.7                   gem           
 etag                              1.8.1                   npm           
 etc                               1.4.2                   gem           
-event-target-shim                 5.0.1                   npm           
-events                            3.3.0                   npm           
 excon                             0.100.0                 gem           
 express                           4.18.2                  npm           
 faraday                           1.10.3                  gem           
@@ -246,7 +240,6 @@ iconv-lite                        0.6.3                   npm
 icu-data-en                       73.2-r2                 apk           
 icu-libs                          73.2-r2                 apk           
 idn-ruby                          0.1.5                   gem           
-ieee754                           1.2.1                   npm           
 imagemagick                       7.1.1.13-r1             apk           
 imagemagick-libs                  7.1.1.13-r1             apk           
 inherits                          2.0.4                   npm           
@@ -475,7 +468,6 @@ premailer                         1.21.0                  gem
 premailer-rails                   1.12.0                  gem           
 prettyprint                       0.1.1                   gem           
 private_address_check             0.5.0                   gem           
-process                           0.11.10                 npm           
 procps-ng                         4.0.4-r0                apk           
 prom-client                       14.2.0                  npm           
 proxy-addr                        2.0.7                   npm           
@@ -510,7 +502,6 @@ raw-body                          2.5.1                   npm
 rdf                               3.3.1                   gem           
 rdf-normalize                     0.6.1                   gem           
 rdoc                              6.5.0                   gem           
-readable-stream                   4.5.2                   npm           
 readline                          0.0.3                   gem           
 readline                          8.2.1-r1                apk           
 readline-ext                      0.1.5                   gem           
@@ -583,7 +574,6 @@ statsd-ruby                       1.5.0                   gem
 statuses                          2.0.1                   npm           
 stoplight                         3.0.2                   gem           
 string-width                      4.2.3                   npm           
-string_decoder                    1.3.0                   npm           
 stringio                          3.0.4                   gem           
 strip-ansi                        6.0.1                   npm           
 strong_migrations                 0.8.0                   gem           
@@ -617,7 +607,7 @@ tty-reader                        0.9.0                   gem
 tty-screen                        0.8.1                   gem           
 twitter-text                      3.1.0                   gem           
 type-is                           1.6.18                  npm           
-tzdata                            2023c-r1                apk           
+tzdata                            2023d-r0                apk           
 tzinfo                            2.0.6                   gem           
 tzinfo-data                       1.2023.3                gem           
 un                                0.2.1                   gem           
