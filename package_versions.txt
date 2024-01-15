@@ -101,7 +101,7 @@ charlock_holmes                   0.7.7                  gem
 chewy                             7.4.0                  gem           
 chownr                            2.0.0                  npm           
 chunky_png                        1.4.0                  gem           
-cjson                             1.7.16-r1              apk           
+cjson                             1.7.17-r0              apk           
 clean-stack                       2.2.0                  npm           
 climate_control                   0.2.0                  gem           
 cluster-key-slot                  1.1.2                  npm           
