@@ -1,5 +1,4 @@
 NAME                              VERSION                TYPE         
-@asamuzakjp/dom-selector          2.0.1                  npm           
 @ioredis/commands                 1.2.0                  npm           
 @isaacs/cliui                     8.0.2                  npm           
 @npmcli/agent                     2.2.0                  npm           
@@ -46,13 +45,12 @@ apache2-utils                     2.4.58-r1              apk
 apk-tools                         2.14.0-r5              apk           
 apr                               1.7.4-r0               apk           
 apr-util                          1.6.3-r1               apk           
-aproba                            2.0.0                  npm           
-are-we-there-yet                  4.0.0                  npm           
 arg_enum_proc_macro               0.3.2                  rust-crate    
 argon2-libs                       20190702-r5            apk           
 array-flatten                     1.1.1                  npm           
 arrayvec                          0.7.2                  rust-crate    
 asynckit                          0.4.0                  npm           
+atomic-sleep                      1.0.0                  npm           
 attr_encrypted                    4.0.0                  gem           
 attr_required                     1.0.1                  gem           
 av-metrics                        0.9.0                  rust-crate    
@@ -74,9 +72,8 @@ bash                              5.2.21-r0              apk
 bcp47_spec                        0.2.1                  gem           
 bcrypt                            3.1.20                 gem           
 benchmark                         0.2.1                  gem           
-bidi-js                           1.0.3                  npm           
 bigdecimal                        3.1.3                  gem           
-bigdecimal                        3.1.5                  gem           
+bigdecimal                        3.1.6                  gem           
 bindata                           2.4.15                 gem           
 bintrees                          1.0.2                  npm           
 bitflags                          1.3.2                  rust-crate    
@@ -124,7 +121,6 @@ cluster-key-slot                  1.1.2                  npm
 cocoon                            1.2.15                 gem           
 color-convert                     2.0.1                  npm           
 color-name                        1.1.4                  npm           
-color-support                     1.1.3                  npm           
 color_diff                        0.1                    gem           
 combined-stream                   1.0.8                  npm           
 composer                          2.6.6                  binary        
@@ -132,7 +128,6 @@ concurrent-ruby                   1.2.3                  gem
 concurrent_ruby                                          java-archive  
 connection_pool                   2.4.1                  gem           
 console                           0.15.5                 rust-crate    
-console-control-strings           1.1.0                  npm           
 content-disposition               0.5.4                  npm           
 content-type                      1.0.5                  npm           
 cookie                            0.5.0                  npm           
@@ -154,7 +149,6 @@ crossbeam-deque                   0.8.3                  rust-crate
 crossbeam-epoch                   0.9.14                 rust-crate    
 crossbeam-queue                   0.3.8                  rust-crate    
 crossbeam-utils                   0.8.15                 rust-crate    
-css-tree                          2.3.1                  npm           
 css_parser                        1.14.0                 gem           
 cssstyle                          4.0.1                  npm           
 csv                               3.2.6                  gem           
@@ -170,7 +164,6 @@ decimal.js                        10.4.3                 npm
 define-data-property              1.1.1                  npm           
 delayed-stream                    1.0.0                  npm           
 delegate                          0.3.0                  gem           
-delegates                         1.0.0                  npm           
 denque                            2.1.0                  npm           
 depd                              2.0.0                  npm           
 destroy                           1.2.0                  npm           
@@ -182,7 +175,7 @@ discard                           1.3.0                  gem
 dolby_vision                      3.2.0                  rust-crate    
 domain_name                       0.5.20190701           gem           
 doorkeeper                        5.6.8                  gem           
-dotenv                            16.3.1                 npm           
+dotenv                            16.3.2                 npm           
 dotenv                            2.8.1                  gem           
 dotenv-rails                      2.8.1                  gem           
 drb                               2.1.1                  gem           
@@ -229,21 +222,22 @@ faraday-patron                    1.0.0                  gem
 faraday-rack                      1.0.0                  gem           
 faraday-retry                     1.0.3                  gem           
 faraday_middleware                1.2.0                  gem           
+fast-redact                       3.3.0                  npm           
 fast_blank                        1.0.1                  gem           
 fastimage                         2.3.0                  gem           
 fcntl                             1.0.2                  gem           
 fern                              0.6.2                  rust-crate    
 ffi                               1.15.5                 gem           
 ffi-compiler                      1.0.1                  gem           
-ffmpeg                            6.1-r1                 apk           
-ffmpeg-libavcodec                 6.1-r1                 apk           
-ffmpeg-libavdevice                6.1-r1                 apk           
-ffmpeg-libavfilter                6.1-r1                 apk           
-ffmpeg-libavformat                6.1-r1                 apk           
-ffmpeg-libavutil                  6.1-r1                 apk           
-ffmpeg-libpostproc                6.1-r1                 apk           
-ffmpeg-libswresample              6.1-r1                 apk           
-ffmpeg-libswscale                 6.1-r1                 apk           
+ffmpeg                            6.1.1-r0               apk           
+ffmpeg-libavcodec                 6.1.1-r0               apk           
+ffmpeg-libavdevice                6.1.1-r0               apk           
+ffmpeg-libavfilter                6.1.1-r0               apk           
+ffmpeg-libavformat                6.1.1-r0               apk           
+ffmpeg-libavutil                  6.1.1-r0               apk           
+ffmpeg-libpostproc                6.1.1-r0               apk           
+ffmpeg-libswresample              6.1.1-r0               apk           
+ffmpeg-libswscale                 6.1.1-r0               apk           
 fftw-double-libs                  3.3.10-r5              apk           
 fiddle                            1.1.1                  gem           
 file                              5.45-r1                apk           
@@ -267,12 +261,12 @@ fs-minipass                       3.0.3                  npm
 fugit                             1.8.1                  gem           
 function-bind                     1.1.2                  npm           
 funty                             2.0.0                  rust-crate    
-gauge                             5.0.1                  npm           
+get-caller-file                   2.0.5                  npm           
 get-intrinsic                     1.2.2                  npm           
 getoptlong                        0.2.0                  gem           
 getrandom                         0.2.9                  rust-crate    
 git                               2.43.0-r0              apk           
-glib                              2.78.3-r0              apk           
+glib                              2.78.4-r0              apk           
 glob                              10.3.10                npm           
 globalid                          1.2.1                  gem           
 glslang-libs                      1.3.261.1-r0           apk           
@@ -286,7 +280,6 @@ harfbuzz                          8.3.0-r0               apk
 has-property-descriptors          1.0.0                  npm           
 has-proto                         1.0.1                  npm           
 has-symbols                       1.0.3                  npm           
-has-unicode                       2.0.1                  npm           
 hashie                            5.0.0                  gem           
 hasown                            2.0.0                  npm           
 hcaptcha                          7.1.0                  gem           
@@ -345,7 +338,7 @@ ivf                               0.1.2                  rust-crate
 jackspeak                         2.3.6                  npm           
 jmespath                          1.6.2                  gem           
 jq                                1.7.1-r0               apk           
-jsdom                             23.2.0                 npm           
+jsdom                             24.0.0                 npm           
 json                              2.6.3                  gem           
 json                              2.7.1                  gem           
 json-canonicalization             1.0.0                  gem           
@@ -358,7 +351,7 @@ kaminari                          1.2.2                  gem
 kaminari-actionview               1.2.2                  gem           
 kaminari-activerecord             1.2.2                  gem           
 kaminari-core                     1.2.2                  gem           
-kt-paperclip                      7.2.1                  gem           
+kt-paperclip                      7.2.2                  gem           
 lab                               0.11.0                 rust-crate    
 lame-libs                         3.100-r5               apk           
 lazy_static                       1.4.0                  rust-crate    
@@ -456,7 +449,6 @@ mario-redis-lock                  1.2.1                  gem
 maybe-rayon                       0.1.1                  rust-crate    
 mbedtls                           2.28.6-r0              apk           
 md-paperclip-azure                2.2.0                  gem           
-mdn-data                          2.0.30                 npm           
 media-typer                       0.3.0                  npm           
 memchr                            2.5.0                  rust-crate    
 memoffset                         0.8.0                  rust-crate    
@@ -517,7 +509,6 @@ nokogiri                          1.16.0                 gem
 nom                               7.1.3                  rust-crate    
 noop_proc_macro                   0.3.0                  rust-crate    
 nopt                              7.2.0                  npm           
-npmlog                            7.0.1                  npm           
 num-bigint                        0.4.3                  rust-crate    
 num-derive                        0.3.3                  rust-crate    
 num-integer                       0.1.45                 rust-crate    
@@ -525,6 +516,7 @@ num-rational                      0.4.1                  rust-crate
 num-traits                        0.2.15                 rust-crate    
 num_cpus                          1.15.0                 rust-crate    
 numactl                           2.0.16-r4              apk           
+nwsapi                            2.2.7                  npm           
 object-assign                     4.1.1                  npm           
 object-inspect                    1.13.1                 npm           
 observer                          0.1.1                  gem           
@@ -534,6 +526,7 @@ omniauth-cas                      3.0.0.beta.1           gem
 omniauth-rails_csrf_protection    1.0.1                  gem           
 omniauth-saml                     2.1.0                  gem           
 omniauth_openid_connect           0.6.1                  gem           
+on-exit-leak-free                 2.1.2                  npm           
 on-finished                       2.4.1                  npm           
 once_cell                         1.17.1                 rust-crate    
 onevpl-libs                       2023.3.1-r2            apk           
@@ -590,6 +583,10 @@ php83-simplexml                   8.3.2-r0               apk
 php83-xml                         8.3.2-r0               apk           
 php83-xmlwriter                   8.3.2-r0               apk           
 php83-zip                         8.3.2-r0               apk           
+pino                              8.17.2                 npm           
+pino-abstract-transport           1.1.0                  npm           
+pino-http                         9.0.0                  npm           
+pino-std-serializers              6.2.2                  npm           
 popt                              1.19-r3                apk           
 posix-spawn                       0.3.15                 gem           
 postgres-array                    2.0.0                  npm           
@@ -607,6 +604,7 @@ proc-macro-error                  1.0.4                  rust-crate
 proc-macro-error-attr             1.0.4                  rust-crate    
 proc-macro2                       1.0.57                 rust-crate    
 process                           0.11.10                npm           
+process-warning                   3.0.0                  npm           
 procps-ng                         4.0.4-r0               apk           
 prom-client                       15.1.0                 npm           
 promise-retry                     2.0.1                  npm           
@@ -622,6 +620,7 @@ pundit                            2.3.1                  gem
 punycode                          2.3.1                  npm           
 qs                                6.11.0                 npm           
 querystringify                    2.2.0                  npm           
+quick-format-unescaped            4.0.4                  npm           
 quote                             1.0.27                 rust-crate    
 raabro                            1.4.0                  gem           
 racc                              1.6.2                  gem           
@@ -653,13 +652,14 @@ raw-body                          2.5.1                  npm
 rayon                             1.7.0                  rust-crate    
 rayon-core                        1.11.0                 rust-crate    
 rdf                               3.3.1                  gem           
-rdf-normalize                     0.6.1                  gem           
+rdf-normalize                     0.7.0                  gem           
 rdoc                              6.5.0                  gem           
 rdoc                              6.6.2                  gem           
-readable-stream                   4.4.0                  npm           
+readable-stream                   4.4.2                  npm           
 readline                          0.0.3                  gem           
 readline                          8.2.1-r2               apk           
 readline-ext                      0.1.5                  gem           
+real-require                      0.2.0                  npm           
 redcarpet                         3.6.0                  gem           
 redis                             4.8.1                  gem           
 redis-errors                      1.2.0                  npm           
@@ -669,7 +669,6 @@ redlock                           1.3.2                  gem
 reline                            0.3.2                  gem           
 reline                            0.4.2                  gem           
 request_store                     1.5.1                  gem           
-require-from-string               2.0.2                  npm           
 requires-port                     1.0.0                  npm           
 resolv                            0.2.2                  gem           
 resolv-replace                    0.1.1                  gem           
@@ -695,6 +694,7 @@ rust_hawktracer_normal_macro      0.4.1                  rust-crate
 rust_hawktracer_proc_macro        0.4.1                  rust-crate    
 rustix                            0.37.19                rust-crate    
 safe-buffer                       5.2.1                  npm           
+safe-stable-stringify             2.4.3                  npm           
 safer-buffer                      2.1.2                  npm           
 safety_net_attestation            0.4.0                  gem           
 sanitize                          6.1.0                  gem           
@@ -713,7 +713,6 @@ serde                             1.0.163                rust-crate
 serde_derive                      1.0.163                rust-crate    
 serve-static                      1.15.0                 npm           
 set                               1.0.3                  gem           
-set-blocking                      2.0.0                  npm           
 set-function-length               1.1.1                  npm           
 setprototypeof                    1.2.0                  npm           
 shaderc                           2023.7-r0              apk           
@@ -737,8 +736,8 @@ skalibs                           2.14.0.1-r0            apk
 smart-buffer                      4.2.0                  npm           
 socks                             2.7.1                  npm           
 socks-proxy-agent                 8.0.2                  npm           
+sonic-boom                        3.7.0                  npm           
 sord-libs                         0.16.16-r0             apk           
-source-map-js                     1.0.2                  npm           
 soxr                              0.1.3-r7               apk           
 speexdsp                          1.2.1-r2               apk           
 spirv-tools                       1.3.261.1-r0           apk           
@@ -752,6 +751,7 @@ statuses                          2.0.1                  npm
 stoplight                         3.0.2                  gem           
 string-width                      4.2.3                  npm           
 string-width                      5.1.2                  npm           
+string_decoder                    1.3.0                  npm           
 stringio                          3.0.4                  gem           
 stringio                          3.1.0                  gem           
 strip-ansi                        6.0.1                  npm           
@@ -776,6 +776,7 @@ terrapin                          0.6.0                  gem
 thiserror                         1.0.40                 rust-crate    
 thiserror-impl                    1.0.40                 rust-crate    
 thor                              1.3.0                  gem           
+thread-stream                     2.4.1                  npm           
 tilt                              2.3.0                  gem           
 time                              0.2.2                  gem           
 timeout                           0.3.1                  gem           
@@ -785,6 +786,7 @@ toidentifier                      1.0.1                  npm
 tough-cookie                      4.1.3                  npm           
 tpm-key_attestation               0.12.0                 gem           
 tr46                              5.0.0                  npm           
+transport                         0.0.1                  npm           
 tsort                             0.1.1                  gem           
 tty-color                         0.6.0                  gem           
 tty-cursor                        0.7.1                  gem           
@@ -835,7 +837,6 @@ whatwg-mimetype                   4.0.0                  npm
 whatwg-url                        14.0.0                 npm           
 which                             2.0.2                  npm           
 which                             4.0.0                  npm           
-wide-align                        1.1.5                  npm           
 wisper                            2.0.1                  gem           
 wrap-ansi                         7.0.0                  npm           
 wrap-ansi                         8.1.0                  npm           
@@ -856,6 +857,6 @@ yaml                              0.2.5-r2               apk
 zeitwerk                          2.6.12                 gem           
 zimg                              3.0.5-r2               apk           
 zix-libs                          0.4.2-r0               apk           
-zlib                              1.3-r2                 apk           
+zlib                              1.3.1-r0               apk           
 zlib                              3.0.0                  gem           
 zstd-libs                         1.5.5-r8               apk           
