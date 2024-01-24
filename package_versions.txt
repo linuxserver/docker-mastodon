@@ -127,7 +127,7 @@ discard                           1.2.1                   gem
 domain_name                       0.5.20190701            gem           
 domexception                      4.0.0                   npm           
 doorkeeper                        5.6.6                   gem           
-dotenv                            16.3.1                  npm           
+dotenv                            16.4.0                  npm           
 dotenv                            2.8.1                   gem           
 dotenv-rails                      2.8.1                   gem           
 drb                               2.1.1                   gem           
@@ -390,7 +390,7 @@ netcat-openbsd                    1.219-r1                apk
 nettle                            3.8.1-r2                apk           
 nghttp2-libs                      1.57.0-r0               apk           
 nginx                             1.24.0-r7               apk           
-nio4r                             2.5.9                   gem           
+nio4r                             2.7.0                   gem           
 nkf                               0.1.2                   gem           
 nodejs                            18.18.2-r0              apk           
 nokogiri                          1.15.4                  gem           
@@ -475,7 +475,7 @@ psl                               1.9.0                   npm
 pstore                            0.1.2                   gem           
 psych                             5.0.1                   gem           
 public_suffix                     5.0.3                   gem           
-puma                              6.3.1                   gem           
+puma                              6.4.2                   gem           
 pundit                            2.3.0                   gem           
 punycode                          2.3.1                   npm           
 qs                                6.11.0                  npm           
