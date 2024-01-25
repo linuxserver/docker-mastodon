@@ -127,7 +127,7 @@ discard                           1.2.1                   gem
 domain_name                       0.5.20190701            gem           
 domexception                      4.0.0                   npm           
 doorkeeper                        5.6.6                   gem           
-dotenv                            16.4.0                  npm           
+dotenv                            16.4.1                  npm           
 dotenv                            2.8.1                   gem           
 dotenv-rails                      2.8.1                   gem           
 drb                               2.1.1                   gem           
