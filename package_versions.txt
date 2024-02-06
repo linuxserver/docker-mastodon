@@ -83,7 +83,7 @@ bitvec                            1.0.1                  rust-crate
 bitvec_helpers                    3.1.2                  rust-crate    
 blurhash                          0.1.7                  gem           
 body-parser                       1.20.1                 npm           
-bootsnap                          1.17.1                 gem           
+bootsnap                          1.18.3                 gem           
 brace-expansion                   2.0.1                  npm           
 brotli-libs                       1.1.0-r1               apk           
 browser                           5.3.1                  gem           
@@ -107,7 +107,7 @@ cbor                              0.5.9.6                gem
 cfg-if                            1.0.0                  rust-crate    
 cgi                               0.3.6                  gem           
 charlock_holmes                   0.7.7                  gem           
-chewy                             7.5.0                  gem           
+chewy                             7.5.1                  gem           
 chownr                            2.0.0                  npm           
 chunky_png                        1.4.0                  gem           
 cjson                             1.7.17-r0              apk           
@@ -505,10 +505,11 @@ nkf                               0.1.2                  gem
 node-gyp                          10.0.1                 npm           
 node-gyp-build                    4.6.1                  npm           
 nodejs                            20.11.0-r0             apk           
-nokogiri                          1.16.0                 gem           
+nokogiri                          1.16.2                 gem           
 nom                               7.1.3                  rust-crate    
 noop_proc_macro                   0.3.0                  rust-crate    
 nopt                              7.2.0                  npm           
+nsa                               0.3.0                  gem           
 num-bigint                        0.4.3                  rust-crate    
 num-derive                        0.3.3                  rust-crate    
 num-integer                       0.1.45                 rust-crate    
@@ -797,7 +798,7 @@ twitter-text                      3.1.0                  gem
 type-is                           1.6.18                 npm           
 tzdata                            2023d-r0               apk           
 tzinfo                            2.0.6                  gem           
-tzinfo-data                       1.2023.4               gem           
+tzinfo-data                       1.2024.1               gem           
 un                                0.2.1                  gem           
 unf                               0.1.4                  gem           
 unf_ext                           0.0.8.2                gem           
