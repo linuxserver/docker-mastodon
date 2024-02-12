@@ -123,7 +123,7 @@ color-convert                     2.0.1                  npm
 color-name                        1.1.4                  npm           
 color_diff                        0.1                    gem           
 combined-stream                   1.0.8                  npm           
-composer                          2.6.6                  binary        
+composer                          2.7.0                  binary        
 concurrent-ruby                   1.2.3                  gem           
 concurrent_ruby                                          java-archive  
 connection_pool                   2.4.1                  gem           
@@ -396,7 +396,7 @@ libopenmpt                        0.7.3-r1               apk
 libpciaccess                      0.17-r2                apk           
 libplacebo                        6.338.1-r0             apk           
 libpng                            1.6.40-r0              apk           
-libpq                             16.1-r0                apk           
+libpq                             16.2-r0                apk           
 libproc2                          4.0.4-r0               apk           
 libpulse                          16.1-r11               apk           
 librist                           0.2.10-r0              apk           
@@ -796,7 +796,7 @@ tty-reader                        0.9.0                  gem
 tty-screen                        0.8.1                  gem           
 twitter-text                      3.1.0                  gem           
 type-is                           1.6.18                 npm           
-tzdata                            2023d-r0               apk           
+tzdata                            2024a-r0               apk           
 tzinfo                            2.0.6                  gem           
 tzinfo-data                       1.2024.1               gem           
 un                                0.2.1                  gem           
