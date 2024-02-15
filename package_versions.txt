@@ -394,7 +394,7 @@ nghttp2-libs                      1.57.0-r0               apk
 nginx                             1.24.0-r7               apk           
 nio4r                             2.7.0                   gem           
 nkf                               0.1.2                   gem           
-nodejs                            18.18.2-r0              apk           
+nodejs                            18.19.1-r0              apk           
 nokogiri                          1.16.2                  gem           
 npmlog                            7.0.1                   npm           
 numactl                           2.0.16-r4               apk           
