@@ -297,7 +297,7 @@ http-form_data                    2.3.0                  gem
 http-proxy-agent                  7.0.0                  npm           
 http_accept_language              2.1.1                  gem           
 httpclient                        2.8.3                  gem           
-httplog                           1.6.2                  gem           
+httplog                           1.6.3                  gem           
 https-proxy-agent                 7.0.2                  npm           
 hwdata-pci                        0.377.2-r0             apk           
 i18n                              1.14.1                 gem           
