@@ -82,7 +82,7 @@ bitstream-io                      1.7.0                  rust-crate
 bitvec                            1.0.1                  rust-crate                     
 bitvec_helpers                    3.1.2                  rust-crate                     
 blurhash                          0.1.7                  gem                            
-body-parser                       1.20.1                 npm                            
+body-parser                       1.20.2                 npm                            
 bootsnap                          1.18.3                 gem                            
 brace-expansion                   2.0.1                  npm                            
 brotli-libs                       1.1.0-r1               apk                            
@@ -209,7 +209,7 @@ event-target-shim                 5.0.1                  npm
 events                            3.3.0                  npm                            
 excon                             0.109.0                gem                            
 exponential-backoff               3.1.1                  npm                            
-express                           4.18.2                 npm                            
+express                           4.18.3                 npm                            
 faraday                           1.10.3                 gem                            
 faraday-em_http                   1.0.0                  gem                            
 faraday-em_synchrony              1.0.0                  gem                            
@@ -649,7 +649,7 @@ rand_core                         0.6.4                  rust-crate
 range-parser                      1.2.1                  npm                            
 rav1e                             0.6.6                  rust-crate                     
 rav1e-libs                        0.6.6-r2               apk                            
-raw-body                          2.5.1                  npm                            
+raw-body                          2.5.2                  npm                            
 rayon                             1.7.0                  rust-crate                     
 rayon-core                        1.11.0                 rust-crate                     
 rdf                               3.3.1                  gem                            
