@@ -344,7 +344,7 @@ jsdom                             24.0.0                 npm
 json                              2.6.3                  gem                            
 json                              2.7.1                  gem                            
 json-canonicalization             1.0.0                  gem                            
-json-jwt                          1.15.3                 gem                            
+json-jwt                          1.15.3.1               gem                            
 json-ld                           3.3.1                  gem                            
 json-ld-preloaded                 3.3.0                  gem                            
 jsonapi-renderer                  0.2.2                  gem                            
