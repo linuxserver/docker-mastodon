@@ -524,8 +524,8 @@ object-assign                     4.1.1                  npm
 object-inspect                    1.13.1                 npm                            
 observer                          0.1.1                  gem                            
 oj                                3.16.3                 gem                            
-omniauth                          2.1.1                  gem                            
-omniauth-cas                      3.0.0.beta.1           gem                            
+omniauth                          2.1.2                  gem                            
+omniauth-cas                      3.0.0                  gem                            
 omniauth-rails_csrf_protection    1.0.1                  gem                            
 omniauth-saml                     2.1.0                  gem                            
 omniauth_openid_connect           0.6.1                  gem                            
@@ -561,7 +561,7 @@ path-to-regexp                    0.1.7                  npm
 pathname                          0.2.1                  gem                            
 pcre                              8.45-r3                apk                            
 pcre2                             10.42-r2               apk                            
-pg                                1.5.5                  gem                            
+pg                                1.5.6                  gem                            
 pg                                8.11.3                 npm                            
 pg-cloudflare                     1.1.1                  npm                            
 pg-connection-string              2.6.2                  npm                            
@@ -632,7 +632,7 @@ rack                              2.2.8.1                gem
 rack-attack                       6.7.0                  gem                            
 rack-cors                         2.0.2                  gem                            
 rack-oauth2                       1.21.3                 gem                            
-rack-protection                   3.0.5                  gem                            
+rack-protection                   3.2.0                  gem                            
 rack-proxy                        0.7.6                  gem                            
 rack-session                      1.0.2                  gem                            
 rack-test                         2.1.0                  gem                            
