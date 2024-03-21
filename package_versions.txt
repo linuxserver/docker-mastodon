@@ -90,14 +90,14 @@ cocoon                            1.2.15                  gem
 color-support                     1.1.3                   npm                            
 color_diff                        0.1                     gem                            
 combined-stream                   1.0.8                   npm                            
-composer                          2.7.1                   binary                         
+composer                          2.7.2                   binary                         
 concurrent-ruby                   1.2.3                   gem                            
 concurrent_ruby                                           java-archive                   
 connection_pool                   2.4.1                   gem                            
 console-control-strings           1.1.0                   npm                            
 content-disposition               0.5.4                   npm                            
 content-type                      1.0.5                   npm                            
-cookie                            0.5.0                   npm                            
+cookie                            0.6.0                   npm                            
 cookie-signature                  1.0.6                   npm                            
 coreutils                         9.3-r2                  apk                            
 cose                              1.3.0                   gem                            
@@ -154,7 +154,7 @@ et-orbi                           1.2.7                   gem
 etag                              1.8.1                   npm                            
 etc                               1.4.2                   gem                            
 excon                             0.100.0                 gem                            
-express                           4.18.3                  npm                            
+express                           4.19.1                  npm                            
 faraday                           1.10.3                  gem                            
 faraday-em_http                   1.0.0                   gem                            
 faraday-em_synchrony              1.0.0                   gem                            
