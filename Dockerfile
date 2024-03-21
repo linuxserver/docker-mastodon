@@ -1,16 +1,15 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.18
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.19
 
 ARG BUILD_DATE
 ARG VERSION
 ARG MASTODON_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="TheSpad"
+LABEL maintainer="thespad"
 
 ENV RAILS_ENV="production" \
     NODE_ENV="production" \
-    NODE_OPTIONS="--openssl-legacy-provider" \
     PATH="${PATH}:/app/www/bin" \
     S6_STAGE2_HOOK="/init-hook"
 
@@ -33,9 +32,9 @@ RUN \
     libpq-dev \
     libxml2-dev \
     libxslt-dev \
+    npm \
     openssl-dev \
     ruby-dev \
-    yarn \
     yaml-dev && \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
@@ -50,19 +49,18 @@ RUN \
     /tmp/mastodon.tar.gz -C \
     /app/www/ --strip-components=1 && \
   cd /app/www && \
-  # https://github.com/mastodon/mastodon/pull/24702
-  sed -En "s/.*\brequire\('([^']+)'\).*/\"\1\"/p" streaming/index.js > streaming-requires.txt && \
-  jq --slurpfile requires streaming-requires.txt \
-    '{ dependencies: .dependencies | with_entries(select([.key] | inside($requires))) }' \
-    package.json > streaming/package.json && \
   bundle config set --local deployment 'true' && \
   bundle config set --local without 'development test exclude' && \
   bundle config set silence_root_warning true && \
   bundle install -j"$(nproc)" --no-cache && \
-  yarn install --production --frozen-lockfile --check-files && \
-	cd streaming && \
-	yarn install --production --check-files && \
+  npm install -g corepack && \
+  corepack enable && \
+  yarn workspaces focus --production @mastodon/mastodon && \
   OTP_SECRET=precompile_placeholder SECRET_KEY_BASE=precompile_placeholder rails assets:precompile && \
+  bundle exec bootsnap precompile --gemfile app/ lib/ && \
+  rm -rf /app/www/node_modules && \
+  cd streaming && \
+  yarn workspaces focus --production @mastodon/streaming && \
   echo "**** cleanup ****" && \
   yarn cache clean && \
   apk del --purge \
@@ -98,18 +96,7 @@ RUN \
     -o -name '*LICENSE*' \
     -o -name 'Rakefile' \
     -o -name '.*' \) \
-		-type f -delete && \
-  # Remove source maps, TS files, docs, tests and other useless files.
-	find /app/www/streaming/node_modules \( -name '.*' \
-    -o -name '*.map' \
-    -o -name '*.md' \
-    -o -name '*.ts' \
-    -o -name 'LICENSE*' \
-    -o -name 'Makefile' \
-    -o -name 'README*' \) \
-		-type f -delete && \
-	rm -rf /app/www/streaming/node_modules/*/test && \
-  rm -rf /app/www/node_modules
+		-type f -delete
 
 COPY root/ /
 
