@@ -42,7 +42,7 @@ anyhow                            1.0.71                 rust-crate
 anyhow                            1.0.75                 rust-crate                     
 aom-libs                          3.7.1-r0               apk                            
 apache2-utils                     2.4.59-r0              apk                            
-apk-tools                         2.14.3-r1              apk                            
+apk-tools                         2.14.4-r0              apk                            
 apr                               1.7.4-r0               apk                            
 apr-util                          1.6.3-r1               apk                            
 arg_enum_proc_macro               0.3.2                  rust-crate                     
@@ -132,7 +132,7 @@ content-disposition               0.5.4                  npm
 content-type                      1.0.5                  npm                            
 cookie                            0.6.0                  npm                            
 cookie-signature                  1.0.6                  npm                            
-corepack                          0.26.0                 npm                            
+corepack                          0.28.0                 npm                            
 coreutils                         9.4-r2                 apk                            
 coreutils-env                     9.4-r2                 apk                            
 coreutils-fmt                     9.4-r2                 apk                            
@@ -246,6 +246,7 @@ file                              5.45-r1                apk
 fileutils                         1.7.0                  gem                            
 finalhandler                      1.2.0                  npm                            
 find                              0.1.1                  gem                            
+findutils                         4.9.0-r5               apk                            
 fog-core                          2.4.0                  gem                            
 fog-json                          1.2.0                  gem                            
 fog-openstack                     1.1.0                  gem                            
@@ -399,7 +400,7 @@ libopenmpt                        0.7.3-r1               apk
 libpciaccess                      0.17-r2                apk                            
 libplacebo                        6.338.1-r0             apk                            
 libpng                            1.6.40-r0              apk                            
-libpq                             16.2-r0                apk                            
+libpq                             16.2-r1                apk                            
 libproc2                          4.0.4-r0               apk                            
 libpulse                          16.1-r11               apk                            
 librist                           0.2.10-r0              apk                            
