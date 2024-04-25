@@ -30,7 +30,7 @@ android_key_attestation           0.3.0                   gem
 ansi-regex                        5.0.1                   npm                            
 aom-libs                          3.6.1-r0                apk                            
 apache2-utils                     2.4.59-r0               apk                            
-apk-tools                         2.14.3-r1               apk                            
+apk-tools                         2.14.4-r0               apk                            
 apr                               1.7.4-r0                apk                            
 apr-util                          1.6.3-r1                apk                            
 aproba                            2.0.0                   npm                            
@@ -185,6 +185,7 @@ file                              5.45-r0                 apk
 fileutils                         1.7.0                   gem                            
 finalhandler                      1.2.0                   npm                            
 find                              0.1.1                   gem                            
+findutils                         4.9.0-r5                apk                            
 flac-libs                         1.4.3-r0                apk                            
 fog-core                          2.1.0                   gem                            
 fog-json                          1.2.0                   gem                            
@@ -382,6 +383,7 @@ nano                              7.2-r1                  apk
 ncurses-terminfo-base             6.4_p20230506-r0        apk                            
 negotiator                        0.6.3                   npm                            
 net-http                          0.3.2                   gem                            
+net-http                          0.4.1                   gem                            
 net-http-persistent               4.0.2                   gem                            
 net-imap                          0.3.7                   gem                            
 net-ldap                          0.18.0                  gem                            
@@ -400,7 +402,7 @@ nokogiri                          1.16.2                  gem
 npmlog                            7.0.1                   npm                            
 nsa                               0.3.0                   gem                            
 numactl                           2.0.16-r4               apk                            
-nwsapi                            2.2.7                   npm                            
+nwsapi                            2.2.9                   npm                            
 object-inspect                    1.13.1                  npm                            
 observer                          0.1.1                   gem                            
 oj                                3.16.1                  gem                            
@@ -504,7 +506,7 @@ range-parser                      1.2.1                   npm
 raw-body                          2.5.2                   npm                            
 rdf                               3.3.1                   gem                            
 rdf-normalize                     0.6.1                   gem                            
-rdoc                              6.5.0                   gem                            
+rdoc                              6.5.1.1                 gem                            
 readline                          0.0.3                   gem                            
 readline                          8.2.1-r1                apk                            
 readline-ext                      0.1.5                   gem                            
@@ -526,11 +528,11 @@ rotp                              6.2.2                   gem
 rqrcode                           2.2.0                   gem                            
 rqrcode_core                      1.2.0                   gem                            
 rrweb-cssom                       0.6.0                   npm                            
-ruby                              3.2.2-r0                apk                            
+ruby                              3.2.4-r0                apk                            
 ruby-bundler                      2.4.15-r0               apk                            
-ruby-libs                         3.2.2-r0                apk                            
+ruby-libs                         3.2.4-r0                apk                            
 ruby-progressbar                  1.13.0                  gem                            
-ruby-rdoc                         3.2.2-r0                apk                            
+ruby-rdoc                         3.2.4-r0                apk                            
 ruby-saml                         1.15.0                  gem                            
 ruby2_keywords                    0.0.5                   gem                            
 rubyzip                           2.3.2                   gem                            
@@ -584,7 +586,7 @@ strscan                           3.0.5                   gem
 svt-av1-libs                      1.6.0-r0                apk                            
 swd                               1.3.0                   gem                            
 symbol-tree                       3.2.4                   npm                            
-syntax_suggest                    1.0.2                   gem                            
+syntax_suggest                    1.1.0                   gem                            
 syslog                            0.1.1                   gem                            
 tdb-libs                          1.4.8-r1                apk                            
 tdigest                           0.1.2                   npm                            
@@ -618,7 +620,6 @@ unf                               0.1.4                   gem
 unf_ext                           0.0.8.2                 gem                            
 universalify                      0.2.0                   npm                            
 unpipe                            1.0.0                   npm                            
-uri                               0.12.1                  gem                            
 uri                               0.12.2                  gem                            
 url-parse                         1.5.10                  npm                            
 utils-merge                       1.0.1                   npm                            
