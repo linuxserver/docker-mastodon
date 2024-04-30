@@ -123,7 +123,7 @@ color-convert                     2.0.1                  npm
 color-name                        1.1.4                  npm                            
 color_diff                        0.1                    gem                            
 combined-stream                   1.0.8                  npm                            
-composer                          2.7.2                  binary                         
+composer                          2.7.4                  binary                         
 concurrent-ruby                   1.2.3                  gem                            
 concurrent_ruby                                          java-archive                   
 connection_pool                   2.4.1                  gem                            
@@ -288,7 +288,6 @@ hasown                            2.0.1                  npm
 hcaptcha                          7.1.0                  gem                            
 heck                              0.4.1                  rust-crate                     
 hiredis                           0.6.3                  gem                            
-hiredis                           1.2.0-r0               apk                            
 hkdf                              0.3.0                  gem                            
 html-encoding-sniffer             4.0.0                  npm                            
 htmlentities                      4.3.4                  gem                            
@@ -502,7 +501,7 @@ net-smtp                          0.4.0.1                gem
 netcat-openbsd                    1.226-r0               apk                            
 new_debug_unreachable             1.0.4                  rust-crate                     
 nghttp2-libs                      1.58.0-r0              apk                            
-nginx                             1.24.0-r15             apk                            
+nginx                             1.24.0-r16             apk                            
 nio4r                             2.5.9                  gem                            
 nkf                               0.1.2                  gem                            
 node-gyp                          10.0.1                 npm                            
