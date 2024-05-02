@@ -89,7 +89,7 @@ cocoon                            1.2.15                  gem
 color-support                     1.1.3                   npm                            
 color_diff                        0.1                     gem                            
 combined-stream                   1.0.8                   npm                            
-composer                          2.7.2                   binary                         
+composer                          2.7.4                   binary                         
 concurrent-ruby                   1.2.3                   gem                            
 concurrent_ruby                                           java-archive                   
 connection_pool                   2.4.1                   gem                            
@@ -601,7 +601,7 @@ timeout                           0.3.1                   gem
 timeout                           0.4.1                   gem                            
 tmpdir                            0.1.3                   gem                            
 toidentifier                      1.0.1                   npm                            
-tough-cookie                      4.1.3                   npm                            
+tough-cookie                      4.1.4                   npm                            
 tpm-key_attestation               0.12.0                  gem                            
 tr46                              4.1.1                   npm                            
 tsort                             0.1.1                   gem                            
@@ -646,7 +646,7 @@ whatwg-mimetype                   3.0.0                   npm
 whatwg-url                        12.0.1                  npm                            
 wide-align                        1.1.5                   npm                            
 wisper                            2.0.1                   gem                            
-ws                                8.16.0                  npm                            
+ws                                8.17.0                  npm                            
 x264-libs                         0.164_git20220602-r1    apk                            
 x265-libs                         3.5-r4                  apk                            
 xml-name-validator                4.0.0                   npm                            
