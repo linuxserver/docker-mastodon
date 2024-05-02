@@ -27,7 +27,6 @@ param_container_name: "{{ project_name }}"
 
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "America/New_York", desc: "Specify a timezone to use EG America/New_York"}
   - { env_var: "LOCAL_DOMAIN", env_value: "example.com", desc: "This is the unique identifier of your server in the network. It cannot be safely changed later."}
   - { env_var: "REDIS_HOST", env_value: "redis", desc: "Redis server hostname"}
   - { env_var: "REDIS_PORT", env_value: "6379", desc: "Redis port"}
@@ -73,7 +72,7 @@ param_ports:
 
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/mastodon/appdata/config", desc: "Contains all relevant configuration files." }
 
 # application setup block
 app_setup_block_enabled: true
@@ -116,6 +115,8 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "02.05.24:", desc: "Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)" }
+  - { date: "21.12.23:", desc: "Rebase to Alpine 3.19." }
   - { date: "30.05.23:", desc: "Rebase to Alpine 3.18." }
   - { date: "16.04.23:", desc: "Rebase to alpine 3.17 with php8.1." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
