@@ -32,6 +32,7 @@ RUN \
     libpq-dev \
     libxml2-dev \
     libxslt-dev \
+    linux-headers \
     npm \
     openssl-dev \
     ruby-dev \
@@ -56,7 +57,12 @@ RUN \
   npm install -g corepack && \
   corepack enable && \
   yarn workspaces focus --production @mastodon/mastodon && \
-  OTP_SECRET=precompile_placeholder SECRET_KEY_BASE=precompile_placeholder rails assets:precompile && \
+  ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY=precompile_placeholder \
+  ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT=precompile_placeholder \
+  ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY=precompile_placeholder \
+  OTP_SECRET=precompile_placeholder \
+  SECRET_KEY_BASE=precompile_placeholder \
+  bundle exec rails assets:precompile && \
   bundle exec bootsnap precompile --gemfile app/ lib/ && \
   rm -rf /app/www/node_modules && \
   cd streaming && \

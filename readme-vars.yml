@@ -27,7 +27,6 @@ param_container_name: "{{ project_name }}"
 
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "America/New_York", desc: "Specify a timezone to use EG America/New_York"}
   - { env_var: "LOCAL_DOMAIN", env_value: "example.com", desc: "This is the unique identifier of your server in the network. It cannot be safely changed later."}
   - { env_var: "REDIS_HOST", env_value: "redis", desc: "Redis server hostname"}
   - { env_var: "REDIS_PORT", env_value: "6379", desc: "Redis port"}
@@ -73,16 +72,18 @@ param_ports:
 
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/mastodon/appdata/config", desc: "Contains all relevant configuration files." }
 
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   We provide aliases for the common commands that execute in the correct context so that environment variables from secrets are available to them:
 
-  * To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-secret` once for each.
+  * To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-secret` once for each.
 
-  * To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-vapid`
+  * To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-vapid`
+
+    * To generate keys for `ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY`, `ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT`, & `ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-active-record`
 
   Both of the secret generation aliases above can be run without any other setup having been carried out.
 
@@ -114,7 +115,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "24.01.24:", desc: "Rebase to Alpine 3.19." }
+  - { date: "08.08.24:", desc: "Rebase to Alpine 3.19, Enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)." }
   - { date: "21.09.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3." }
   - { date: "25.05.23:", desc: "Adjust apk flags." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
