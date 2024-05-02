@@ -70,9 +70,11 @@ This image provides various versions that are available via tags. Please read th
 
 We provide aliases for the common commands that execute in the correct context so that environment variables from secrets are available to them:
 
-* To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-secret` once for each.
+* To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:glitch generate-secret` once for each.
 
-* To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-vapid`
+* To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:glitch generate-vapid`
+
+* To generate keys for `ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY`, `ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT`, & `ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:glitch generate-active-record`
 
 Both of the secret generation aliases above can be run without any other setup having been carried out.
 
@@ -153,7 +155,7 @@ services:
       - DB_POOL=5 #optional
       - NO_CHOWN= #optional
     volumes:
-      - /path/to/appdata/config:/config
+      - /path/to/mastodon/appdata/config:/config
     ports:
       - 80:80
       - 443:443
@@ -204,7 +206,7 @@ docker run -d \
   -e NO_CHOWN= `#optional` \
   -p 80:80 \
   -p 443:443 \
-  -v /path/to/appdata/config:/config \
+  -v /path/to/mastodon/appdata/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/mastodon:glitch
 ```
@@ -417,6 +419,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.05.24:** - Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)
+* **21.12.23:** - Rebase to Alpine 3.19.
 * **30.05.23:** - Rebase to Alpine 3.18.
 * **16.04.23:** - Rebase to alpine 3.17 with php8.1.
 * **09.02.23:** - Add Glitch branch.
