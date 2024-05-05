@@ -77,7 +77,6 @@ RUN \
   rm -r \
     /app/www/app/javascript/fonts \
     /app/www/app/javascript/icons \
-    /app/www/app/javascript/packs \
     /app/www/app/javascript/styles && \
   rm -rf \
     # Remove vendored sources for building native extensions.
