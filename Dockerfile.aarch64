@@ -55,7 +55,6 @@ RUN \
   bundle config set --local deployment 'true' && \
   bundle config set --local without 'development test exclude' && \
   bundle config set silence_root_warning true && \
-  bundle config set force_ruby_platform true && \
   bundle install -j"$(nproc)" --no-cache && \
   npm install -g corepack && \
   corepack enable && \
