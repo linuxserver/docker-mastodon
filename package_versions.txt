@@ -267,7 +267,7 @@ getoptlong                                              0.2.0                  g
 getrandom                                               0.2.9                  rust-crate                     
 git                                                     2.43.0-r0              apk                            
 glib                                                    2.78.6-r0              apk                            
-glob                                                    10.3.14                npm                            
+glob                                                    10.3.15                npm                            
 globalid                                                1.2.1                  gem                            
 glslang-libs                                            1.3.261.1-r0           apk                            
 gmp                                                     6.3.0-r0               apk                            
@@ -557,7 +557,7 @@ opentelemetry-instrumentation-faraday                   0.24.2                 g
 opentelemetry-instrumentation-http                      0.23.3                 gem                            
 opentelemetry-instrumentation-http_client               0.22.4                 gem                            
 opentelemetry-instrumentation-net_http                  0.22.4                 gem                            
-opentelemetry-instrumentation-pg                        0.27.2                 gem                            
+opentelemetry-instrumentation-pg                        0.27.3                 gem                            
 opentelemetry-instrumentation-rack                      0.24.3                 gem                            
 opentelemetry-instrumentation-rails                     0.30.1                 gem                            
 opentelemetry-instrumentation-redis                     0.25.4                 gem                            
