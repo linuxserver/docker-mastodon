@@ -308,11 +308,11 @@ icu-data-en                                             74.1-r0                a
 icu-libs                                                74.1-r0                apk                            
 idn-ruby                                                0.1.5                  gem                            
 ieee754                                                 1.2.1                  npm                            
-imagemagick                                             7.1.1.26-r0            apk                            
-imagemagick-jpeg                                        7.1.1.26-r0            apk                            
-imagemagick-jxl                                         7.1.1.26-r0            apk                            
-imagemagick-libs                                        7.1.1.26-r0            apk                            
-imagemagick-webp                                        7.1.1.26-r0            apk                            
+imagemagick                                             7.1.1.32-r0            apk                            
+imagemagick-jpeg                                        7.1.1.32-r0            apk                            
+imagemagick-jxl                                         7.1.1.32-r0            apk                            
+imagemagick-libs                                        7.1.1.32-r0            apk                            
+imagemagick-webp                                        7.1.1.32-r0            apk                            
 imurmurhash                                             0.1.4                  npm                            
 indent-string                                           4.0.0                  npm                            
 inherits                                                2.0.4                  npm                            
@@ -398,7 +398,7 @@ libopenmpt                                              0.7.3-r1               a
 libpciaccess                                            0.17-r2                apk                            
 libplacebo                                              6.338.1-r0             apk                            
 libpng                                                  1.6.40-r0              apk                            
-libpq                                                   16.2-r1                apk                            
+libpq                                                   16.3-r0                apk                            
 libproc2                                                4.0.4-r0               apk                            
 libpulse                                                16.1-r11               apk                            
 librist                                                 0.2.10-r0              apk                            
