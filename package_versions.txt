@@ -56,10 +56,10 @@ av-metrics                                              0.9.0                  r
 av1-grain                                               0.2.2                  rust-crate                     
 awrence                                                 1.2.1                  gem                            
 aws-eventstream                                         1.3.0                  gem                            
-aws-partitions                                          1.922.0                gem                            
-aws-sdk-core                                            3.194.1                gem                            
-aws-sdk-kms                                             1.80.0                 gem                            
-aws-sdk-s3                                              1.149.1                gem                            
+aws-partitions                                          1.929.0                gem                            
+aws-sdk-core                                            3.196.1                gem                            
+aws-sdk-kms                                             1.81.0                 gem                            
+aws-sdk-s3                                              1.151.0                gem                            
 aws-sigv4                                               1.8.0                  gem                            
 azure-storage-blob                                      2.0.3                  gem                            
 azure-storage-common                                    2.0.4                  gem                            
@@ -246,7 +246,7 @@ find                                                    0.1.1                  g
 findutils                                               4.9.0-r5               apk                            
 fog-core                                                2.4.0                  gem                            
 fog-json                                                1.2.0                  gem                            
-fog-openstack                                           1.1.0                  gem                            
+fog-openstack                                           1.1.1                  gem                            
 fontconfig                                              2.14.2-r4              apk                            
 foreground-child                                        3.1.1                  npm                            
 form-data                                               4.0.0                  npm                            
@@ -265,7 +265,7 @@ get-caller-file                                         2.0.5                  n
 get-intrinsic                                           1.2.4                  npm                            
 getoptlong                                              0.2.0                  gem                            
 getrandom                                               0.2.9                  rust-crate                     
-git                                                     2.43.0-r0              apk                            
+git                                                     2.43.4-r0              apk                            
 glib                                                    2.78.6-r0              apk                            
 glob                                                    10.3.15                npm                            
 globalid                                                1.2.1                  gem                            
@@ -460,7 +460,7 @@ mime                                                    1.6.0                  n
 mime-db                                                 1.52.0                 npm                            
 mime-types                                              2.1.35                 npm                            
 mime-types                                              3.5.2                  gem                            
-mime-types-data                                         3.2024.0305            gem                            
+mime-types-data                                         3.2024.0507            gem                            
 mini_mime                                               1.1.5                  gem                            
 minimal-lexical                                         0.2.1                  rust-crate                     
 minimatch                                               9.0.4                  npm                            
@@ -491,7 +491,7 @@ ncurses-terminfo-base                                   6.4_p20231125-r0       a
 negotiator                                              0.6.3                  npm                            
 net-http                                                0.4.1                  gem                            
 net-http-persistent                                     4.0.2                  gem                            
-net-imap                                                0.4.10                 gem                            
+net-imap                                                0.4.11                 gem                            
 net-ldap                                                0.19.0                 gem                            
 net-pop                                                 0.1.2                  gem                            
 net-protocol                                            0.2.1                  gem                            
@@ -506,7 +506,7 @@ nkf                                                     0.1.2                  g
 node-gyp                                                10.0.1                 npm                            
 node-gyp-build                                          4.6.1                  npm                            
 nodejs                                                  20.12.1-r0             apk                            
-nokogiri                                                1.16.4                 gem                            
+nokogiri                                                1.16.5                 gem                            
 nom                                                     7.1.3                  rust-crate                     
 noop_proc_macro                                         0.3.0                  rust-crate                     
 nopt                                                    7.2.0                  npm                            
@@ -609,10 +609,9 @@ php83-simplexml                                         8.3.7-r0               a
 php83-xml                                               8.3.7-r0               apk                            
 php83-xmlwriter                                         8.3.7-r0               apk                            
 php83-zip                                               8.3.7-r0               apk                            
-pino                                                    9.0.0                  npm                            
+pino                                                    9.1.0                  npm                            
 pino-abstract-transport                                 1.2.0                  npm                            
 pino-http                                               10.1.0                 npm                            
-pino-std-serializers                                    6.2.2                  npm                            
 pino-std-serializers                                    7.0.0                  npm                            
 popt                                                    1.19-r3                apk                            
 postgres-array                                          2.0.0                  npm                            
@@ -693,14 +692,14 @@ redis-namespace                                         1.11.0                 g
 redis-parser                                            3.0.0                  npm                            
 redlock                                                 1.3.2                  gem                            
 reline                                                  0.3.2                  gem                            
-reline                                                  0.5.6                  gem                            
+reline                                                  0.5.7                  gem                            
 request_store                                           1.6.0                  gem                            
 requires-port                                           1.0.0                  npm                            
 resolv                                                  0.2.2                  gem                            
 resolv-replace                                          0.1.1                  gem                            
 responders                                              3.1.1                  gem                            
 retry                                                   0.12.0                 npm                            
-rexml                                                   3.2.6                  gem                            
+rexml                                                   3.2.8                  gem                            
 rinda                                                   0.1.1                  gem                            
 rotp                                                    6.3.0                  gem                            
 rqrcode                                                 2.2.0                  gem                            
@@ -762,7 +761,7 @@ skalibs                                                 2.14.0.1-r0            a
 smart-buffer                                            4.2.0                  npm                            
 socks                                                   2.7.1                  npm                            
 socks-proxy-agent                                       8.0.2                  npm                            
-sonic-boom                                              3.7.0                  npm                            
+sonic-boom                                              4.0.1                  npm                            
 sord-libs                                               0.16.16-r0             apk                            
 soxr                                                    0.1.3-r7               apk                            
 speexdsp                                                1.2.1-r2               apk                            
@@ -784,6 +783,7 @@ strip-ansi                                              6.0.1                  n
 strip-ansi                                              7.1.0                  npm                            
 strong_migrations                                       1.8.0                  gem                            
 strscan                                                 3.0.5                  gem                            
+strscan                                                 3.1.0                  gem                            
 swd                                                     1.3.0                  gem                            
 symbol-tree                                             3.2.4                  npm                            
 syn                                                     1.0.109                rust-crate                     
@@ -802,7 +802,7 @@ terrapin                                                1.0.1                  g
 thiserror                                               1.0.40                 rust-crate                     
 thiserror-impl                                          1.0.40                 rust-crate                     
 thor                                                    1.3.1                  gem                            
-thread-stream                                           2.6.0                  npm                            
+thread-stream                                           3.0.0                  npm                            
 tilt                                                    2.3.0                  gem                            
 time                                                    0.2.2                  gem                            
 timeout                                                 0.3.1                  gem                            
@@ -880,7 +880,7 @@ y4m                                                     0.8.0                  r
 yallist                                                 4.0.0                  npm                            
 yaml                                                    0.2.1                  gem                            
 yaml                                                    0.2.5-r2               apk                            
-zeitwerk                                                2.6.13                 gem                            
+zeitwerk                                                2.6.14                 gem                            
 zimg                                                    3.0.5-r2               apk                            
 zix-libs                                                0.4.2-r0               apk                            
 zlib                                                    1.3.1-r0               apk                            
