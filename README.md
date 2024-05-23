@@ -419,7 +419,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **02.05.24:** - Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)
+* **23.05.24:** - Rebase to Alpine 3.20.
+* **02.05.24:** - Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files).
 * **21.12.23:** - Rebase to Alpine 3.19.
 * **30.05.23:** - Rebase to Alpine 3.18.
 * **16.04.23:** - Rebase to alpine 3.17 with php8.1.
