@@ -28,7 +28,7 @@ Find us at:
 
 # [linuxserver/mastodon](https://github.com/linuxserver/docker-mastodon)
 
-[![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fmastodon?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh/gateway/linuxserver-ci/docker/linuxserver%2Fmastodon)
+[![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fmastodon?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-mastodon.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-mastodon)
 [![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-mastodon.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-mastodon/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver/docker-mastodon/packages)
@@ -70,9 +70,11 @@ This image provides various versions that are available via tags. Please read th
 
 We provide aliases for the common commands that execute in the correct context so that environment variables from secrets are available to them:
 
-* To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-secret` once for each.
+* To generate keys for `SECRET_KEY_BASE` & `OTP_SECRET` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-secret` once for each.
 
-* To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon generate-vapid`
+* To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-vapid`
+
+* To generate keys for `ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY`, `ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT`, & `ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-active-record`
 
 Both of the secret generation aliases above can be run without any other setup having been carried out.
 
@@ -127,6 +129,9 @@ services:
       - DB_PASS=mastodon
       - DB_PORT=5432
       - ES_ENABLED=false
+      - ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY=
+      - ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY=
+      - ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT=
       - SECRET_KEY_BASE=
       - OTP_SECRET=
       - VAPID_PRIVATE_KEY=
@@ -153,7 +158,7 @@ services:
       - DB_POOL=5 #optional
       - NO_CHOWN= #optional
     volumes:
-      - /path/to/appdata/config:/config
+      - /path/to/mastodon/appdata/config:/config
     ports:
       - 80:80
       - 443:443
@@ -177,6 +182,9 @@ docker run -d \
   -e DB_PASS=mastodon \
   -e DB_PORT=5432 \
   -e ES_ENABLED=false \
+  -e ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY= \
+  -e ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY= \
+  -e ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT= \
   -e SECRET_KEY_BASE= \
   -e OTP_SECRET= \
   -e VAPID_PRIVATE_KEY= \
@@ -204,7 +212,7 @@ docker run -d \
   -e NO_CHOWN= `#optional` \
   -p 80:80 \
   -p 443:443 \
-  -v /path/to/appdata/config:/config \
+  -v /path/to/mastodon/appdata/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/mastodon:latest
 ```
@@ -229,6 +237,9 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e DB_PASS=mastodon` | Postgres password |
 | `-e DB_PORT=5432` | Portgres port |
 | `-e ES_ENABLED=false` | Enable or disable Elasticsearch (requires a separate ES instance) |
+| `-e ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY=` | Primary key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). |
+| `-e ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY=` | Deterministic key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). |
+| `-e ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT=` | Derivation salt for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). |
 | `-e SECRET_KEY_BASE=` | Browser session secret. Changing it will break all active browser sessions. |
 | `-e OTP_SECRET=` | MFA secret. Changing it after initial setup will break two-factor authentication. |
 | `-e VAPID_PRIVATE_KEY=` | Push notification private key. Changing it after initial setup will break push notifications. |
@@ -417,6 +428,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.05.24:** - Rebase to Alpine 3.20.
+* **08.08.24:** - Rebase to Alpine 3.19, Enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files).
 * **21.09.23:** - Rebase to Alpine 3.18, migrate to s6v3.
 * **25.05.23:** - Adjust apk flags.
 * **09.02.23:** - Add Glitch branch.

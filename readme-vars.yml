@@ -36,6 +36,9 @@ param_env_vars:
   - { env_var: "DB_PASS", env_value: "mastodon", desc: "Postgres password"}
   - { env_var: "DB_PORT", env_value: "5432", desc: "Portgres port"}
   - { env_var: "ES_ENABLED", env_value: "false", desc: "Enable or disable Elasticsearch (requires a separate ES instance)"}
+  - { env_var: "ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY", env_value: "", desc: "Primary key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
+  - { env_var: "ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY", env_value: "", desc: "Deterministic key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
+  - { env_var: "ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT", env_value: "", desc: "Derivation salt for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
   - { env_var: "SECRET_KEY_BASE", env_value: "", desc: "Browser session secret. Changing it will break all active browser sessions."}
   - { env_var: "OTP_SECRET", env_value: "", desc: "MFA secret. Changing it after initial setup will break two-factor authentication."}
   - { env_var: "VAPID_PRIVATE_KEY", env_value: "", desc: "Push notification private key. Changing it after initial setup will break push notifications."}
@@ -72,7 +75,7 @@ param_ports:
 
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/mastodon/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/appdata/config", desc: "Contains all relevant configuration files." }
 
 # application setup block
 app_setup_block_enabled: true
@@ -83,7 +86,7 @@ app_setup_block: |
 
   * To generate keys for `VAPID_PRIVATE_KEY` & `VAPID_PUBLIC_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-vapid`
 
-    * To generate keys for `ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY`, `ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT`, & `ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-active-record`
+  * To generate keys for `ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY`, `ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT`, & `ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY` run `docker run --rm -it --entrypoint /bin/bash lscr.io/linuxserver/mastodon:latest generate-active-record`
 
   Both of the secret generation aliases above can be run without any other setup having been carried out.
 
@@ -115,6 +118,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.05.24:", desc: "Rebase to Alpine 3.20." }
   - { date: "08.08.24:", desc: "Rebase to Alpine 3.19, Enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)." }
   - { date: "21.09.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3." }
   - { date: "25.05.23:", desc: "Adjust apk flags." }
