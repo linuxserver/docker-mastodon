@@ -72,7 +72,7 @@ param_ports:
 
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/mastodon/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/appdata/config", desc: "Contains all relevant configuration files." }
 
 # application setup block
 app_setup_block_enabled: true
@@ -115,7 +115,8 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "08.08.24:", desc: "Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)" }
+  - { date: "25.05.24:", desc: "Rebase to Alpine 3.20." }
+  - { date: "08.08.24:", desc: "Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)." }
   - { date: "08.08.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3" }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
   - { date: "26.01.23:", desc: "Add aliases for key generation & tootctl to better support secrets." }

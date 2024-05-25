@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.19
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.20
 
 ARG BUILD_DATE
 ARG VERSION
@@ -66,6 +66,7 @@ RUN \
   rm -rf /app/www/node_modules && \
   cd streaming && \
   yarn workspaces focus --production @mastodon/streaming && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   yarn cache clean && \
   apk del --purge \
