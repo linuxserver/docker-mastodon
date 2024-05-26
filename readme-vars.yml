@@ -34,8 +34,11 @@ param_env_vars:
   - { env_var: "DB_USER", env_value: "mastodon", desc: "Postgres username"}
   - { env_var: "DB_NAME", env_value: "mastodon", desc: "Postgres db name"}
   - { env_var: "DB_PASS", env_value: "mastodon", desc: "Postgres password"}
-  - { env_var: "DB_PORT", env_value: "5432", desc: "Portgres port"}
+  - { env_var: "DB_PORT", env_value: "5432", desc: "Postgres port"}
   - { env_var: "ES_ENABLED", env_value: "false", desc: "Enable or disable Elasticsearch (requires a separate ES instance)"}
+  - { env_var: "ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY", env_value: "", desc: "Primary key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
+  - { env_var: "ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY", env_value: "", desc: "Deterministic key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
+  - { env_var: "ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT", env_value: "", desc: "Derivation salt for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
   - { env_var: "SECRET_KEY_BASE", env_value: "", desc: "Browser session secret. Changing it will break all active browser sessions."}
   - { env_var: "OTP_SECRET", env_value: "", desc: "MFA secret. Changing it will break two-factor authentication."}
   - { env_var: "VAPID_PRIVATE_KEY", env_value: "", desc: "Push notification private key. Changing it will break push notifications."}
