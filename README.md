@@ -235,7 +235,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e DB_USER=mastodon` | Postgres username |
 | `-e DB_NAME=mastodon` | Postgres db name |
 | `-e DB_PASS=mastodon` | Postgres password |
-| `-e DB_PORT=5432` | Portgres port |
+| `-e DB_PORT=5432` | Postgres port |
 | `-e ES_ENABLED=false` | Enable or disable Elasticsearch (requires a separate ES instance) |
 | `-e ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY=` | Primary key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). |
 | `-e ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY=` | Deterministic key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). |
