@@ -118,6 +118,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.05.24:", desc: "Existing users should update: site-confs/default.conf to avoid http2 deprecation warnings." }
   - { date: "23.05.24:", desc: "Rebase to Alpine 3.20." }
   - { date: "02.05.24:", desc: "Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)." }
   - { date: "21.12.23:", desc: "Rebase to Alpine 3.19." }
