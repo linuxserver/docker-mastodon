@@ -1,4 +1,4 @@
-## Version 2023/04/13 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/glitch/root/defaults/nginx/site-confs/default.conf.sample
+## Version 2024/05/27 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/glitch/root/defaults/nginx/site-confs/default.conf.sample
 
 map $http_upgrade $connection_upgrade {
     default upgrade;
@@ -16,11 +16,8 @@ upstream streaming {
 proxy_cache_path /var/cache/nginx levels=1:2 keys_zone=CACHE:10m inactive=7d max_size=1g;
 
 server {
-    listen 80 default_server;
-    listen [::]:80 default_server;
-
-    listen 443 ssl http2 default_server;
-    listen [::]:443 ssl http2 default_server;
+    listen *:80 default_server;
+    listen *:443 ssl default_server;
 
     server_name _;
 
