@@ -53,7 +53,7 @@ aws-eventstream                                         1.3.0                  g
 aws-partitions                                          1.940.0                gem                            
 aws-sdk-core                                            3.197.0                gem                            
 aws-sdk-kms                                             1.83.0                 gem                            
-aws-sdk-s3                                              1.152.0                gem                            
+aws-sdk-s3                                              1.152.1                gem                            
 aws-sigv4                                               1.8.0                  gem                            
 azure-storage-blob                                      2.0.3                  gem                            
 azure-storage-common                                    2.0.4                  gem                            
@@ -80,8 +80,8 @@ bufferutil                                              4.0.8                  n
 builder                                                 3.2.4                  gem                            
 bundler                                                 2.5.11                 gem                            
 bundler                                                 2.5.9                  gem                            
-busybox                                                 1.36.1-r28             apk                            
-busybox-binsh                                           1.36.1-r28             apk                            
+busybox                                                 1.36.1-r29             apk                            
+busybox-binsh                                           1.36.1-r29             apk                            
 bytes                                                   3.1.2                  npm                            
 c-ares                                                  1.28.1-r0              apk                            
 ca-certificates                                         20240226-r0            apk                            
@@ -105,7 +105,7 @@ color-convert                                           2.0.1                  n
 color-name                                              1.1.4                  npm                            
 color_diff                                              0.1                    gem                            
 combined-stream                                         1.0.8                  npm                            
-composer                                                2.7.6                  binary                         
+composer                                                2.7.7                  binary                         
 concurrent-ruby                                         1.3.3                  gem                            
 concurrent_ruby                                                                java-archive                   
 connection_pool                                         2.4.1                  gem                            
@@ -489,6 +489,7 @@ opentelemetry-api                                       1.2.5                  g
 opentelemetry-common                                    0.20.1                 gem                            
 opentelemetry-exporter-otlp                             0.27.0                 gem                            
 opentelemetry-helpers-sql-obfuscation                   0.1.0                  gem                            
+opentelemetry-instrumentation-action_mailer             0.1.0                  gem                            
 opentelemetry-instrumentation-action_pack               0.9.0                  gem                            
 opentelemetry-instrumentation-action_view               0.7.0                  gem                            
 opentelemetry-instrumentation-active_job                0.7.1                  gem                            
@@ -504,7 +505,7 @@ opentelemetry-instrumentation-http_client               0.22.4                 g
 opentelemetry-instrumentation-net_http                  0.22.4                 gem                            
 opentelemetry-instrumentation-pg                        0.27.3                 gem                            
 opentelemetry-instrumentation-rack                      0.24.3                 gem                            
-opentelemetry-instrumentation-rails                     0.30.1                 gem                            
+opentelemetry-instrumentation-rails                     0.30.2                 gem                            
 opentelemetry-instrumentation-redis                     0.25.4                 gem                            
 opentelemetry-instrumentation-sidekiq                   0.25.3                 gem                            
 opentelemetry-registry                                  0.3.1                  gem                            
@@ -687,7 +688,7 @@ speexdsp                                                1.2.1-r2               a
 spirv-tools                                             1.3.261.1-r0           apk                            
 split2                                                  4.2.0                  npm                            
 sratom                                                  0.6.16-r0              apk                            
-ssl_client                                              1.36.1-r28             apk                            
+ssl_client                                              1.36.1-r29             apk                            
 ssri                                                    10.0.5                 npm                            
 standard-as-callback                                    2.1.0                  npm                            
 statsd-ruby                                             1.5.0                  gem                            
