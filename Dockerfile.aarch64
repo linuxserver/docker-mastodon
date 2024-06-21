@@ -17,16 +17,17 @@ RUN \
   apk add --no-cache \
     ffmpeg \
     file \
+    gcompat \
     imagemagick \
     libpq \
     libidn \
     nodejs \
     ruby \
     ruby-bundler \
+    ruby-rdoc \
     yaml && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
-    gcompat \
     icu-dev \
     libidn-dev \
     libpq-dev \
