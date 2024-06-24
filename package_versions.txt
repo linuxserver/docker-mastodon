@@ -295,7 +295,7 @@ ioredis                                                 5.4.1                  n
 ip                                                      2.0.0                  npm                            
 ipaddr                                                  1.2.6                  gem                            
 ipaddr.js                                               1.9.1                  npm                            
-irb                                                     1.11.0                 gem                            
+irb                                                     1.13.1                 gem                            
 irb                                                     1.13.2                 gem                            
 is-fullwidth-code-point                                 3.0.0                  npm                            
 is-lambda                                               1.0.1                  npm                            
@@ -499,7 +499,7 @@ opentelemetry-instrumentation-active_support            0.5.1                  g
 opentelemetry-instrumentation-base                      0.22.3                 gem                            
 opentelemetry-instrumentation-concurrent_ruby           0.21.3                 gem                            
 opentelemetry-instrumentation-excon                     0.22.3                 gem                            
-opentelemetry-instrumentation-faraday                   0.24.4                 gem                            
+opentelemetry-instrumentation-faraday                   0.24.5                 gem                            
 opentelemetry-instrumentation-http                      0.23.3                 gem                            
 opentelemetry-instrumentation-http_client               0.22.6                 gem                            
 opentelemetry-instrumentation-net_http                  0.22.6                 gem                            
@@ -622,7 +622,7 @@ redis-errors                                            1.2.0                  n
 redis-namespace                                         1.11.0                 gem                            
 redis-parser                                            3.0.0                  npm                            
 redlock                                                 1.3.2                  gem                            
-reline                                                  0.4.1                  gem                            
+reline                                                  0.5.7                  gem                            
 reline                                                  0.5.9                  gem                            
 request_store                                           1.6.0                  gem                            
 requires-port                                           1.0.0                  npm                            
@@ -637,11 +637,11 @@ rqrcode                                                 2.2.0                  g
 rqrcode_core                                            1.2.0                  gem                            
 rrweb-cssom                                             0.6.0                  npm                            
 rrweb-cssom                                             0.7.0                  npm                            
-ruby                                                    3.3.1-r0               apk                            
+ruby                                                    3.3.3-r0               apk                            
 ruby-bundler                                            2.5.9-r0               apk                            
-ruby-libs                                               3.3.1-r0               apk                            
+ruby-libs                                               3.3.3-r0               apk                            
 ruby-progressbar                                        1.13.0                 gem                            
-ruby-rdoc                                               3.3.1-r0               apk                            
+ruby-rdoc                                               3.3.3-r0               apk                            
 ruby-saml                                               1.16.0                 gem                            
 ruby-vips                                               2.2.1                  gem                            
 ruby2_keywords                                          0.0.5                  gem                            
@@ -699,12 +699,11 @@ stoplight                                               4.1.0                  g
 string-width                                            4.2.3                  npm           (+1 duplicate)   
 string-width                                            5.1.2                  npm                            
 string_decoder                                          1.3.0                  npm                            
-stringio                                                3.1.0                  gem                            
 stringio                                                3.1.1                  gem                            
 strip-ansi                                              6.0.1                  npm           (+2 duplicates)  
 strip-ansi                                              7.1.0                  npm                            
 strong_migrations                                       1.8.0                  gem                            
-strscan                                                 3.0.7                  gem                            
+strscan                                                 3.0.9                  gem                            
 strscan                                                 3.1.0                  gem                            
 swd                                                     1.3.0                  gem                            
 symbol-tree                                             3.2.4                  npm                            
@@ -792,5 +791,5 @@ zeitwerk                                                2.6.16                 g
 zimg                                                    3.0.5-r2               apk                            
 zix-libs                                                0.4.2-r0               apk                            
 zlib                                                    1.3.1-r1               apk                            
-zlib                                                    3.1.0                  gem                            
+zlib                                                    3.1.1                  gem                            
 zstd-libs                                               1.5.6-r0               apk                            
