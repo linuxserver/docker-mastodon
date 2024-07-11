@@ -29,7 +29,7 @@ alsa-lib                          1.2.9-r1                apk
 android_key_attestation           0.3.0                   gem                            
 ansi-regex                        5.0.1                   npm                            
 aom-libs                          3.6.1-r0                apk                            
-apache2-utils                     2.4.59-r0               apk                            
+apache2-utils                     2.4.61-r0               apk                            
 apk-tools                         2.14.4-r0               apk                            
 apr                               1.7.4-r0                apk                            
 apr-util                          1.6.3-r1                apk                            
@@ -403,7 +403,7 @@ nokogiri                          1.16.6                  gem
 npmlog                            7.0.1                   npm                            
 nsa                               0.3.0                   gem                            
 numactl                           2.0.16-r4               apk                            
-nwsapi                            2.2.10                  npm                            
+nwsapi                            2.2.12                  npm                            
 object-inspect                    1.13.2                  npm                            
 observer                          0.1.1                   gem                            
 oj                                3.16.1                  gem                            
