@@ -537,7 +537,7 @@ pg-int8                                                 1.0.1                  n
 pg-pool                                                 3.6.2                  npm                            
 pg-protocol                                             1.6.1                  npm                            
 pg-types                                                2.2.0                  npm                            
-pghero                                                  3.5.0                  gem                            
+pghero                                                  3.6.0                  gem                            
 pgpass                                                  1.0.5                  npm                            
 php83                                                   8.3.9-r0               apk                            
 php83-common                                            8.3.9-r0               apk                            
