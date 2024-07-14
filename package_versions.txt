@@ -113,7 +113,7 @@ content-disposition                                     0.5.4                  n
 content-type                                            1.0.5                  npm                            
 cookie                                                  0.6.0                  npm                            
 cookie-signature                                        1.0.6                  npm                            
-corepack                                                0.28.2                 npm                            
+corepack                                                0.29.2                 npm                            
 coreutils                                               9.5-r1                 apk                            
 coreutils-env                                           9.5-r1                 apk                            
 coreutils-fmt                                           9.5-r1                 apk                            
@@ -457,7 +457,7 @@ nio4r                                                   2.7.3                  g
 nkf                                                     0.1.3                  gem                            
 node-gyp                                                10.0.1                 npm                            
 node-gyp-build                                          4.6.1                  npm                            
-nodejs                                                  20.13.1-r0             apk                            
+nodejs                                                  20.15.1-r0             apk                            
 nokogiri                                                1.16.6                 gem                            
 nopt                                                    7.2.0                  npm                            
 nsa                                                     0.3.0                  gem                            
