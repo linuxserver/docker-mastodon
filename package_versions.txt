@@ -554,7 +554,7 @@ php83-simplexml                                         8.3.9-r0               a
 php83-xml                                               8.3.9-r0               apk                            
 php83-xmlwriter                                         8.3.9-r0               apk                            
 php83-zip                                               8.3.9-r0               apk                            
-pino                                                    9.2.0                  npm                            
+pino                                                    9.3.1                  npm                            
 pino-abstract-transport                                 1.2.0                  npm                            
 pino-http                                               10.2.0                 npm                            
 pino-std-serializers                                    7.0.0                  npm                            
