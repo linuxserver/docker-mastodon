@@ -235,7 +235,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e DB_USER=mastodon` | Postgres username |
 | `-e DB_NAME=mastodon` | Postgres db name |
 | `-e DB_PASS=mastodon` | Postgres password |
-| `-e DB_PORT=5432` | Portgres port |
+| `-e DB_PORT=5432` | Postgres port |
 | `-e ES_ENABLED=false` | Enable or disable Elasticsearch (requires a separate ES instance) |
 | `-e ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY=` | Primary key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). |
 | `-e ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY=` | Deterministic key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). |
@@ -428,7 +428,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **25.05.24:** - Rebase to Alpine 3.20.
+* **25.05.24:** - Rebase to Alpine 3.20. Existing users should update their nginx confs to avoid http2 deprecation warnings.
 * **08.08.24:** - Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files).
 * **08.08.23:** - Rebase to Alpine 3.18, migrate to s6v3
 * **09.02.23:** - Add Glitch branch.
