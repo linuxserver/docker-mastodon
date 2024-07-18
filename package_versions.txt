@@ -84,8 +84,8 @@ busybox                                                 1.36.1-r29             a
 busybox-binsh                                           1.36.1-r29             apk                            
 bytes                                                   3.1.2                  npm                            
 c-ares                                                  1.28.1-r0              apk                            
-ca-certificates                                         20240226-r0            apk                            
-ca-certificates-bundle                                  20240226-r0            apk                            
+ca-certificates                                         20240705-r0            apk                            
+ca-certificates-bundle                                  20240705-r0            apk                            
 cacache                                                 18.0.0                 npm                            
 call-bind                                               1.0.7                  npm                            
 case_transform                                          0.2                    gem                            
@@ -642,7 +642,7 @@ ruby-libs                                               3.3.3-r0               a
 ruby-progressbar                                        1.13.0                 gem                            
 ruby-rdoc                                               3.3.3-r0               apk                            
 ruby-saml                                               1.16.0                 gem                            
-ruby-vips                                               2.2.1                  gem                            
+ruby-vips                                               2.2.2                  gem                            
 ruby2_keywords                                          0.0.5                  gem                            
 rubyzip                                                 2.3.2                  gem                            
 rufus-scheduler                                         3.9.1                  gem                            
