@@ -113,7 +113,7 @@ content-disposition                                     0.5.4                  n
 content-type                                            1.0.5                  npm                            
 cookie                                                  0.6.0                  npm                            
 cookie-signature                                        1.0.6                  npm                            
-corepack                                                0.29.2                 npm                            
+corepack                                                0.29.3                 npm                            
 coreutils                                               9.5-r1                 apk                            
 coreutils-env                                           9.5-r1                 apk                            
 coreutils-fmt                                           9.5-r1                 apk                            
@@ -268,7 +268,7 @@ http-proxy-agent                                        7.0.2                  n
 http_accept_language                                    2.1.1                  gem                            
 httpclient                                              2.8.3                  gem                            
 httplog                                                 1.7.0                  gem                            
-https-proxy-agent                                       7.0.4                  npm                            
+https-proxy-agent                                       7.0.5                  npm                            
 hwdata-pci                                              0.382-r0               apk                            
 i18n                                                    1.14.5                 gem                            
 iconv-lite                                              0.4.24                 npm           (+1 duplicate)   
@@ -305,7 +305,7 @@ isexe                                                   3.1.1                  n
 jackspeak                                               3.1.2                  npm                            
 jmespath                                                1.6.2                  gem                            
 jq                                                      1.7.1-r0               apk                            
-jsdom                                                   24.1.0                 npm                            
+jsdom                                                   24.1.1                 npm                            
 json                                                    2.7.1                  gem                            
 json                                                    2.7.2                  gem                            
 json-canonicalization                                   1.0.0                  gem                            
@@ -445,7 +445,7 @@ ncurses-terminfo-base                                   6.4_p20240420-r0       a
 negotiator                                              0.6.3                  npm                            
 net-http                                                0.4.1                  gem                            
 net-http-persistent                                     4.0.2                  gem                            
-net-imap                                                0.4.12                 gem                            
+net-imap                                                0.4.14                 gem                            
 net-ldap                                                0.19.0                 gem                            
 net-pop                                                 0.1.2                  gem                            
 net-protocol                                            0.2.2                  gem                            
@@ -462,7 +462,7 @@ nokogiri                                                1.16.6                 g
 nopt                                                    7.2.0                  npm                            
 nsa                                                     0.3.0                  gem                            
 numactl                                                 2.0.18-r0              apk                            
-nwsapi                                                  2.2.10                 npm                            
+nwsapi                                                  2.2.12                 npm                            
 object-assign                                           4.1.1                  npm                            
 object-inspect                                          1.13.1                 npm                            
 observer                                                0.1.2                  gem                            
@@ -635,7 +635,7 @@ rotp                                                    6.3.0                  g
 rqrcode                                                 2.2.0                  gem                            
 rqrcode_core                                            1.2.0                  gem                            
 rrweb-cssom                                             0.6.0                  npm                            
-rrweb-cssom                                             0.7.0                  npm                            
+rrweb-cssom                                             0.7.1                  npm                            
 ruby                                                    3.3.3-r0               apk                            
 ruby-bundler                                            2.5.9-r0               apk                            
 ruby-libs                                               3.3.3-r0               apk                            
