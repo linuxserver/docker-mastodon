@@ -492,7 +492,7 @@ opentelemetry-helpers-sql-obfuscation                   0.1.0                  g
 opentelemetry-instrumentation-action_mailer             0.1.0                  gem                            
 opentelemetry-instrumentation-action_pack               0.9.0                  gem                            
 opentelemetry-instrumentation-action_view               0.7.1                  gem                            
-opentelemetry-instrumentation-active_job                0.7.3                  gem                            
+opentelemetry-instrumentation-active_job                0.7.4                  gem                            
 opentelemetry-instrumentation-active_model_serializers  0.20.2                 gem                            
 opentelemetry-instrumentation-active_record             0.7.2                  gem                            
 opentelemetry-instrumentation-active_support            0.6.0                  gem                            
