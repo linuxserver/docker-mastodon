@@ -310,7 +310,7 @@ json                                                    2.7.1                  g
 json                                                    2.7.2                  gem                            
 json-canonicalization                                   1.0.0                  gem                            
 json-jwt                                                1.15.3.1               gem                            
-json-ld                                                 3.3.1                  gem                            
+json-ld                                                 3.3.2                  gem                            
 json-ld-preloaded                                       3.3.0                  gem                            
 jsonapi-renderer                                        0.2.2                  gem                            
 jwt                                                     2.7.1                  gem                            
@@ -608,7 +608,7 @@ rake                                                    13.2.1                 g
 range-parser                                            1.2.1                  npm                            
 rav1e-libs                                              0.7.1-r0               apk                            
 raw-body                                                2.5.2                  npm                            
-rdf                                                     3.3.1                  gem                            
+rdf                                                     3.3.2                  gem                            
 rdf-normalize                                           0.7.0                  gem                            
 rdoc                                                    6.6.3.1                gem                            
 rdoc                                                    6.7.0                  gem                            
