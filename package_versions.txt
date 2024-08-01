@@ -29,7 +29,7 @@ alsa-lib                          1.2.9-r1                apk
 android_key_attestation           0.3.0                   gem                            
 ansi-regex                        5.0.1                   npm                            
 aom-libs                          3.6.1-r0                apk                            
-apache2-utils                     2.4.61-r0               apk                            
+apache2-utils                     2.4.62-r0               apk                            
 apk-tools                         2.14.4-r0               apk                            
 apr                               1.7.4-r0                apk                            
 apr-util                          1.6.3-r1                apk                            
@@ -112,7 +112,7 @@ date                              3.3.3                   gem
 date                              3.3.4                   gem                            
 dbus-libs                         1.14.8-r0               apk                            
 debug                             2.6.9                   npm                            
-debug                             4.3.5                   npm           (+3 duplicates)  
+debug                             4.3.6                   npm           (+3 duplicates)  
 decimal.js                        10.4.3                  npm                            
 define-data-property              1.1.4                   npm                            
 delayed-stream                    1.0.0                   npm                            
