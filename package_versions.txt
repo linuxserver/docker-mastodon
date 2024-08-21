@@ -228,7 +228,7 @@ fresh                                                   0.5.2                  n
 fribidi                                                 1.0.15-r0              apk                            
 fs-minipass                                             2.1.0                  npm                            
 fs-minipass                                             3.0.3                  npm                            
-fugit                                                   1.10.1                 gem                            
+fugit                                                   1.11.1                 gem                            
 function-bind                                           1.1.2                  npm                            
 get-caller-file                                         2.0.5                  npm                            
 get-intrinsic                                           1.2.4                  npm                            
