@@ -460,7 +460,6 @@ node-gyp-build                                          4.6.1                  n
 nodejs                                                  20.15.1-r0             apk                            
 nokogiri                                                1.16.7                 gem                            
 nopt                                                    7.2.0                  npm                            
-nsa                                                     0.3.0                  gem                            
 numactl                                                 2.0.18-r0              apk                            
 nwsapi                                                  2.2.12                 npm                            
 object-assign                                           4.1.1                  npm                            
@@ -693,7 +692,6 @@ sratom                                                  0.6.16-r0              a
 ssl_client                                              1.36.1-r29             apk                            
 ssri                                                    10.0.5                 npm                            
 standard-as-callback                                    2.1.0                  npm                            
-statsd-ruby                                             1.5.0                  gem                            
 statuses                                                2.0.1                  npm                            
 stoplight                                               4.1.0                  gem                            
 string-width                                            4.2.3                  npm           (+1 duplicate)   
