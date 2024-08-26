@@ -102,9 +102,7 @@ RUN \
     -o -name '*LICENSE*' \
     -o -name 'Rakefile' \
     -o -name '.*' \) \
-		-type f -delete && \
-	rm -rf /app/www/streaming/node_modules/*/test && \
-  rm -rf /app/www/node_modules
+		-type f -delete
 
 COPY root/ /
 
