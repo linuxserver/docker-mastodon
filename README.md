@@ -158,7 +158,7 @@ services:
       - DB_POOL=5 #optional
       - NO_CHOWN= #optional
     volumes:
-      - /path/to/mastodon/appdata/config:/config
+      - /path/to/mastodon/config:/config
     ports:
       - 80:80
       - 443:443
@@ -212,7 +212,7 @@ docker run -d \
   -e NO_CHOWN= `#optional` \
   -p 80:80 \
   -p 443:443 \
-  -v /path/to/mastodon/appdata/config:/config \
+  -v /path/to/mastodon/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/mastodon:develop
 ```
