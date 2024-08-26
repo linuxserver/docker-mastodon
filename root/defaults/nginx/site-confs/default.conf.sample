@@ -1,4 +1,4 @@
-## Version 2024/05/27 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/develop/root/defaults/nginx/site-confs/default.conf.sample
+## Version 2024/08/26 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/develop/root/defaults/nginx/site-confs/default.conf.sample
 
 map $http_upgrade $connection_upgrade {
     default upgrade;
