@@ -50,15 +50,15 @@ atomic-sleep                                            1.0.0                  n
 attr_required                                           1.0.2                  gem                            
 awrence                                                 1.2.1                  gem                            
 aws-eventstream                                         1.3.0                  gem                            
-aws-partitions                                          1.966.0                gem                            
-aws-sdk-core                                            3.201.5                gem                            
+aws-partitions                                          1.969.0                gem                            
+aws-sdk-core                                            3.202.1                gem                            
 aws-sdk-kms                                             1.88.0                 gem                            
 aws-sdk-s3                                              1.159.0                gem                            
 aws-sigv4                                               1.9.1                  gem                            
 azure-storage-blob                                      2.0.3                  gem                            
 azure-storage-common                                    2.0.4                  gem                            
 balanced-match                                          1.0.2                  npm                            
-base64                                                  0.2.0                  gem                            
+base64                                                  0.2.0                  gem           (+1 duplicate)   
 base64-js                                               1.5.1                  npm                            
 bash                                                    5.2.26-r0              apk                            
 bcp47_spec                                              0.2.1                  gem                            
@@ -78,7 +78,7 @@ brpoplpush-redis_script                                 0.1.3                  g
 buffer                                                  6.0.3                  npm                            
 bufferutil                                              4.0.8                  npm                            
 builder                                                 3.3.0                  gem                            
-bundler                                                 2.5.11                 gem                            
+bundler                                                 2.5.18                 gem                            
 bundler                                                 2.5.9                  gem                            
 busybox                                                 1.36.1-r29             apk                            
 busybox-binsh                                           1.36.1-r29             apk                            
@@ -119,16 +119,16 @@ coreutils-env                                           9.5-r1                 a
 coreutils-fmt                                           9.5-r1                 apk                            
 coreutils-sha512sum                                     9.5-r1                 apk                            
 cors                                                    2.8.5                  npm                            
-cose                                                    1.3.0                  gem                            
+cose                                                    1.3.1                  gem                            
 crass                                                   1.0.6                  gem                            
 cross-spawn                                             7.0.3                  npm                            
-css_parser                                              1.17.1                 gem                            
+css_parser                                              1.19.0                 gem                            
 cssstyle                                                4.0.1                  npm                            
 csv                                                     3.2.8                  gem                            
 csv                                                     3.3.0                  gem                            
 curl                                                    8.9.0-r0               apk                            
 data-urls                                               5.0.0                  npm                            
-date                                                    3.3.4                  gem                            
+date                                                    3.3.4                  gem           (+1 duplicate)   
 dbus-libs                                               1.14.10-r1             apk                            
 debug                                                   2.6.9                  npm           (+3 duplicates)  
 debug                                                   4.3.6                  npm                            
@@ -154,10 +154,10 @@ eastasianwidth                                          0.2.0                  n
 ed25519                                                 1.3.0                  gem                            
 ed25519_jruby                                                                  java-archive                   
 ee-first                                                1.1.1                  npm                            
-elasticsearch                                           7.17.10                gem                            
-elasticsearch-api                                       7.17.10                gem                            
+elasticsearch                                           7.17.11                gem                            
+elasticsearch-api                                       7.17.11                gem                            
 elasticsearch-dsl                                       0.1.10                 gem                            
-elasticsearch-transport                                 7.17.10                gem                            
+elasticsearch-transport                                 7.17.11                gem                            
 emoji-regex                                             8.0.0                  npm                            
 emoji-regex                                             9.2.2                  npm                            
 encodeurl                                               1.0.2                  npm                            
@@ -186,7 +186,7 @@ faraday-em_synchrony                                    1.0.0                  g
 faraday-excon                                           1.1.0                  gem                            
 faraday-httpclient                                      1.0.1                  gem                            
 faraday-multipart                                       1.0.4                  gem                            
-faraday-net_http                                        1.0.1                  gem                            
+faraday-net_http                                        1.0.2                  gem                            
 faraday-net_http_persistent                             1.2.0                  gem                            
 faraday-patron                                          1.0.0                  gem                            
 faraday-rack                                            1.0.0                  gem                            
@@ -398,7 +398,7 @@ linux-pam                                               1.6.0-r0               a
 llhttp-ffi                                              0.5.0                  gem                            
 lodash.defaults                                         4.2.0                  npm                            
 lodash.isarguments                                      3.1.0                  npm                            
-logger                                                  1.6.0                  gem                            
+logger                                                  1.6.0                  gem           (+1 duplicate)   
 lograge                                                 0.14.0                 gem                            
 logrotate                                               3.21.0-r1              apk                            
 loofah                                                  2.22.0                 gem                            
@@ -407,7 +407,7 @@ mail                                                    2.8.1                  g
 make-fetch-happen                                       13.0.0                 npm                            
 marcel                                                  1.0.4                  gem                            
 mario-redis-lock                                        1.2.1                  gem                            
-mbedtls                                                 3.6.0-r0               apk                            
+mbedtls                                                 3.6.1-r0               apk                            
 md-paperclip-azure                                      2.2.0                  gem                            
 media-typer                                             0.3.0                  npm                            
 merge-descriptors                                       1.0.1                  npm                            
@@ -416,7 +416,7 @@ mime                                                    1.6.0                  n
 mime-db                                                 1.52.0                 npm                            
 mime-types                                              2.1.35                 npm                            
 mime-types                                              3.5.2                  gem                            
-mime-types-data                                         3.2024.0702            gem                            
+mime-types-data                                         3.2024.0820            gem                            
 mini_mime                                               1.1.5                  gem                            
 minimatch                                               9.0.4                  npm                            
 minipass                                                3.3.6                  npm           (+5 duplicates)  
@@ -436,19 +436,19 @@ ms                                                      2.1.2                  n
 ms                                                      2.1.3                  npm                            
 msgpack                                                 1.7.2                  gem                            
 multi_json                                              1.15.0                 gem                            
-multipart-post                                          2.4.0                  gem                            
+multipart-post                                          2.4.1                  gem                            
 musl                                                    1.2.5-r0               apk                            
 musl-utils                                              1.2.5-r0               apk                            
-mutex_m                                                 0.2.0                  gem                            
+mutex_m                                                 0.2.0                  gem           (+1 duplicate)   
 nano                                                    8.0-r0                 apk                            
 ncurses-terminfo-base                                   6.4_p20240420-r0       apk                            
 negotiator                                              0.6.3                  npm                            
-net-http                                                0.4.1                  gem                            
+net-http                                                0.4.1                  gem           (+1 duplicate)   
 net-http-persistent                                     4.0.2                  gem                            
-net-imap                                                0.4.14                 gem                            
+net-imap                                                0.4.15                 gem                            
 net-ldap                                                0.19.0                 gem                            
 net-pop                                                 0.1.2                  gem                            
-net-protocol                                            0.2.2                  gem                            
+net-protocol                                            0.2.2                  gem           (+1 duplicate)   
 net-smtp                                                0.5.0                  gem                            
 netcat-openbsd                                          1.226-r0               apk                            
 nghttp2-libs                                            1.62.1-r0              apk                            
@@ -481,7 +481,7 @@ openexr-libiex                                          3.1.13-r1              a
 openexr-libilmthread                                    3.1.13-r1              apk                            
 openexr-libopenexr                                      3.1.13-r1              apk                            
 openid_connect                                          1.4.2                  gem                            
-openssl                                                 3.2.0                  gem                            
+openssl                                                 3.2.0                  gem           (+1 duplicate)   
 openssl                                                 3.3.1-r3               apk                            
 openssl-signature_algorithm                             1.3.0                  gem                            
 opentelemetry-api                                       1.4.0                  gem                            
@@ -514,7 +514,7 @@ optparse                                                0.4.0                  g
 opus                                                    1.5.2-r0               apk                            
 orc                                                     0.4.37-r0              apk                            
 orm_adapter                                             0.5.0                  gem                            
-ostruct                                                 0.6.0                  gem                            
+ostruct                                                 0.6.0                  gem           (+1 duplicate)   
 ox                                                      2.14.18                gem                            
 p-map                                                   4.0.0                  npm                            
 package-json-from-dist                                  1.0.0                  npm                            
@@ -563,7 +563,7 @@ postgres-bytea                                          1.0.0                  n
 postgres-date                                           1.0.7                  npm                            
 postgres-interval                                       1.2.0                  npm                            
 pp                                                      0.5.0                  gem                            
-premailer                                               1.23.0                 gem                            
+premailer                                               1.27.0                 gem                            
 premailer-rails                                         1.12.0                 gem                            
 prettyprint                                             0.2.0                  gem                            
 prism                                                   0.19.0                 gem                            
@@ -578,7 +578,7 @@ propshaft                                               0.9.1                  g
 proxy-addr                                              2.0.7                  npm                            
 psl                                                     1.9.0                  npm                            
 pstore                                                  0.1.3                  gem                            
-psych                                                   5.1.2                  gem                            
+psych                                                   5.1.2                  gem           (+1 duplicate)   
 public_suffix                                           6.0.1                  gem                            
 puma                                                    6.4.2                  gem                            
 pundit                                                  2.4.0                  gem                            
@@ -643,7 +643,7 @@ ruby-progressbar                                        1.13.0                 g
 ruby-rdoc                                               3.3.3-r0               apk                            
 ruby-saml                                               1.16.0                 gem                            
 ruby-vips                                               2.2.2                  gem                            
-ruby2_keywords                                          0.0.5                  gem                            
+ruby2_keywords                                          0.0.5                  gem           (+1 duplicate)   
 rubyzip                                                 2.3.2                  gem                            
 rufus-scheduler                                         3.9.1                  gem                            
 safe-buffer                                             5.2.1                  npm                            
@@ -697,7 +697,7 @@ stoplight                                               4.1.0                  g
 string-width                                            4.2.3                  npm           (+1 duplicate)   
 string-width                                            5.1.2                  npm                            
 string_decoder                                          1.3.0                  npm                            
-stringio                                                3.1.1                  gem                            
+stringio                                                3.1.1                  gem           (+1 duplicate)   
 strip-ansi                                              6.0.1                  npm           (+2 duplicates)  
 strip-ansi                                              7.1.0                  npm                            
 strong_migrations                                       2.0.0                  gem                            
@@ -715,13 +715,13 @@ temple                                                  0.10.3                 g
 terrapin                                                1.0.1                  gem                            
 thor                                                    1.3.2                  gem                            
 thread-stream                                           3.0.0                  npm                            
-tilt                                                    2.3.0                  gem                            
+tilt                                                    2.4.0                  gem                            
 time                                                    0.3.0                  gem                            
-timeout                                                 0.4.1                  gem                            
+timeout                                                 0.4.1                  gem           (+1 duplicate)   
 tmpdir                                                  0.2.0                  gem                            
 toidentifier                                            1.0.1                  npm                            
 tough-cookie                                            4.1.4                  npm                            
-tpm-key_attestation                                     0.12.0                 gem                            
+tpm-key_attestation                                     0.12.1                 gem                            
 tr46                                                    5.0.0                  npm                            
 transport                                               0.0.1                  npm                            
 tsort                                                   0.2.0                  gem                            
@@ -743,6 +743,7 @@ unique-slug                                             4.0.0                  n
 universalify                                            0.2.0                  npm                            
 unpipe                                                  1.0.0                  npm                            
 uri                                                     0.13.0                 gem                            
+uri                                                     0.13.1                 gem                            
 url-parse                                               1.5.10                 npm                            
 utf-8-validate                                          6.0.4                  npm                            
 utils-merge                                             1.0.1                  npm                            
