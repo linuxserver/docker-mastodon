@@ -113,7 +113,7 @@ content-disposition                                     0.5.4                  n
 content-type                                            1.0.5                  npm                            
 cookie                                                  0.6.0                  npm                            
 cookie-signature                                        1.0.6                  npm                            
-corepack                                                0.29.3                 npm                            
+corepack                                                0.29.4                 npm                            
 coreutils                                               9.5-r1                 apk                            
 coreutils-env                                           9.5-r1                 apk                            
 coreutils-fmt                                           9.5-r1                 apk                            
@@ -512,7 +512,7 @@ opentelemetry-sdk                                       1.5.0                  g
 opentelemetry-semantic_conventions                      1.10.1                 gem                            
 optparse                                                0.4.0                  gem                            
 opus                                                    1.5.2-r0               apk                            
-orc                                                     0.4.37-r0              apk                            
+orc                                                     0.4.39-r0              apk                            
 orm_adapter                                             0.5.0                  gem                            
 ostruct                                                 0.6.0                  gem           (+1 duplicate)   
 ox                                                      2.14.18                gem                            
@@ -528,7 +528,7 @@ path-to-regexp                                          0.1.7                  n
 pathname                                                0.3.0                  gem                            
 pcre                                                    8.45-r3                apk                            
 pcre2                                                   10.43-r0               apk                            
-pg                                                      1.5.7                  gem                            
+pg                                                      1.5.8                  gem                            
 pg                                                      8.12.0                 npm                            
 pg-cloudflare                                           1.1.1                  npm                            
 pg-connection-string                                    2.6.4                  npm                            
