@@ -282,7 +282,7 @@ imagemagick-jpeg                                        7.1.1.32-r2            a
 imagemagick-jxl                                         7.1.1.32-r2            apk                            
 imagemagick-libs                                        7.1.1.32-r2            apk                            
 imagemagick-webp                                        7.1.1.32-r2            apk                            
-imath                                                   3.1.11-r2              apk                            
+imath                                                   3.1.12-r0              apk                            
 imurmurhash                                             0.1.4                  npm                            
 indent-string                                           4.0.0                  npm                            
 inherits                                                2.0.4                  npm                            
@@ -465,7 +465,7 @@ nwsapi                                                  2.2.12                 n
 object-assign                                           4.1.1                  npm                            
 object-inspect                                          1.13.1                 npm                            
 observer                                                0.1.2                  gem                            
-oj                                                      3.16.5                 gem                            
+oj                                                      3.16.6                 gem                            
 omniauth                                                2.1.2                  gem                            
 omniauth-cas                                            3.0.0                  gem                            
 omniauth-rails_csrf_protection                          1.0.2                  gem                            
