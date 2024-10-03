@@ -631,11 +631,11 @@ rotp                                                    6.3.0                  g
 rqrcode                                                 2.2.0                  gem                            
 rqrcode_core                                            1.2.0                  gem                            
 rrweb-cssom                                             0.7.1                  npm                            
-ruby                                                    3.3.3-r0               apk                            
+ruby                                                    3.3.3-r1               apk                            
 ruby-bundler                                            2.5.9-r0               apk                            
-ruby-libs                                               3.3.3-r0               apk                            
+ruby-libs                                               3.3.3-r1               apk                            
 ruby-progressbar                                        1.13.0                 gem                            
-ruby-rdoc                                               3.3.3-r0               apk                            
+ruby-rdoc                                               3.3.3-r1               apk                            
 ruby-saml                                               1.17.0                 gem                            
 ruby-vips                                               2.2.2                  gem                            
 ruby2_keywords                                          0.0.5                  gem           (+1 duplicate)   
