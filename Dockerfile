@@ -102,7 +102,7 @@ RUN \
     -o -name '*LICENSE*' \
     -o -name 'Rakefile' \
     -o -name '.*' \) \
-		-type f -delete
+    -type f -delete
 
 COPY root/ /
 
