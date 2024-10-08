@@ -118,7 +118,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "26.08.24:", desc: "Rebase to Alpine 3.20, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). Existing users should update their nginx confs to avoid http2 deprecation warnings." }
+  - { date: "08.10.24:", desc: "Rebase to Alpine 3.20, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). Existing users should update their nginx confs to avoid http2 deprecation warnings." }
   - { date: "21.09.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3." }
   - { date: "25.05.23:", desc: "Adjust apk flags." }
   - { date: "09.02.23:", desc: "Add Glitch branch." }
