@@ -1,6 +1,8 @@
 NAME                                                    VERSION                TYPE                          
 @ioredis/commands                                       1.2.0                  npm                            
 @isaacs/cliui                                           8.0.2                  npm                            
+@mastodon/mastodon                                      UNKNOWN                npm                            
+@mastodon/streaming                                     UNKNOWN                npm                            
 @npmcli/agent                                           2.2.0                  npm                            
 @npmcli/fs                                              3.1.0                  npm                            
 @opentelemetry/api                                      1.6.0                  npm                            
