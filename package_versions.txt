@@ -409,7 +409,7 @@ mail                                                    2.8.1                  g
 make-fetch-happen                                       13.0.0                 npm                            
 marcel                                                  1.0.4                  gem                            
 mario-redis-lock                                        1.2.1                  gem                            
-mbedtls                                                 3.6.1-r0               apk                            
+mbedtls                                                 3.6.2-r0               apk                            
 md-paperclip-azure                                      2.2.0                  gem                            
 media-typer                                             0.3.0                  npm                            
 merge-descriptors                                       1.0.3                  npm                            
