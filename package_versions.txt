@@ -426,7 +426,7 @@ minipass-sized                                          1.0.3                  n
 minitest                                                5.25.1                 gem                            
 minizlib                                                2.1.2                  npm                            
 mkdirp                                                  1.0.4                  npm                            
-mpg123-libs                                             1.32.6-r0              apk                            
+mpg123-libs                                             1.32.8-r0              apk                            
 ms                                                      2.0.0                  npm           (+3 duplicates)  
 ms                                                      2.1.3                  npm                            
 msgpack                                                 1.7.2                  gem                            
