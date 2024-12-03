@@ -42,8 +42,8 @@ RUN \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
   if [ -z ${MASTODON_VERSION+x} ]; then \
-    MASTODON_VERSION=$(curl -sX GET https://api.github.com/repos/glitch-soc/mastodon/commits/main \
-    | jq -r '. | .sha'); \
+    MASTODON_VERSION=$(curl -sX GET "https://api.github.com/repos/glitch-soc/mastodon/commits/main" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   curl -s -o \
     /tmp/mastodon.tar.gz -L \
