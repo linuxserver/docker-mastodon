@@ -6,8 +6,9 @@ external_type: github_stable
 release_type: prerelease
 release_tag: glitch
 ls_branch: glitch
-image_sbom: true
-image_provenance: true
+image_provenance: false
+image_sbom: false
+image_builder: default
 repo_vars:
   - EXT_GIT_BRANCH = 'main'
   - EXT_USER = 'glitch-soc'
