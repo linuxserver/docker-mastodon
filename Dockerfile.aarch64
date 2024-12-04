@@ -55,7 +55,7 @@ RUN \
   bundle config set --local deployment 'true' && \
   bundle config set --local without 'development test exclude' && \
   bundle config set silence_root_warning true && \
-  BUNDLE_BUILD__CHARLOCK_HOLMES="--with-cxxflags=-std=c++17" bundle install -j"$(nproc)" --no-cache && \
+  bundle install -j"$(nproc)" --no-cache && \
   npm install -g corepack && \
   corepack enable && \
   yarn workspaces focus --production @mastodon/mastodon && \
