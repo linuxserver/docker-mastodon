@@ -6,77 +6,68 @@ project_url: "https://github.com/mastodon/mastodon/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mastodon-banner.png"
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..
-
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable releases." }
-  - { tag: "develop", desc: "Pre-releases *only*." }
-  - { tag: "glitch", desc: "[glitch-soc](https://github.com/glitch-soc/mastodon) fork releases." }
-
+  - {tag: "latest", desc: "Stable releases."}
+  - {tag: "develop", desc: "Pre-releases *only*."}
+  - {tag: "glitch", desc: "[glitch-soc](https://github.com/glitch-soc/mastodon) fork releases."}
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
-
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "LOCAL_DOMAIN", env_value: "example.com", desc: "This is the unique identifier of your server in the network. It cannot be safely changed later."}
-  - { env_var: "REDIS_HOST", env_value: "redis", desc: "Redis server hostname"}
-  - { env_var: "REDIS_PORT", env_value: "6379", desc: "Redis port"}
-  - { env_var: "DB_HOST", env_value: "db", desc: "Postgres database hostname"}
-  - { env_var: "DB_USER", env_value: "mastodon", desc: "Postgres username"}
-  - { env_var: "DB_NAME", env_value: "mastodon", desc: "Postgres db name"}
-  - { env_var: "DB_PASS", env_value: "mastodon", desc: "Postgres password"}
-  - { env_var: "DB_PORT", env_value: "5432", desc: "Postgres port"}
-  - { env_var: "ES_ENABLED", env_value: "false", desc: "Enable or disable Elasticsearch (requires a separate ES instance)"}
-  - { env_var: "ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY", env_value: "", desc: "Primary key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
-  - { env_var: "ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY", env_value: "", desc: "Deterministic key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
-  - { env_var: "ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT", env_value: "", desc: "Derivation salt for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
-  - { env_var: "SECRET_KEY_BASE", env_value: "", desc: "Browser session secret. Changing it will break all active browser sessions."}
-  - { env_var: "OTP_SECRET", env_value: "", desc: "MFA secret. Changing it will break two-factor authentication."}
-  - { env_var: "VAPID_PRIVATE_KEY", env_value: "", desc: "Push notification private key. Changing it will break push notifications."}
-  - { env_var: "VAPID_PUBLIC_KEY", env_value: "", desc: "Push notification public key. Changing it will break push notifications."}
-  - { env_var: "SMTP_SERVER", env_value: "mail.example.com", desc: "SMTP server for email notifications"}
-  - { env_var: "SMTP_PORT", env_value: "25", desc: "SMTP server port"}
-  - { env_var: "SMTP_LOGIN", env_value: "", desc: "SMTP username"}
-  - { env_var: "SMTP_PASSWORD", env_value: "", desc: "SMTP password"}
-  - { env_var: "SMTP_FROM_ADDRESS", env_value: "notifications@example.com", desc: "From address for emails send from Mastodon"}
-  - { env_var: "S3_ENABLED", env_value: "false", desc: "Enable or disable S3 storage of uploaded files"}
-
+  - {env_var: "LOCAL_DOMAIN", env_value: "example.com", desc: "This is the unique identifier of your server in the network. It cannot be safely changed later."}
+  - {env_var: "REDIS_HOST", env_value: "redis", desc: "Redis server hostname"}
+  - {env_var: "REDIS_PORT", env_value: "6379", desc: "Redis port"}
+  - {env_var: "DB_HOST", env_value: "db", desc: "Postgres database hostname"}
+  - {env_var: "DB_USER", env_value: "mastodon", desc: "Postgres username"}
+  - {env_var: "DB_NAME", env_value: "mastodon", desc: "Postgres db name"}
+  - {env_var: "DB_PASS", env_value: "mastodon", desc: "Postgres password"}
+  - {env_var: "DB_PORT", env_value: "5432", desc: "Postgres port"}
+  - {env_var: "ES_ENABLED", env_value: "false", desc: "Enable or disable Elasticsearch (requires a separate ES instance)"}
+  - {env_var: "ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY", env_value: "", desc: "Primary key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
+  - {env_var: "ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY", env_value: "", desc: "Deterministic key for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
+  - {env_var: "ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT", env_value: "", desc: "Derivation salt for [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files)."}
+  - {env_var: "SECRET_KEY_BASE", env_value: "", desc: "Browser session secret. Changing it will break all active browser sessions."}
+  - {env_var: "OTP_SECRET", env_value: "", desc: "MFA secret. Changing it will break two-factor authentication."}
+  - {env_var: "VAPID_PRIVATE_KEY", env_value: "", desc: "Push notification private key. Changing it will break push notifications."}
+  - {env_var: "VAPID_PUBLIC_KEY", env_value: "", desc: "Push notification public key. Changing it will break push notifications."}
+  - {env_var: "SMTP_SERVER", env_value: "mail.example.com", desc: "SMTP server for email notifications"}
+  - {env_var: "SMTP_PORT", env_value: "25", desc: "SMTP server port"}
+  - {env_var: "SMTP_LOGIN", env_value: "", desc: "SMTP username"}
+  - {env_var: "SMTP_PASSWORD", env_value: "", desc: "SMTP password"}
+  - {env_var: "SMTP_FROM_ADDRESS", env_value: "notifications@example.com", desc: "From address for emails send from Mastodon"}
+  - {env_var: "S3_ENABLED", env_value: "false", desc: "Enable or disable S3 storage of uploaded files"}
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "WEB_DOMAIN", env_value: "mastodon.example.com", desc: "This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See [https://docs.joinmastodon.org/admin/config/#basic](https://docs.joinmastodon.org/admin/config/#basic)"}
-  - { env_var: "ES_HOST", env_value: "es", desc: "Elasticsearch server hostname"}
-  - { env_var: "ES_PORT", env_value: "9200", desc: "Elasticsearch port"}
-  - { env_var: "ES_USER", env_value: "elastic", desc: "Elasticsearch username"}
-  - { env_var: "ES_PASS", env_value: "elastic", desc: "Elasticsearch password"}
-  - { env_var: "S3_BUCKET", env_value: "", desc: "S3 bucket hostname"}
-  - { env_var: "AWS_ACCESS_KEY_ID", env_value: "", desc: "S3 bucket access key ID"}
-  - { env_var: "AWS_SECRET_ACCESS_KEY", env_value: "", desc: "S3 bucket secret access key"}
-  - { env_var: "S3_ALIAS_HOST", env_value: "", desc: "Alternate hostname for object fetching if you are front the S3 connections."}
-  - { env_var: "SIDEKIQ_ONLY", env_value: "false", desc: "Only run the sidekiq service in this container instance. For large scale instances that need better queue handling."}
-  - { env_var: "SIDEKIQ_QUEUE", env_value: "", desc: "The name of the sidekiq queue to run in this container. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-queues)."}
-  - { env_var: "SIDEKIQ_DEFAULT", env_value: "false", desc: "Set to `true` on the main container if you're running additional sidekiq instances. It will run the `default` queue."}
-  - { env_var: "SIDEKIQ_THREADS", env_value: "5", desc: "The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
-  - { env_var: "DB_POOL", env_value: "5", desc: "The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
-  - { env_var: "NO_CHOWN", env_value: "", desc: "Set to `true` to skip chown of /config on init. *READ THE APPLICATION NOTES BEFORE SETTING THIS*."}
-
+  - {env_var: "WEB_DOMAIN", env_value: "mastodon.example.com", desc: "This can be set if you want your server identifier to be different to the subdomain hosting Mastodon. See [https://docs.joinmastodon.org/admin/config/#basic](https://docs.joinmastodon.org/admin/config/#basic)"}
+  - {env_var: "ES_HOST", env_value: "es", desc: "Elasticsearch server hostname"}
+  - {env_var: "ES_PORT", env_value: "9200", desc: "Elasticsearch port"}
+  - {env_var: "ES_USER", env_value: "elastic", desc: "Elasticsearch username"}
+  - {env_var: "ES_PASS", env_value: "elastic", desc: "Elasticsearch password"}
+  - {env_var: "S3_BUCKET", env_value: "", desc: "S3 bucket hostname"}
+  - {env_var: "AWS_ACCESS_KEY_ID", env_value: "", desc: "S3 bucket access key ID"}
+  - {env_var: "AWS_SECRET_ACCESS_KEY", env_value: "", desc: "S3 bucket secret access key"}
+  - {env_var: "S3_ALIAS_HOST", env_value: "", desc: "Alternate hostname for object fetching if you are front the S3 connections."}
+  - {env_var: "SIDEKIQ_ONLY", env_value: "false", desc: "Only run the sidekiq service in this container instance. For large scale instances that need better queue handling."}
+  - {env_var: "SIDEKIQ_QUEUE", env_value: "", desc: "The name of the sidekiq queue to run in this container. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-queues)."}
+  - {env_var: "SIDEKIQ_DEFAULT", env_value: "false", desc: "Set to `true` on the main container if you're running additional sidekiq instances. It will run the `default` queue."}
+  - {env_var: "SIDEKIQ_THREADS", env_value: "5", desc: "The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
+  - {env_var: "DB_POOL", env_value: "5", desc: "The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
+  - {env_var: "NO_CHOWN", env_value: "", desc: "Set to `true` to skip chown of /config on init. *READ THE APPLICATION NOTES BEFORE SETTING THIS*."}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "80", internal_port: "80", port_desc: "Port for web frontend" }
-  - { external_port: "443", internal_port: "443", port_desc: "Port for web frontend" }
-
+  - {external_port: "80", internal_port: "80", port_desc: "Port for web frontend"}
+  - {external_port: "443", internal_port: "443", port_desc: "Port for web frontend"}
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Contains all relevant configuration files." }
-
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Contains all relevant configuration files."}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -115,13 +106,73 @@ app_setup_block: |
   ### Strict reverse proxies
 
   This image automatically redirects to https with a self-signed certificate. If you are using a reverse proxy which validates certificates, you need to [disable this check for the container](https://docs.linuxserver.io/faq#strict-proxy).
-
+# init diagram
+init_diagram: |
+  "mastodon:develop": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-nginx-end -> init-config
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-mastodon-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    init-os-end -> init-folders
+    init-php -> init-keygen
+    init-nginx-end -> init-mastodon-config
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-version-checks -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    init-samples -> init-nginx
+    init-permissions -> init-nginx-end
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-keygen -> init-permissions
+    init-nginx -> init-php
+    init-folders -> init-samples
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-config-end -> init-version-checks
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-mastodon
+    svc-mastodon -> legacy-services
+    init-services -> svc-nginx
+    svc-nginx -> legacy-services
+    init-services -> svc-php-fpm
+    svc-php-fpm -> legacy-services
+    init-services -> svc-sidekiq
+    svc-sidekiq -> legacy-services
+    init-services -> svc-streaming
+    svc-streaming -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine-nginx:3.20" <- "baseimage-alpine:3.20"
+  }
+  "mastodon:develop" <- Base Images
 # changelog
 changelogs:
-  - { date: "26.08.24:", desc: "Rebase to Alpine 3.20, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). Existing users should update their nginx confs to avoid http2 deprecation warnings." }
-  - { date: "08.08.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3" }
-  - { date: "09.02.23:", desc: "Add Glitch branch." }
-  - { date: "26.01.23:", desc: "Add aliases for key generation & tootctl to better support secrets." }
-  - { date: "19.12.22:", desc: "Support separate sidekiq queue instances." }
-  - { date: "08.11.22:", desc: "Add develop branch." }
-  - { date: "05.11.22:", desc: "Initial Release." }
+  - {date: "26.08.24:", desc: "Rebase to Alpine 3.20, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). Existing users should update their nginx confs to avoid http2 deprecation warnings."}
+  - {date: "08.08.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3"}
+  - {date: "09.02.23:", desc: "Add Glitch branch."}
+  - {date: "26.01.23:", desc: "Add aliases for key generation & tootctl to better support secrets."}
+  - {date: "19.12.22:", desc: "Support separate sidekiq queue instances."}
+  - {date: "08.11.22:", desc: "Add develop branch."}
+  - {date: "05.11.22:", desc: "Initial Release."}
