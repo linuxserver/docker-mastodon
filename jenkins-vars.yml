@@ -6,6 +6,9 @@ external_type: custom_json
 release_type: prerelease
 release_tag: develop
 ls_branch: develop
+image_provenance: false
+image_sbom: false
+image_builder: default
 repo_vars:
   - JSON_URL='https://api.github.com/repos/mastodon/mastodon/releases'
   - JSON_PATH='first(.[] | select(.prerelease==true)) | .tag_name'
