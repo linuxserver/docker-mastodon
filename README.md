@@ -432,6 +432,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.12.24:** - Switch from commit builds to releases to match upstream changes.
 * **27.05.24:** - Existing users should update their nginx confs to avoid http2 deprecation warnings.
 * **23.05.24:** - Rebase to Alpine 3.20.
 * **02.05.24:** - Rebase to Alpine 3.19, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files).
