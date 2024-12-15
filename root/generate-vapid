@@ -3,4 +3,4 @@
 
 cd /app/www || exit 1
 
-rake mastodon:webpush:generate_vapid_key
+bundle exec rails mastodon:webpush:generate_vapid_key
