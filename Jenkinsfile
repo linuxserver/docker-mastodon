@@ -75,7 +75,9 @@ pipeline {
                   fi
                 done
               fi
-              docker system prune -f --volumes || : '''
+              docker system prune -f --volumes || :
+              docker image prune -af || :
+           '''
         script{
           env.EXIT_STATUS = ''
           env.LS_RELEASE = sh(
@@ -756,7 +758,8 @@ pipeline {
                   if [[ -n "${containers}" ]]; then
                     docker stop ${containers}
                   fi
-                  docker system prune -af --volumes || :
+                  docker system prune -f --volumes || :
+                  docker image prune -af || :
                '''
           }
         }
@@ -1182,6 +1185,7 @@ EOF
               done
             fi
             docker system prune -f --volumes || :
+            docker image prune -af || :
          '''
       cleanWs()
     }
