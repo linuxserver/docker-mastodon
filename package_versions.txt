@@ -93,7 +93,7 @@ call-bind                                               1.0.7                  n
 case_transform                                          0.2                    gem                            
 catatonit                                               0.2.0-r0               apk                            
 cbor                                                    0.5.9.8                gem                            
-cgi                                                     0.4.1                  gem                            
+cgi                                                     0.4.2                  gem                            
 charlock_holmes                                         0.7.9                  gem                            
 chewy                                                   7.6.0                  gem                            
 chownr                                                  2.0.0                  npm                            
@@ -631,11 +631,11 @@ rotp                                                    6.3.0                  g
 rqrcode                                                 2.2.0                  gem                            
 rqrcode_core                                            1.2.0                  gem                            
 rrweb-cssom                                             0.7.1                  npm                            
-ruby                                                    3.3.6-r0               apk                            
+ruby                                                    3.3.8-r0               apk                            
 ruby-bundler                                            2.5.9-r0               apk                            
-ruby-libs                                               3.3.6-r0               apk                            
+ruby-libs                                               3.3.8-r0               apk                            
 ruby-progressbar                                        1.13.0                 gem                            
-ruby-rdoc                                               3.3.6-r0               apk                            
+ruby-rdoc                                               3.3.8-r0               apk                            
 ruby-saml                                               1.17.0                 gem                            
 ruby-vips                                               2.2.2                  gem                            
 ruby2_keywords                                          0.0.5                  gem           (+1 duplicate)   
@@ -737,7 +737,8 @@ unf_ext                                                 0.0.9.1                g
 unique-filename                                         3.0.0                  npm                            
 unique-slug                                             4.0.0                  npm                            
 unpipe                                                  1.0.0                  npm                            
-uri                                                     0.13.1                 gem           (+1 duplicate)   
+uri                                                     0.13.1                 gem                            
+uri                                                     0.13.2                 gem                            
 utf-8-validate                                          6.0.4                  npm                            
 utils-merge                                             1.0.1                  npm                            
 utmps-libs                                              0.1.2.2-r1             apk                            
