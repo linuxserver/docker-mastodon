@@ -592,7 +592,7 @@ pipeline {
           --label \"org.opencontainers.image.title=Mastodon\" \
           --label \"org.opencontainers.image.description=[Mastodon](https://github.com/mastodon/mastodon/) is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..  \" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
-          --provenance=false --sbom=false --builder=default --load \
+          --provenance=true --sbom=true --builder=default --load \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
         sh '''#! /bin/bash
               set -e
@@ -658,7 +658,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Mastodon\" \
               --label \"org.opencontainers.image.description=[Mastodon](https://github.com/mastodon/mastodon/) is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..  \" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
-              --provenance=false --sbom=false --builder=default --load \
+              --provenance=true --sbom=true --builder=default --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh '''#! /bin/bash
                   set -e
@@ -717,7 +717,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Mastodon\" \
               --label \"org.opencontainers.image.description=[Mastodon](https://github.com/mastodon/mastodon/) is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones..  \" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
-              --provenance=false --sbom=false --builder=default --load \
+              --provenance=true --sbom=true --builder=default --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh '''#! /bin/bash
                   set -e
