@@ -36,7 +36,7 @@ RUN \
     npm \
     openssl-dev \
     ruby-dev \
-    vips \
+    vips-dev \
     yaml-dev && \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
