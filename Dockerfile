@@ -17,13 +17,13 @@ RUN \
   apk add --no-cache \
     ffmpeg \
     file \
-    imagemagick \
     libpq \
     libidn \
     nodejs \
     ruby \
     ruby-bundler \
     ruby-rdoc \
+    vips \
     yaml && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
@@ -36,6 +36,7 @@ RUN \
     npm \
     openssl-dev \
     ruby-dev \
+    vips-dev \
     yaml-dev && \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
