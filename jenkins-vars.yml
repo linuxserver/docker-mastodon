@@ -6,8 +6,6 @@ external_type: github_stable
 release_type: stable
 release_tag: latest
 ls_branch: main
-image_provenance: false
-image_sbom: false
 image_builder: default
 repo_vars:
   - EXT_GIT_BRANCH = 'main'

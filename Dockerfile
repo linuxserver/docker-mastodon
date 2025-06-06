@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.20
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.21
 
 ARG BUILD_DATE
 ARG VERSION
@@ -17,13 +17,13 @@ RUN \
   apk add --no-cache \
     ffmpeg \
     file \
-    imagemagick \
     libpq \
     libidn \
     nodejs \
     ruby \
     ruby-bundler \
     ruby-rdoc \
+    vips \
     yaml && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
@@ -36,6 +36,7 @@ RUN \
     npm \
     openssl-dev \
     ruby-dev \
+    vips-dev \
     yaml-dev && \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
