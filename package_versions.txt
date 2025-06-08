@@ -91,11 +91,14 @@ c-ares                                                  1.34.5-r0         apk
 ca-certificates                                         20241121-r1       apk                            
 ca-certificates-bundle                                  20241121-r1       apk                            
 cacache                                                 18.0.0            npm                            
+cairo                                                   1.18.4-r0         apk                            
 call-bind                                               1.0.7             npm                            
 case_transform                                          0.2               gem                            
 catatonit                                               0.2.0-r0          apk                            
 cbor                                                    0.5.9.8           gem                            
+cfitsio                                                 4.5.0-r0          apk                            
 cgi                                                     0.4.2             gem                            
+cgif                                                    0.4.1-r0          apk                            
 charlock_holmes                                         0.7.9             gem                            
 chewy                                                   7.6.0             gem                            
 chownr                                                  2.0.0             npm                            
@@ -234,6 +237,7 @@ fs-minipass                                             2.1.0             npm
 fs-minipass                                             3.0.3             npm                            
 fugit                                                   1.11.1            gem                            
 function-bind                                           1.1.2             npm                            
+gdk-pixbuf                                              2.42.12-r1        apk                            
 get-caller-file                                         2.0.5             npm                            
 get-intrinsic                                           1.2.4             npm                            
 getoptlong                                              0.2.1             gem                            
@@ -281,11 +285,6 @@ icu-data-en                                             74.2-r0           apk
 icu-libs                                                74.2-r0           apk                            
 idn-ruby                                                0.1.5             gem                            
 ieee754                                                 1.2.1             npm                            
-imagemagick                                             7.1.1.41-r0       apk                            
-imagemagick-jpeg                                        7.1.1.41-r0       apk                            
-imagemagick-jxl                                         7.1.1.41-r0       apk                            
-imagemagick-libs                                        7.1.1.41-r0       apk                            
-imagemagick-webp                                        7.1.1.41-r0       apk                            
 imath                                                   3.1.12-r0         apk                            
 imurmurhash                                             0.1.4             npm                            
 indent-string                                           4.0.0             npm                            
@@ -325,6 +324,7 @@ kt-paperclip                                            7.2.2             gem
 lame-libs                                               3.100-r5          apk                            
 lcms2                                                   2.16-r0           apk                            
 libSvtAv1Enc                                            2.2.1-r0          apk                            
+libarchive                                              3.8.1-r0          apk                            
 libass                                                  0.17.3-r0         apk                            
 libasyncns                                              0.8-r4            apk                            
 libattr                                                 2.5.2-r2          apk                            
@@ -340,6 +340,7 @@ libdovi                                                 3.3.1-r0          apk
 libdrm                                                  2.4.123-r1        apk                            
 libeconf                                                0.6.3-r0          apk                            
 libedit                                                 20240808.3.1-r0   apk                            
+libexif                                                 0.6.24-r2         apk                            
 libexpat                                                2.7.0-r0          apk                            
 libffi                                                  3.4.7-r0          apk                            
 libflac                                                 1.4.3-r1          apk                            
@@ -348,6 +349,7 @@ libgomp                                                 14.2.0-r4         apk
 libhwy                                                  1.0.7-r0          apk                            
 libidn                                                  1.42-r0           apk                            
 libidn2                                                 2.3.7-r0          apk                            
+libimagequant                                           4.2.2-r0          apk                            
 libintl                                                 0.22.5-r0         apk                            
 libjpeg-turbo                                           3.0.4-r0          apk                            
 libjxl                                                  0.10.4-r0         apk                            
@@ -366,9 +368,11 @@ libproc2                                                4.0.4-r2          apk
 libpsl                                                  0.21.5-r3         apk                            
 libpulse                                                17.0-r4           apk                            
 librist                                                 0.2.10-r1         apk                            
+librsvg                                                 2.59.2-r0         apk                            
 libsharpyuv                                             1.4.0-r0          apk                            
 libsndfile                                              1.2.2-r2          apk                            
 libsodium                                               1.0.20-r0         apk                            
+libspng                                                 0.7.4-r0          apk                            
 libsrt                                                  1.5.3-r0          apk                            
 libssh                                                  0.11.1-r0         apk                            
 libssl3                                                 3.3.3-r0          apk                            
@@ -391,7 +395,9 @@ libxcb                                                  1.16.1-r0         apk
 libxdmcp                                                1.1.5-r1          apk                            
 libxext                                                 1.3.6-r2          apk                            
 libxfixes                                               6.0.1-r4          apk                            
+libxft                                                  2.3.8-r3          apk                            
 libxml2                                                 2.13.4-r6         apk                            
+libxrender                                              0.9.11-r5         apk                            
 libzip                                                  1.11.2-r0         apk                            
 libzmq                                                  4.3.5-r2          apk                            
 lilv-libs                                               0.24.24-r1        apk                            
@@ -406,6 +412,7 @@ lograge                                                 0.14.0            gem
 logrotate                                               3.21.0-r1         apk                            
 loofah                                                  2.22.0            gem                            
 lru-cache                                               10.2.0            npm                            
+lz4-libs                                                1.10.0-r0         apk                            
 mail                                                    2.8.1             gem                            
 make-fetch-happen                                       13.0.0            npm                            
 marcel                                                  1.0.4             gem                            
@@ -486,6 +493,7 @@ openexr-libilmthread                                    3.3.2-r0          apk
 openexr-libopenexr                                      3.3.2-r0          apk                            
 openexr-libopenexrcore                                  3.3.2-r0          apk                            
 openid_connect                                          1.4.2             gem                            
+openjpeg                                                2.5.2-r0          apk                            
 openssl                                                 3.2.0             gem           (+1 duplicate)   
 openssl                                                 3.3.3-r0          apk                            
 openssl-signature_algorithm                             1.3.0             gem                            
@@ -523,6 +531,7 @@ ostruct                                                 0.6.0             gem   
 ox                                                      2.14.18           gem                            
 p-map                                                   4.0.0             npm                            
 package-json-from-dist                                  1.0.0             npm                            
+pango                                                   1.54.0-r1         apk                            
 parse5                                                  7.1.2             npm                            
 parseurl                                                1.3.3             npm                            
 parslet                                                 2.0.0             gem                            
@@ -562,6 +571,8 @@ pino                                                    9.4.0             npm
 pino-abstract-transport                                 1.2.0             npm                            
 pino-http                                               10.3.0            npm                            
 pino-std-serializers                                    7.0.0             npm                            
+pixman                                                  0.43.4-r1         apk                            
+pkgconf                                                 2.3.0-r0          apk                            
 popt                                                    1.19-r4           apk                            
 postgres-array                                          2.0.0             npm                            
 postgres-bytea                                          1.0.0             npm                            
@@ -666,6 +677,7 @@ set-function-length                                     1.2.1             npm
 setprototypeof                                          1.2.0             npm                            
 shaderc                                                 2024.0-r2         apk                            
 shadow                                                  4.16.0-r1         apk                            
+shared-mime-info                                        2.4-r2            apk                            
 shebang-command                                         2.0.0             npm                            
 shebang-regex                                           3.0.0             npm                            
 shellwords                                              0.2.0             gem                            
@@ -717,6 +729,7 @@ temple                                                  0.10.3            gem
 terrapin                                                1.0.1             gem                            
 thor                                                    1.3.2             gem                            
 thread-stream                                           3.0.0             npm                            
+tiff                                                    4.7.0-r0          apk                            
 tilt                                                    2.4.0             gem                            
 time                                                    0.3.0             gem                            
 timeout                                                 0.4.1             gem                            
@@ -756,6 +769,8 @@ validate_email                                          0.1.6             gem
 validate_url                                            1.0.15            gem                            
 vary                                                    1.1.2             npm                            
 vidstab                                                 1.1.1-r0          apk                            
+vips                                                    8.15.3-r5         apk                            
+vips-jxl                                                8.15.3-r5         apk                            
 vulkan-loader                                           1.3.296.0-r0      apk                            
 w3c-xmlserializer                                       5.0.0             npm                            
 warden                                                  1.2.9             gem                            
