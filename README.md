@@ -432,6 +432,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **06.06.25:** - Replace deprecated imagemagick with vips.
 * **16.01.25:** - Rebase to Alpine 3.21.
 * **03.12.24:** - Switch from commit builds to releases to match upstream changes.
 * **27.05.24:** - Existing users should update their nginx confs to avoid http2 deprecation warnings.
