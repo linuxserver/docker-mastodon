@@ -432,6 +432,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **06.06.25:** - Rebase to Alpine 3.21, replace deprecated imagemagick with vips.
 * **08.10.24:** - Rebase to Alpine 3.20, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). Existing users should update their nginx confs to avoid http2 deprecation warnings.
 * **21.09.23:** - Rebase to Alpine 3.18, migrate to s6v3.
 * **25.05.23:** - Adjust apk flags.
