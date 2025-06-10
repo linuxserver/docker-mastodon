@@ -11,7 +11,8 @@ LABEL maintainer="thespad"
 ENV RAILS_ENV="production" \
     NODE_ENV="production" \
     PATH="${PATH}:/app/www/bin" \
-    S6_STAGE2_HOOK="/init-hook"
+    S6_STAGE2_HOOK="/init-hook" \
+    MASTODON_USE_LIBVIPS="true"
 
 RUN \
   apk add --no-cache \
