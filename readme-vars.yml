@@ -162,7 +162,7 @@ init_diagram: |
     svc-streaming -> legacy-services
   }
   Base Images: {
-    "baseimage-alpine-nginx:3.21" <- "baseimage-alpine:3.21"
+    "baseimage-alpine-nginx:3.22" <- "baseimage-alpine:3.22"
   }
   "mastodon:latest" <- Base Images
 # changelog
