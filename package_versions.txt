@@ -307,8 +307,8 @@ hwdata-pci                                              0.395-r0          apk
 i18n                                                    1.14.7            gem                            
 iconv-lite                                              0.4.24            npm           (+1 duplicate)   
 iconv-lite                                              0.6.3             npm                            
-icu-data-en                                             76.1-r0           apk                            
-icu-libs                                                76.1-r0           apk                            
+icu-data-en                                             76.1-r1           apk                            
+icu-libs                                                76.1-r1           apk                            
 idn-ruby                                                0.1.5             gem                            
 imagequant                                              4.2.2             rust-crate                     
 imagequant-sys                                          4.0.3             rust-crate                     
