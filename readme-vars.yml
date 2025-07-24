@@ -168,6 +168,7 @@ init_diagram: |
   "mastodon:glitch" <- Base Images
 # changelog
 changelogs:
+  - {date: "09.07.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "06.06.25:", desc: "Replace deprecated imagemagick with vips."}
   - {date: "16.01.25:", desc: "Rebase to Alpine 3.21."}
   - {date: "03.12.24:", desc: "Switch from commit builds to releases to match upstream changes."}
