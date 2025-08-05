@@ -51,7 +51,7 @@ anstyle-query                                           1.0.2             rust-c
 anyhow                                                  1.0.79            rust-crate                     
 anyhow                                                  1.0.98            rust-crate                     
 aom-libs                                                3.12.1-r0         apk                            
-apache2-utils                                           2.4.64-r0         apk                            
+apache2-utils                                           2.4.65-r0         apk                            
 apk-tools                                               2.14.9-r2         apk                            
 apr                                                     1.7.5-r0          apk                            
 apr-util                                                1.6.3-r1          apk                            
@@ -716,7 +716,7 @@ ruby-bundler                                            2.6.8-r0          apk
 ruby-libs                                               3.4.4-r0          apk                            
 ruby-progressbar                                        1.13.0            gem                            
 ruby-rdoc                                               3.4.4-r0          apk                            
-ruby-saml                                               1.18.0            gem                            
+ruby-saml                                               1.18.1            gem                            
 ruby-vips                                               2.2.4             gem                            
 ruby2_keywords                                          0.0.5             gem                            
 rubyzip                                                 2.4.1             gem                            
