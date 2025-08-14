@@ -270,7 +270,7 @@ getrandom                                               0.2.12            rust-c
 giflib                                                  5.2.2-r1          apk                            
 git                                                     2.49.1-r0         apk                            
 git-init-template                                       2.49.1-r0         apk                            
-glib                                                    2.84.3-r0         apk                            
+glib                                                    2.84.4-r0         apk                            
 glob                                                    10.4.5            npm                            
 globalid                                                1.2.1             gem                            
 glslang-libs                                            1.4.309.0-r0      apk                            
