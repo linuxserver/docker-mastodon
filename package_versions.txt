@@ -95,8 +95,8 @@ bufferutil                                              4.0.9             npm
 builder                                                 3.3.0             gem                            
 bundler                                                 2.6.8             gem                            
 bundler                                                 2.6.9             gem                            
-busybox                                                 1.37.0-r18        apk                            
-busybox-binsh                                           1.37.0-r18        apk                            
+busybox                                                 1.37.0-r19        apk                            
+busybox-binsh                                           1.37.0-r19        apk                            
 bytemuck                                                1.14.0            rust-crate                     
 bytes                                                   3.1.2             npm                            
 c-ares                                                  1.34.5-r0         apk                            
@@ -370,7 +370,7 @@ libbz2                                                  1.0.8-r6          apk
 libc                                                    0.2.154           rust-crate                     
 libc                                                    0.2.155           rust-crate                     
 libc                                                    0.2.172           rust-crate                     
-libcrypto3                                              3.5.1-r0          apk                            
+libcrypto3                                              3.5.2-r0          apk                            
 libcurl                                                 8.14.1-r1         apk                            
 libdav1d                                                1.5.1-r0          apk                            
 libdeflate                                              1.23-r0           apk                            
@@ -401,7 +401,7 @@ libopenmpt                                              0.7.15-r0         apk
 libpciaccess                                            0.18.1-r0         apk                            
 libplacebo                                              6.338.2-r3        apk                            
 libpng                                                  1.6.47-r0         apk                            
-libpq                                                   17.5-r0           apk                            
+libpq                                                   17.6-r0           apk                            
 libproc2                                                4.0.4-r3          apk                            
 libpsl                                                  0.21.5-r3         apk                            
 libpulse                                                17.0-r5           apk                            
@@ -413,7 +413,7 @@ libsodium                                               1.0.20-r0         apk
 libspng                                                 0.7.4-r1          apk                            
 libsrt                                                  1.5.3-r1          apk                            
 libssh                                                  0.11.2-r0         apk                            
-libssl3                                                 3.5.1-r0          apk                            
+libssl3                                                 3.5.2-r0          apk                            
 libstdc++                                               14.2.0-r6         apk                            
 libtheora                                               1.1.1-r18         apk                            
 libucontext                                             1.3.2-r0          apk                            
@@ -546,7 +546,7 @@ openexr-libopenexrcore                                  3.3.2-r0          apk
 openid_connect                                          2.3.1             gem                            
 openjpeg                                                2.5.3-r0          apk                            
 openssl                                                 3.3.0             gem           (+1 duplicate)   
-openssl                                                 3.5.1-r0          apk                            
+openssl                                                 3.5.2-r0          apk                            
 openssl-signature_algorithm                             1.3.0             gem                            
 opentelemetry-api                                       1.5.0             gem                            
 opentelemetry-common                                    0.22.0            gem                            
@@ -776,7 +776,7 @@ spirv-tools                                             1.4.313.0-r0      apk
 split2                                                  4.2.0             npm                            
 sqlite-libs                                             3.49.2-r1         apk                            
 sratom                                                  0.6.18-r0         apk                            
-ssl_client                                              1.37.0-r18        apk                            
+ssl_client                                              1.37.0-r19        apk                            
 ssri                                                    10.0.5            npm                            
 standard-as-callback                                    2.1.0             npm                            
 starry                                                  0.2.0             gem                            
