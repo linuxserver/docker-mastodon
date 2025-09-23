@@ -52,7 +52,7 @@ anyhow                                                  1.0.79            rust-c
 anyhow                                                  1.0.98            rust-crate                     
 aom-libs                                                3.12.1-r0         apk                            
 apache2-utils                                           2.4.65-r0         apk                            
-apk-tools                                               2.14.9-r2         apk                            
+apk-tools                                               2.14.9-r3         apk                            
 apr                                                     1.7.5-r0          apk                            
 apr-util                                                1.6.3-r1          apk                            
 arg_enum_proc_macro                                     0.3.4             rust-crate                     
@@ -358,7 +358,7 @@ lame-libs                                               3.100-r5          apk
 lazy_static                                             1.4.0             rust-crate                     
 lcms2                                                   2.16-r0           apk                            
 libSvtAv1Enc                                            2.3.0-r0          apk                            
-libapk2                                                 2.14.9-r2         apk                            
+libapk2                                                 2.14.9-r3         apk                            
 libarchive                                              3.8.1-r0          apk                            
 libass                                                  0.17.3-r0         apk                            
 libasyncns                                              0.8-r4            apk                            
@@ -379,7 +379,7 @@ libdrm                                                  2.4.124-r0        apk
 libeconf                                                0.6.3-r0          apk                            
 libedit                                                 20250104.3.1-r1   apk                            
 libexif                                                 0.6.25-r0         apk                            
-libexpat                                                2.7.1-r0          apk                            
+libexpat                                                2.7.2-r0          apk                            
 libffi                                                  3.4.8-r0          apk                            
 libflac                                                 1.4.3-r1          apk                            
 libgcc                                                  14.2.0-r6         apk                            
@@ -705,7 +705,7 @@ request_store                                           1.7.0             gem
 resolv                                                  0.6.0             gem                            
 responders                                              3.1.1             gem                            
 retry                                                   0.12.0            npm                            
-rexml                                                   3.4.1             gem                            
+rexml                                                   3.4.4             gem                            
 rgb                                                     0.8.36            rust-crate                     
 rotp                                                    6.3.0             gem                            
 rqrcode                                                 3.1.0             gem                            
@@ -807,7 +807,7 @@ thiserror-impl                                          1.0.56            rust-c
 thor                                                    1.4.0             gem                            
 thread-stream                                           3.0.0             npm                            
 thread_local                                            1.1.7             rust-crate                     
-tiff                                                    4.7.0-r0          apk                            
+tiff                                                    4.7.1-r0          apk                            
 tilt                                                    2.6.0             gem                            
 time                                                    0.4.1             gem                            
 timeout                                                 0.4.3             gem           (+1 duplicate)   
