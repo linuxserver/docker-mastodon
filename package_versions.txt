@@ -461,7 +461,7 @@ marcel                                                  1.0.4             gem
 mario-redis-lock                                        1.2.1             gem                            
 math-intrinsics                                         1.1.0             npm                            
 maybe-rayon                                             0.1.1             rust-crate                     
-mbedtls                                                 3.6.4-r0          apk                            
+mbedtls                                                 3.6.5-r0          apk                            
 media-typer                                             0.3.0             npm                            
 memchr                                                  2.7.1             rust-crate                     
 memoffset                                               0.9.0             rust-crate                     
