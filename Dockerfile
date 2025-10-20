@@ -24,6 +24,7 @@ RUN \
     ruby-bundler \
     ruby-rdoc \
     vips \
+    vips-heif \
     yaml && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
