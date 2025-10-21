@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+export RAILS_ENV=production
+export HOME=/config
+export PATH="${PATH}:/app/www/bin"
+
+exec \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost ${PROMETHEUS_EXPORTER_PORT:-9394}" \
+    cd /app/www s6-setuidgid abc /app/www/bin/prometheus_exporter
