@@ -37,7 +37,7 @@ aggregate-error                                         3.1.0             npm
 alpine-baselayout                                       3.7.0-r0          apk                            
 alpine-baselayout-data                                  3.7.0-r0          apk                            
 alpine-keys                                             2.5-r0            apk                            
-alpine-release                                          3.22.1-r0         apk                            
+alpine-release                                          3.22.2-r0         apk                            
 alsa-lib                                                1.2.14-r0         apk                            
 android_key_attestation                                 0.3.0             gem                            
 ansi-regex                                              5.0.1             npm                            
@@ -140,7 +140,7 @@ content-disposition                                     0.5.4             npm
 content-type                                            1.0.5             npm                            
 cookie                                                  0.7.1             npm                            
 cookie-signature                                        1.0.6             npm                            
-corepack                                                0.34.0            npm                            
+corepack                                                0.34.1            npm                            
 coreutils                                               9.7-r1            apk                            
 coreutils-env                                           9.7-r1            apk                            
 coreutils-fmt                                           9.7-r1            apk                            
@@ -373,6 +373,7 @@ libc                                                    0.2.172           rust-c
 libcrypto3                                              3.5.4-r0          apk                            
 libcurl                                                 8.14.1-r2         apk                            
 libdav1d                                                1.5.1-r0          apk                            
+libde265                                                1.0.15-r1         apk                            
 libdeflate                                              1.23-r0           apk                            
 libdovi                                                 3.3.1-r1          apk                            
 libdrm                                                  2.4.124-r0        apk                            
@@ -384,6 +385,7 @@ libffi                                                  3.4.8-r0          apk
 libflac                                                 1.4.3-r1          apk                            
 libgcc                                                  14.2.0-r6         apk                            
 libgomp                                                 14.2.0-r6         apk                            
+libheif                                                 1.19.8-r0         apk                            
 libhwy                                                  1.0.7-r1          apk                            
 libidn                                                  1.42-r0           apk                            
 libidn2                                                 2.3.7-r0          apk                            
@@ -595,7 +597,7 @@ path-key                                                3.1.1             npm
 path-scurry                                             1.11.1            npm                            
 path-to-regexp                                          0.1.12            npm                            
 pathname                                                0.4.0             gem                            
-pcre2                                                   10.43-r1          apk                            
+pcre2                                                   10.46-r0          apk                            
 pg                                                      1.5.9             gem                            
 pg                                                      8.16.3            npm                            
 pg-cloudflare                                           1.2.7             npm                            
@@ -854,6 +856,7 @@ validate_url                                            1.0.15            gem
 vary                                                    1.1.2             npm                            
 vidstab                                                 1.1.1-r0          apk                            
 vips                                                    8.16.1-r0         apk                            
+vips-heif                                               8.16.1-r0         apk                            
 vips-jxl                                                8.16.1-r0         apk                            
 vite_rails                                              3.0.19            gem                            
 vite_ruby                                               3.9.2             gem                            
