@@ -167,6 +167,7 @@ init_diagram: |
   "mastodon:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.10.25:", desc: "Add vips-heif."}
   - {date: "08.07.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "06.06.25:", desc: "Rebase to Alpine 3.21, replace deprecated imagemagick with vips."}
   - {date: "08.10.24:", desc: "Rebase to Alpine 3.20, enable [Active Record Encryption](https://github.com/mastodon/mastodon/pull/29831/files). Existing users should update their nginx confs to avoid http2 deprecation warnings."}
