@@ -3,6 +3,10 @@
 # Disable the php-fpm service as the container doesn't use it
 rm /etc/s6-overlay/s6-rc.d/user/contents.d/svc-php-fpm
 
+if [[ ${MASTODON_PROMETHEUS_EXPORTER_ENABLED,,} != "true" ]]; then
+    rm /etc/s6-overlay/s6-rc.d/user/contents.d/svc-prom
+fi
+
 if [[ ${SIDEKIQ_ONLY,,} == "true" ]]; then
     rm /etc/s6-overlay/s6-rc.d/user/contents.d/svc-mastodon
     rm /etc/s6-overlay/s6-rc.d/user/contents.d/svc-nginx
