@@ -62,10 +62,14 @@ opt_param_env_vars:
   - {env_var: "SIDEKIQ_THREADS", env_value: "5", desc: "The number of threads for sidekiq to use. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
   - {env_var: "DB_POOL", env_value: "5", desc: "The size of the DB connection pool, must be *at least* the same as `SIDEKIQ_THREADS`. See [notes](https://docs.joinmastodon.org/admin/scaling/#sidekiq-threads)."}
   - {env_var: "NO_CHOWN", env_value: "", desc: "Set to `true` to skip chown of /config on init. *READ THE APPLICATION NOTES BEFORE SETTING THIS*."}
+  - {env_var: "MASTODON_PROMETHEUS_EXPORTER_ENABLED", env_value: "", desc: "If set to `true`, Mastodon’s Ruby processes (web & Sidekiq) will enable the Prometheus instrumentation."}
 param_usage_include_ports: true
 param_ports:
   - {external_port: "80", internal_port: "80", port_desc: "Port for web frontend"}
   - {external_port: "443", internal_port: "443", port_desc: "Port for web frontend"}
+opt_param_usage_include_ports: true
+opt_param_ports:
+  - {external_port: "9394", internal_port: "9394", port_desc: "Port for Prometheus metrics"}
 param_usage_include_vols: true
 param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Contains all relevant configuration files."}
@@ -167,6 +171,7 @@ init_diagram: |
   "mastodon:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "21.10.25:", desc: "Add prometheus exporter support."}
   - {date: "20.10.25:", desc: "Add vips-heif."}
   - {date: "08.07.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "06.06.25:", desc: "Rebase to Alpine 3.21, replace deprecated imagemagick with vips."}
