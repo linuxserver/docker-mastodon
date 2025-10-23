@@ -1028,7 +1028,7 @@ pipeline {
                   "type": "commit",\
                   "tagger": {"name": "LinuxServer-CI","email": "ci@linuxserver.io","date": "'${GITHUB_DATE}'"}}'
               echo "Pushing New release for Tag"
-              curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/releases/latest | jq '. |.body' | sed 's:^.\\(.*\\).$:\\1:' > releasebody.json
+              curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/releases/latest | jq -r '. |.body' > releasebody.json
               jq -n \
                 --arg tag_name "$META_TAG" \
                 --arg target_commitish "glitch" \
