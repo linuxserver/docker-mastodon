@@ -160,6 +160,8 @@ init_diagram: |
     svc-nginx -> legacy-services
     init-services -> svc-php-fpm
     svc-php-fpm -> legacy-services
+    init-services -> svc-prom
+    svc-prom -> legacy-services
     init-services -> svc-sidekiq
     svc-sidekiq -> legacy-services
     init-services -> svc-streaming
