@@ -209,7 +209,7 @@ english                                                 0.8.0             gem
 entities                                                6.0.1             npm                            
 env-paths                                               2.2.1             npm                            
 erb                                                     4.0.4             gem                            
-erb                                                     5.1.1             gem                            
+erb                                                     5.1.3             gem                            
 err-code                                                2.0.3             npm                            
 errno                                                   0.3.8             rust-crate                     
 error_highlight                                         0.7.0             gem                            
@@ -330,7 +330,7 @@ ip-address                                              10.0.1            npm
 ipaddr                                                  1.2.7             gem                            
 ipaddr.js                                               1.9.1             npm                            
 irb                                                     1.14.3            gem                            
-irb                                                     1.15.2            gem                            
+irb                                                     1.15.3            gem                            
 is-fullwidth-code-point                                 3.0.0             npm                            
 is-potential-custom-element-name                        1.0.1             npm                            
 isexe                                                   2.0.0             npm                            
@@ -669,7 +669,7 @@ quick-format-unescaped                                  4.0.4             npm
 quote                                                   1.0.35            rust-crate                     
 raabro                                                  1.4.0             gem                            
 racc                                                    1.8.1             gem                            
-rack                                                    3.2.3             gem                            
+rack                                                    3.2.4             gem                            
 rack-attack                                             6.8.0             gem                            
 rack-cors                                               3.0.0             gem                            
 rack-oauth2                                             2.2.1             gem                            
@@ -698,7 +698,7 @@ rayon-core                                              1.12.0            rust-c
 rdf                                                     3.3.4             gem                            
 rdf-normalize                                           0.7.0             gem                            
 rdoc                                                    6.10.0            gem                            
-rdoc                                                    6.15.0            gem                            
+rdoc                                                    6.15.1            gem                            
 readline                                                0.0.4             gem           (+1 duplicate)   
 readline                                                8.2.13-r1         apk                            
 real-require                                            0.2.0             npm                            
@@ -728,7 +728,7 @@ ruby-rdoc                                               3.4.4-r0          apk
 ruby-saml                                               1.18.1            gem                            
 ruby-vips                                               2.2.5             gem                            
 ruby2_keywords                                          0.0.5             gem                            
-rubyzip                                                 3.2.1             gem                            
+rubyzip                                                 3.2.2             gem                            
 rufus-scheduler                                         3.9.2             gem                            
 rustix                                                  0.38.28           rust-crate                     
 safe-buffer                                             5.2.1             npm                            
@@ -760,7 +760,7 @@ side-channel                                            1.1.0             npm
 side-channel-list                                       1.0.0             npm                            
 side-channel-map                                        1.0.1             npm                            
 side-channel-weakmap                                    1.0.2             npm                            
-sidekiq                                                 8.0.8             gem                            
+sidekiq                                                 8.0.9             gem                            
 sidekiq-bulk                                            0.2.0             gem                            
 sidekiq-scheduler                                       6.0.1             gem                            
 sidekiq-unique-jobs                                     8.0.11            gem                            
