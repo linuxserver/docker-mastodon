@@ -144,7 +144,7 @@ content-disposition                                     0.5.4             npm
 content-type                                            1.0.5             npm                            
 cookie                                                  0.7.1             npm                            
 cookie-signature                                        1.0.6             npm                            
-corepack                                                0.34.2            npm                            
+corepack                                                0.34.3            npm                            
 coreutils                                               9.7-r1            apk                            
 coreutils-env                                           9.7-r1            apk                            
 coreutils-fmt                                           9.7-r1            apk                            
