@@ -383,7 +383,7 @@ libdrm                                                  2.4.124-r0        apk
 libeconf                                                0.6.3-r0          apk                            
 libedit                                                 20250104.3.1-r1   apk                            
 libexif                                                 0.6.25-r0         apk                            
-libexpat                                                2.7.4-r0          apk                            
+libexpat                                                2.7.5-r0          apk                            
 libffi                                                  3.4.8-r0          apk                            
 libflac                                                 1.4.3-r1          apk                            
 libgcc                                                  14.2.0-r6         apk                            
@@ -839,7 +839,7 @@ tty-reader                                              0.9.0             gem
 tty-screen                                              0.8.2             gem                            
 twitter-text                                            3.1.0             gem                            
 type-is                                                 1.6.18            npm                            
-tzdata                                                  2025c-r0          apk                            
+tzdata                                                  2026a-r0          apk                            
 tzinfo                                                  2.0.6             gem                            
 tzinfo-data                                             1.2025.2          gem                            
 un                                                      0.3.0             gem                            
