@@ -466,7 +466,7 @@ marcel                                                  1.0.4             gem
 mario-redis-lock                                        1.2.1             gem                            
 math-intrinsics                                         1.1.0             npm                            
 maybe-rayon                                             0.1.1             rust-crate                     
-mbedtls                                                 3.6.5-r0          apk                            
+mbedtls                                                 3.6.6-r0          apk                            
 mdn-data                                                2.12.2            npm                            
 media-typer                                             0.3.0             npm                            
 memchr                                                  2.7.1             rust-crate                     
@@ -513,7 +513,7 @@ net-smtp                                                0.5.1             gem
 netcat-openbsd                                          1.229.1-r0        apk                            
 new_debug_unreachable                                   1.0.4             rust-crate                     
 nghttp2-libs                                            1.65.0-r0         apk                            
-nginx                                                   1.28.2-r0         apk                            
+nginx                                                   1.28.3-r0         apk                            
 nio4r                                                   2.7.4             gem                            
 node-gyp                                                11.4.2            npm                            
 node-gyp-build                                          4.6.1             npm                            
