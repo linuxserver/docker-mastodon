@@ -513,7 +513,7 @@ net-smtp                                                0.5.1             gem
 netcat-openbsd                                          1.229.1-r0        apk                            
 new_debug_unreachable                                   1.0.4             rust-crate                     
 nghttp2-libs                                            1.69.0-r0         apk                            
-nginx                                                   1.28.3-r1         apk                            
+nginx                                                   1.28.3-r2         apk                            
 nio4r                                                   2.7.4             gem                            
 node-gyp                                                11.4.2            npm                            
 node-gyp-build                                          4.6.1             npm                            
