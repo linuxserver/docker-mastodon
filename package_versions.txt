@@ -71,10 +71,10 @@ attr_required                                           1.0.2             gem
 av-metrics                                              0.9.1             rust-crate                     
 av1-grain                                               0.2.3             rust-crate                     
 aws-eventstream                                         1.4.0             gem                            
-aws-partitions                                          1.1257.0          gem                            
-aws-sdk-core                                            3.251.0           gem                            
+aws-partitions                                          1.1259.0          gem                            
+aws-sdk-core                                            3.252.0           gem                            
 aws-sdk-kms                                             1.129.0           gem                            
-aws-sdk-s3                                              1.225.0           gem                            
+aws-sdk-s3                                              1.225.1           gem                            
 aws-sigv4                                               1.12.1            gem                            
 azure-blob                                              0.5.9.1           gem                            
 balanced-match                                          1.0.2             npm                            
@@ -501,7 +501,7 @@ ncurses-terminfo-base                                   6.5_p20250503-r0  apk
 negotiator                                              1.0.0             npm                            
 net-http                                                0.6.0             gem                            
 net-http                                                0.9.1             gem                            
-net-imap                                                0.6.4             gem                            
+net-imap                                                0.6.4.1           gem                            
 net-ldap                                                0.20.0            gem                            
 net-pop                                                 0.1.2             gem                            
 net-protocol                                            0.2.2             gem           (+1 duplicate)   
