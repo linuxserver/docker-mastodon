@@ -385,7 +385,7 @@ libdrm                                                  2.4.124-r0        apk
 libeconf                                                0.6.3-r0          apk                            
 libedit                                                 20250104.3.1-r1   apk                            
 libexif                                                 0.6.25-r0         apk                            
-libexpat                                                2.7.5-r0          apk                            
+libexpat                                                2.8.1-r0          apk                            
 libffi                                                  3.4.8-r0          apk                            
 libflac                                                 1.4.3-r1          apk                            
 libgcc                                                  14.2.0-r6         apk                            
@@ -509,11 +509,11 @@ net-smtp                                                0.5.1             gem
 netcat-openbsd                                          1.229.1-r0        apk                            
 new_debug_unreachable                                   1.0.4             rust-crate                     
 nghttp2-libs                                            1.69.0-r0         apk                            
-nginx                                                   1.28.3-r3         apk                            
+nginx                                                   1.28.3-r4         apk                            
 nio4r                                                   2.7.5             gem                            
 node-gyp                                                11.4.2            npm                            
 node-gyp-build                                          4.6.1             npm                            
-nodejs                                                  22.22.2-r0        apk                            
+nodejs                                                  22.23.0-r0        apk                            
 nokogiri                                                1.19.3            gem                            
 nom                                                     7.1.3             rust-crate                     
 noop_proc_macro                                         0.3.0             rust-crate                     
@@ -540,10 +540,10 @@ onevpl-libs                                             2023.3.1-r2       apk
 oniguruma                                               6.9.10-r0         apk                            
 open-uri                                                0.5.0             gem                            
 open3                                                   0.2.1             gem                            
-openexr-libiex                                          3.3.2-r0          apk                            
-openexr-libilmthread                                    3.3.2-r0          apk                            
-openexr-libopenexr                                      3.3.2-r0          apk                            
-openexr-libopenexrcore                                  3.3.2-r0          apk                            
+openexr-libiex                                          3.3.11-r0         apk                            
+openexr-libilmthread                                    3.3.11-r0         apk                            
+openexr-libopenexr                                      3.3.11-r0         apk                            
+openexr-libopenexrcore                                  3.3.11-r0         apk                            
 openid_connect                                          2.5.0             gem                            
 openjpeg                                                2.5.3-r0          apk                            
 openssl                                                 3.3.0             gem                            
