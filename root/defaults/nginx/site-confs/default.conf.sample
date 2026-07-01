@@ -1,8 +1,8 @@
-## Version 2024/08/26 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/develop/root/defaults/nginx/site-confs/default.conf.sample
+## Version 2026/05/05 - Changelog: https://github.com/linuxserver/docker-mastodon/commits/main/root/defaults/nginx/site-confs/default.conf.sample
 
 map $http_upgrade $connection_upgrade {
     default upgrade;
-    ''      close;
+    '' close;
 }
 
 upstream backend {
@@ -20,12 +20,26 @@ server {
     listen [::]:80 default_server;
     listen 443 ssl default_server;
     listen [::]:443 ssl default_server;
+    listen 443 quic reuseport default_server;
+    listen [::]:443 quic reuseport default_server;
 
     server_name _;
 
     include /config/nginx/ssl.conf;
 
     root /app/www/public;
+
+    # Allow access to the ".well-known" directory
+    location ^~ /.well-known {
+        allow all;
+    }
+
+    # deny access to all dotfiles
+    location ~ /\. {
+        access_log off;
+        log_not_found off;
+        return 404;
+    }
 
     gzip on;
     gzip_disable "msie6";
@@ -140,10 +154,4 @@ server {
     }
 
     error_page 404 500 501 502 503 504 /500.html;
-
-    # deny access to .htaccess/.htpasswd files
-    location ~ /\.ht {
-        deny all;
-    }
-
 }
