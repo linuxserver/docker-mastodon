@@ -44,7 +44,7 @@ RUN \
   mkdir -p /app/www && \
   if [ -z ${MASTODON_VERSION+x} ]; then \
     MASTODON_VERSION=$(curl -sX GET "https://api.github.com/repos/mastodon/mastodon/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   curl -s -o \
     /tmp/mastodon.tar.gz -L \
