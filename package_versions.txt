@@ -90,7 +90,7 @@ body-parser                                             2.2.1             npm
 bootsnap                                                1.25.0            gem                           
 brotli-libs                                             1.2.0-r1          apk                           
 browser                                                 6.2.0             gem                           
-bubblewrap                                              0.11.2-r0         apk                           
+bubblewrap                                              0.12.0-r0         apk                           
 builder                                                 3.3.0             gem                           
 bundler                                                 2.6.9             gem                           
 bundler                                                 4.0.18            gem                           
@@ -341,7 +341,7 @@ libbz2                                                  1.0.8-r6          apk
 libc                                                    0.2.154           rust-crate                    
 libc                                                    0.2.172           rust-crate    (+1 duplicate)  
 libcap2                                                 2.78-r0           apk                           
-libcrypto3                                              3.5.7-r0          apk                           
+libcrypto3                                              3.5.8-r0          apk                           
 libcurl                                                 8.21.0-r0         apk                           
 libdav1d                                                1.5.3-r0          apk                           
 libde265                                                1.0.18-r0         apk                           
@@ -400,7 +400,7 @@ libsndfile                                              1.2.2-r2          apk
 libsodium                                               1.0.22-r0         apk                           
 libsrt                                                  1.5.3-r1          apk                           
 libssh                                                  0.12.2-r0         apk                           
-libssl3                                                 3.5.7-r0          apk                           
+libssl3                                                 3.5.8-r0          apk                           
 libstdc++                                               15.2.0-r5         apk                           
 libtheora                                               1.2.0-r1          apk                           
 libucontext                                             1.5.1-r0          apk                           
@@ -514,7 +514,7 @@ openexr-libopenexrcore                                  3.4.13-r0         apk
 openid_connect                                          2.5.0             gem                           
 openjpeg                                                2.5.4-r1          apk                           
 openssl                                                 3.3.1             gem                           
-openssl                                                 3.5.7-r0          apk                           
+openssl                                                 3.5.8-r0          apk                           
 openssl                                                 4.0.2             gem                           
 openssl-signature_algorithm                             1.3.0             gem                           
 opentelemetry-api                                       1.11.0            gem                           
@@ -733,7 +733,7 @@ soxr                                                    0.1.3-r7          apk
 speexdsp                                                1.2.1-r2          apk                           
 spirv-tools                                             1.4.341.0-r0      apk                           
 split2                                                  4.2.0             npm                           
-sqlite-libs                                             3.53.2-r0         apk                           
+sqlite-libs                                             3.53.4-r0         apk                           
 sratom                                                  0.6.20-r0         apk                           
 ssl_client                                              1.37.0-r31        apk                           
 ssrf_filter                                             1.5.0             gem                           
