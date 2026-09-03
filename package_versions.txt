@@ -114,7 +114,7 @@ cfg-if                                                  1.0.1             rust-c
 cfitsio                                                 4.6.4-r0          apk                           
 cgi                                                     0.4.2             gem                           
 cgi                                                     0.5.2             gem                           
-cgif                                                    0.5.3-r0          apk                           
+cgif                                                    0.5.4-r0          apk                           
 charlock_holmes                                         0.7.9             gem                           
 chewy                                                   8.4.1             gem                           
 chunky_png                                              1.4.0             gem                           
@@ -511,10 +511,10 @@ once_cell                                               1.21.3            rust-c
 oniguruma                                               6.9.10-r0         apk                           
 open-uri                                                0.5.0             gem                           
 open3                                                   0.2.1             gem                           
-openexr-libiex                                          3.4.13-r0         apk                           
-openexr-libilmthread                                    3.4.13-r0         apk                           
-openexr-libopenexr                                      3.4.13-r0         apk                           
-openexr-libopenexrcore                                  3.4.13-r0         apk                           
+openexr-libiex                                          3.4.15-r0         apk                           
+openexr-libilmthread                                    3.4.15-r0         apk                           
+openexr-libopenexr                                      3.4.15-r0         apk                           
+openexr-libopenexrcore                                  3.4.15-r0         apk                           
 openid_connect                                          2.5.0             gem                           
 openjpeg                                                2.5.4-r1          apk                           
 openssl                                                 3.3.1             gem                           
@@ -565,7 +565,7 @@ pastel                                                  0.8.0             gem
 pastey                                                  0.1.0             rust-crate                    
 path-to-regexp                                          8.4.2             npm                           
 pathname                                                0.4.0             gem                           
-pcre2                                                   10.47-r1          apk                           
+pcre2                                                   10.48-r0          apk                           
 pg                                                      1.6.3             gem                           
 pg                                                      8.23.0            npm                           
 pg-cloudflare                                           1.4.0             npm                           
