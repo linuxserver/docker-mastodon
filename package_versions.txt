@@ -65,9 +65,9 @@ av-scenechange                                          0.14.1            rust-c
 av1-grain                                               0.2.4             rust-crate                    
 aws-eventstream                                         1.4.0             gem                           
 aws-partitions                                          1.1279.0          gem                           
-aws-sdk-core                                            3.254.1           gem                           
+aws-sdk-core                                            3.257.0           gem                           
 aws-sdk-kms                                             1.130.0           gem                           
-aws-sdk-s3                                              1.229.0           gem                           
+aws-sdk-s3                                              1.232.3           gem                           
 aws-sigv4                                               1.12.1            gem                           
 azure-blob                                              0.5.9.1           gem                           
 base58                                                  0.2.3             gem                           
@@ -178,7 +178,7 @@ digest                                                  3.2.0             gem
 discard                                                 2.0.0             gem                           
 dolby_vision                                            3.3.2             rust-crate                    
 domain_name                                             0.6.20240107      gem                           
-doorkeeper                                              5.9.6             gem                           
+doorkeeper                                              5.9.9             gem                           
 dotenv                                                  17.4.2            npm                           
 dotenv                                                  3.2.0             gem                           
 drb                                                     2.2.3             gem                           
@@ -634,7 +634,7 @@ rack-attack                                             6.8.0             gem
 rack-cors                                               3.0.0             gem                           
 rack-oauth2                                             2.3.0             gem                           
 rack-protection                                         4.2.1             gem                           
-rack-proxy                                              1.0.1             gem                           
+rack-proxy                                              1.0.3             gem                           
 rack-session                                            2.1.2             gem                           
 rack-test                                               2.2.0             gem                           
 rackup                                                  2.3.1             gem                           
