@@ -3,6 +3,8 @@
 # jenkins variables
 project_name: docker-mastodon
 external_type: custom_json
+custom_release_notes_command: |-
+  curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/mastodon/mastodon/releases/tags/${EXT_RELEASE} | jq -r '. |.body' | sed -E 's|#([0-9]+)|[#\\1](https://github.com/mastodon/mastodon/pull/\\1)|g' | sed -E "s|(srcs?e?t?=\\")\\./|\\1https://github.com/mastodon/mastodon/raw/${EXT_RELEASE}/|g" > releasebody.json
 release_type: prerelease
 release_tag: develop
 ls_branch: develop

@@ -1235,7 +1235,7 @@ pipeline {
                   "type": "commit",\
                   "tagger": {"name": "LinuxServer-CI","email": "ci@linuxserver.io","date": "'${GITHUB_DATE}'"}}'
               echo "Pushing New release for Tag"
-              echo "Data change at JSON endpoint ${JSON_URL}" > releasebody.json
+              curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/mastodon/mastodon/releases/tags/${EXT_RELEASE} | jq -r '. |.body' | sed -E 's|#([0-9]+)|[#\\1](https://github.com/mastodon/mastodon/pull/\\1)|g' | sed -E "s|(srcs?e?t?=\\")\\./|\\1https://github.com/mastodon/mastodon/raw/${EXT_RELEASE}/|g" > releasebody.json
               jq -n \
                 --arg tag_name "$META_TAG" \
                 --arg target_commitish "develop" \
