@@ -470,7 +470,7 @@ multi_json                                              1.21.1            gem
 musl                                                    1.2.6-r3          apk                           
 musl-utils                                              1.2.6-r2          apk                           
 mutex_m                                                 0.3.0             gem                           
-nano                                                    9.2-r0            apk                           
+nano                                                    9.3-r0            apk                           
 ncurses-terminfo-base                                   6.6_p20260516-r0  apk                           
 negotiator                                              1.0.0             npm                           
 net-http                                                0.6.0             gem                           
@@ -483,7 +483,7 @@ net-smtp                                                0.5.1             gem
 netcat-openbsd                                          1.234.1-r0        apk                           
 new_debug_unreachable                                   1.0.6             rust-crate                    
 nghttp2-libs                                            1.70.0-r0         apk                           
-nginx                                                   1.30.4-r1         apk                           
+nginx                                                   1.30.6-r0         apk                           
 nio4r                                                   2.7.5             gem                           
 nodejs                                                  24.18.1-r0        apk                           
 nokogiri                                                1.19.4            gem                           
