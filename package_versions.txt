@@ -126,7 +126,7 @@ cluster-key-slot                                        1.1.1             npm
 cocoon                                                  1.2.15            gem                           
 color_diff                                              0.2               gem                           
 colorchoice                                             1.0.4             rust-crate                    
-composer                                                2.10.3            binary                        
+composer                                                2.11.0            binary                        
 concurrent-ruby                                         1.3.8             gem                           
 concurrent_ruby                                         UNKNOWN           java-archive                  
 connection_pool                                         3.0.2             gem                           
@@ -354,7 +354,7 @@ libdvdread                                              6.1.3-r2          apk
 libeconf                                                0.8.3-r0          apk                           
 libedit                                                 20260508.3.1-r1   apk                           
 libexif                                                 0.6.26-r0         apk                           
-libexpat                                                2.9.0-r0          apk                           
+libexpat                                                2.10.0-r0         apk                           
 libffi                                                  3.5.2-r1          apk                           
 libflac                                                 1.4.3-r2          apk                           
 libgcc                                                  15.2.0-r5         apk                           
@@ -481,7 +481,7 @@ new_debug_unreachable                                   1.0.6             rust-c
 nghttp2-libs                                            1.70.0-r0         apk                           
 nginx                                                   1.30.6-r0         apk                           
 nio4r                                                   2.7.5             gem                           
-nodejs                                                  24.22.1-r0        apk                           
+nodejs                                                  24.22.1-r1        apk                           
 nokogiri                                                1.19.4            gem                           
 nom                                                     7.1.3             rust-crate                    
 nom                                                     8.0.0             rust-crate                    
