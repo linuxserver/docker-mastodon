@@ -128,7 +128,7 @@ cluster-key-slot                                        1.1.1             npm
 cocoon                                                  1.2.15            gem                           
 color_diff                                              0.2               gem                           
 colorchoice                                             1.0.4             rust-crate                    
-composer                                                2.11.0            binary                        
+composer                                                2.11.1            binary                        
 concurrent-ruby                                         1.3.8             gem                           
 concurrent_ruby                                         UNKNOWN           java-archive                  
 connection_pool                                         3.0.2             gem                           
@@ -161,7 +161,7 @@ crossbeam-utils                                         0.8.21            rust-c
 css-tree                                                3.2.1             npm                           
 css_parser                                              3.3.0             gem                           
 csv                                                     3.3.6             gem                           
-curl                                                    8.22.0-r0         apk                           
+curl                                                    8.23.0-r0         apk                           
 data-urls                                               7.0.0             npm                           
 date                                                    3.4.1             gem                           
 date                                                    3.5.1             gem                           
@@ -346,7 +346,7 @@ libc                                                    0.2.154           rust-c
 libc                                                    0.2.172           rust-crate    (+1 duplicate)  
 libcap2                                                 2.78-r0           apk                           
 libcrypto3                                              3.5.9-r0          apk                           
-libcurl                                                 8.22.0-r0         apk                           
+libcurl                                                 8.23.0-r0         apk                           
 libdav1d                                                1.5.3-r0          apk                           
 libde265                                                1.1.3-r0          apk                           
 libdeflate                                              1.25-r0           apk                           
@@ -364,17 +364,17 @@ libflac                                                 1.4.3-r2          apk
 libgcc                                                  15.2.0-r5         apk                           
 libglycin                                               2.1.5-r0          apk                           
 libgomp                                                 15.2.0-r5         apk                           
-libheif                                                 1.23.4-r0         apk                           
-libheif-aom                                             1.23.4-r0         apk                           
-libheif-dav1d                                           1.23.4-r0         apk                           
-libheif-ffmpeg                                          1.23.4-r0         apk                           
-libheif-jpeg                                            1.23.4-r0         apk                           
-libheif-libde265                                        1.23.4-r0         apk                           
-libheif-openjpeg                                        1.23.4-r0         apk                           
-libheif-rav1e                                           1.23.4-r0         apk                           
-libheif-svtenc                                          1.23.4-r0         apk                           
-libheif-x264                                            1.23.4-r0         apk                           
-libheif-x265                                            1.23.4-r0         apk                           
+libheif                                                 1.23.7-r0         apk                           
+libheif-aom                                             1.23.7-r0         apk                           
+libheif-dav1d                                           1.23.7-r0         apk                           
+libheif-ffmpeg                                          1.23.7-r0         apk                           
+libheif-jpeg                                            1.23.7-r0         apk                           
+libheif-libde265                                        1.23.7-r0         apk                           
+libheif-openjpeg                                        1.23.7-r0         apk                           
+libheif-rav1e                                           1.23.7-r0         apk                           
+libheif-svtenc                                          1.23.7-r0         apk                           
+libheif-x264                                            1.23.7-r0         apk                           
+libheif-x265                                            1.23.7-r0         apk                           
 libhwy                                                  1.3.0-r0          apk                           
 libidn                                                  1.43-r0           apk                           
 libidn2                                                 2.3.8-r0          apk                           
@@ -388,7 +388,7 @@ libmd                                                   1.2.0-r0          apk
 libmount                                                2.42.3-r1         apk                           
 libncursesw                                             6.6_p20260516-r0  apk                           
 libogg                                                  1.3.6-r0          apk                           
-libopenmpt                                              0.8.9-r0          apk                           
+libopenmpt                                              0.8.10-r0         apk                           
 libpciaccess                                            0.19-r0           apk                           
 libplacebo                                              7.360.1-r0        apk                           
 libpng                                                  1.6.59-r0         apk                           
@@ -485,7 +485,7 @@ new_debug_unreachable                                   1.0.6             rust-c
 nghttp2-libs                                            1.70.0-r0         apk                           
 nginx                                                   1.30.6-r0         apk                           
 nio4r                                                   2.7.5             gem                           
-nodejs                                                  24.22.1-r1        apk                           
+nodejs                                                  24.22.3-r0        apk                           
 nokogiri                                                1.19.7            gem                           
 nom                                                     7.1.3             rust-crate                    
 nom                                                     8.0.0             rust-crate                    
@@ -844,6 +844,6 @@ zeitwerk                                                2.8.3             gem
 zerocopy                                                0.8.25            rust-crate                    
 zimg                                                    3.0.6-r0          apk                           
 zix-libs                                                0.8.0-r0          apk                           
-zlib                                                    1.3.2-r1          apk                           
+zlib                                                    1.4-r0            apk                           
 zlib                                                    3.2.3             gem                           
 zstd-libs                                               1.5.7-r2          apk                           
