@@ -172,6 +172,7 @@ init_diagram: |
   "mastodon:develop" <- Base Images
 # changelog
 changelogs:
+  - {date: "18.11.26:", desc: "Build Ruby from source to match the version required by upstream."}
   - {date: "05.07.26:", desc: "Rebase to Alpine 3.24."}
   - {date: "21.10.25:", desc: "Add prometheus exporter support."}
   - {date: "20.10.25:", desc: "Add vips-heif."}

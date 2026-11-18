@@ -17,18 +17,20 @@ RUN \
   apk add --no-cache \
     ffmpeg \
     file \
+    gmp \
+    libffi \
     libpq \
     libidn \
     nodejs \
-    ruby \
-    ruby-bundler \
-    ruby-rdoc \
     vips \
     vips-heif \
     yaml && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
+    cargo \
+    gmp-dev \
     icu-dev \
+    libffi-dev \
     libidn-dev \
     libpq-dev \
     libxml2-dev \
@@ -36,9 +38,9 @@ RUN \
     linux-headers \
     npm \
     openssl-dev \
-    ruby-dev \
     vips-dev \
-    yaml-dev && \
+    yaml-dev \
+    zlib-dev && \
   echo "**** install mastodon ****" && \
   mkdir -p /app/www && \
   if [ -z ${MASTODON_VERSION+x} ]; then \
@@ -51,6 +53,25 @@ RUN \
   tar xf \
     /tmp/mastodon.tar.gz -C \
     /app/www/ --strip-components=1 && \
+  echo "**** build ruby ****" && \
+  RUBY_VERSION=$(cat /app/www/.ruby-version) && \
+  mkdir -p /tmp/ruby && \
+  curl -s -o \
+    /tmp/ruby.tar.gz -L \
+    "https://cache.ruby-lang.org/pub/ruby/${RUBY_VERSION%.*}/ruby-${RUBY_VERSION}.tar.gz" && \
+  tar xf \
+    /tmp/ruby.tar.gz -C \
+    /tmp/ruby --strip-components=1 && \
+  cd /tmp/ruby && \
+  curl -s -o \
+    /tmp/ruby/thread-stack-fix.patch -L \
+    "https://bugs.ruby-lang.org/attachments/download/7081/0001-thread_pthread.c-make-get_main_stack-portable-on-lin.patch" && \
+  patch -p1 -i thread-stack-fix.patch && \
+  ./configure \
+    --disable-install-doc \
+    --enable-shared && \
+  make -j"$(nproc)" && \
+  make install && \
   cd /app/www && \
   bundle config set --local deployment 'true' && \
   bundle config set --local without 'development test exclude' && \

@@ -435,6 +435,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **18.11.26:** - Build Ruby from source to match the version required by upstream.
 * **05.07.26:** - Rebase to Alpine 3.24.
 * **21.10.25:** - Add prometheus exporter support.
 * **20.10.25:** - Add vips-heif.
