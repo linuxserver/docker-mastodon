@@ -1,13 +1,4 @@
 NAME                                                    VERSION           TYPE                         
-@asamuzakjp/css-color                                   7.1.3             npm                           
-@asamuzakjp/dom-selector                                10.0.4            npm                           
-@bramus/specificity                                     2.4.2             npm                           
-@csstools/color-helpers                                 6.1.2             npm                           
-@csstools/css-calc                                      3.4.3             npm                           
-@csstools/css-color-parser                              4.2.7             npm                           
-@csstools/css-parser-algorithms                         4.0.2             npm                           
-@csstools/css-syntax-patches-for-csstree                1.1.15            npm                           
-@csstools/css-tokenizer                                 4.0.2             npm                           
 @exodus/bytes                                           1.16.0            npm                           
 @ioredis/commands                                       2.0.0             npm                           
 @mastodon/mastodon                                      UNKNOWN           npm                           
@@ -66,19 +57,20 @@ av-metrics                                              0.9.1             rust-c
 av-scenechange                                          0.14.1            rust-crate                    
 av1-grain                                               0.2.4             rust-crate                    
 aws-eventstream                                         1.4.1             gem                           
-aws-partitions                                          1.1300.0          gem                           
-aws-sdk-core                                            3.263.0           gem                           
-aws-sdk-kms                                             1.138.0           gem                           
-aws-sdk-s3                                              1.237.0           gem                           
+aws-partitions                                          1.1305.0          gem                           
+aws-sdk-core                                            3.268.0           gem                           
+aws-sdk-kms                                             1.143.0           gem                           
+aws-sdk-s3                                              1.242.0           gem                           
 aws-sigv4                                               1.12.1            gem                           
 azure-blob                                              0.5.9.1           gem                           
 base58                                                  0.2.3             gem                           
 base64                                                  0.3.0             gem           (+1 duplicate)  
 bash                                                    5.3.9-r1          apk                           
+bcp-47                                                  2.1.2             npm                           
+bcp-47-match                                            2.0.3             npm                           
 bcp47_spec                                              0.2.1             gem                           
 bcrypt                                                  3.1.22            gem                           
 benchmark                                               0.5.0             gem           (+1 duplicate)  
-bidi-js                                                 1.1.0             npm                           
 bigdecimal                                              3.3.1             gem                           
 bigdecimal                                              4.0.1             gem                           
 bindata                                                 2.5.1             gem                           
@@ -98,7 +90,7 @@ browser                                                 6.2.0             gem
 bubblewrap                                              0.12.0-r0         apk                           
 builder                                                 3.3.0             gem                           
 bundler                                                 4.0.20            gem                           
-bundler                                                 4.0.23            gem                           
+bundler                                                 4.0.24            gem                           
 busybox                                                 1.37.0-r31        apk                           
 busybox-binsh                                           1.37.0-r31        apk                           
 bytemuck                                                1.14.0            rust-crate                    
@@ -111,7 +103,7 @@ call-bind-apply-helpers                                 1.0.2             npm
 call-bound                                              1.0.4             npm                           
 case_transform                                          0.2               gem                           
 catatonit                                               0.2.1-r0          apk                           
-cbor                                                    0.5.10.3          gem                           
+cbor                                                    0.6.2.2           gem                           
 cfg-if                                                  1.0.0             rust-crate                    
 cfg-if                                                  1.0.1             rust-crate                    
 cfitsio                                                 4.6.4-r0          apk                           
@@ -146,7 +138,7 @@ coreutils-env                                           9.11-r0           apk
 coreutils-fmt                                           9.11-r0           apk                           
 coreutils-sha512sum                                     9.11-r0           apk                           
 cors                                                    2.8.6             npm                           
-cose                                                    1.3.1             gem                           
+cose                                                    1.4.0             gem                           
 crass                                                   1.0.8             gem                           
 crc                                                     3.3.0             rust-crate                    
 crc-catalog                                             2.4.0             rust-crate                    
@@ -159,7 +151,6 @@ crossbeam-epoch                                         0.9.18            rust-c
 crossbeam-queue                                         0.3.12            rust-crate                    
 crossbeam-utils                                         0.8.16            rust-crate                    
 crossbeam-utils                                         0.8.21            rust-crate                    
-css-tree                                                3.2.1             npm                           
 css_parser                                              3.4.0             gem                           
 csv                                                     3.3.5             gem                           
 csv                                                     3.3.7             gem                           
@@ -195,7 +186,7 @@ elasticsearch-api                                       8.19.3            gem
 elasticsearch-dsl                                       0.1.10            gem                           
 encodeurl                                               2.0.0             npm                           
 english                                                 0.8.1             gem                           
-entities                                                8.1.0             npm                           
+entities                                                9.0.0             npm                           
 equator                                                 0.4.2             rust-crate                    
 erb                                                     6.0.7             gem           (+1 duplicate)  
 errno                                                   0.3.12            rust-crate                    
@@ -264,10 +255,10 @@ glycin-image-rs                                         2.1.5-r0          apk
 glycin-svg                                              2.1.5-r0          apk                           
 gmp                                                     6.3.0-r4          apk                           
 google-protobuf                                         4.36.2            gem                           
-googleapis-common-protos-types                          1.24.0            gem                           
+googleapis-common-protos-types                          1.25.0            gem                           
 gopd                                                    1.2.0             npm                           
 graphite2                                               1.3.14-r6         apk                           
-haml                                                    7.5.1             gem                           
+haml                                                    7.5.2             gem                           
 haml-rails                                              3.1.0             gem                           
 harfbuzz                                                13.2.1-r0         apk                           
 has-symbols                                             1.1.0             npm                           
@@ -303,10 +294,13 @@ io-nonblock                                             0.3.2             gem
 io-wait                                                 0.4.0             gem                           
 ioredis                                                 6.0.0             npm                           
 ipaddr                                                  1.2.8             gem                           
-ipaddr                                                  1.3.0             gem                           
+ipaddr                                                  1.3.1             gem                           
 ipaddr.js                                               1.9.1             npm                           
 irb                                                     1.16.0            gem                           
-irb                                                     1.18.0            gem                           
+irb                                                     1.19.0            gem                           
+is-alphabetical                                         2.0.1             npm                           
+is-alphanumerical                                       2.0.1             npm                           
+is-decimal                                              2.0.1             npm                           
 is-potential-custom-element-name                        1.0.1             npm                           
 is-promise                                              4.0.0             npm                           
 is_terminal_polyfill                                    1.70.1            rust-crate                    
@@ -316,8 +310,8 @@ ivf                                                     0.1.4             rust-c
 jd-paperclip-azure                                      3.0.0             gem                           
 jmespath                                                1.6.2             gem                           
 jq                                                      1.8.2-r0          apk                           
-jsdom                                                   30.1.3            npm                           
-json                                                    2.18.0            gem                           
+jsdom                                                   31.0.1            npm                           
+json                                                    2.18.3            gem                           
 json                                                    2.21.2            gem                           
 json-c                                                  0.18-r1           apk                           
 json-canonicalization                                   1.0.0             gem                           
@@ -326,10 +320,10 @@ json-ld                                                 3.3.2             gem
 json-ld-preloaded                                       3.3.2             gem                           
 jsonapi-renderer                                        0.2.2             gem                           
 jwt                                                     2.10.3            gem                           
-kaminari                                                1.3.2             gem                           
-kaminari-actionview                                     1.3.2             gem                           
-kaminari-activerecord                                   1.3.2             gem                           
-kaminari-core                                           1.3.2             gem                           
+kaminari                                                1.3.3             gem                           
+kaminari-actionview                                     1.3.3             gem                           
+kaminari-activerecord                                   1.3.3             gem                           
+kaminari-core                                           1.3.3             gem                           
 kt-paperclip                                            8.0.1             gem                           
 lab                                                     0.11.0            rust-crate                    
 lame-libs                                               3.100-r5          apk                           
@@ -347,7 +341,7 @@ libbz2                                                  1.0.8-r6          apk
 libc                                                    0.2.154           rust-crate                    
 libc                                                    0.2.172           rust-crate    (+1 duplicate)  
 libcap2                                                 2.78-r0           apk                           
-libcrypto3                                              3.5.9-r0          apk                           
+libcrypto3                                              3.5.9-r1          apk                           
 libcurl                                                 8.23.0-r0         apk                           
 libdav1d                                                1.5.3-r0          apk                           
 libde265                                                1.1.3-r0          apk                           
@@ -406,7 +400,7 @@ libsndfile                                              1.2.2-r2          apk
 libsodium                                               1.0.22-r0         apk                           
 libsrt                                                  1.5.3-r1          apk                           
 libssh                                                  0.12.2-r0         apk                           
-libssl3                                                 3.5.9-r0          apk                           
+libssl3                                                 3.5.9-r1          apk                           
 libstdc++                                               15.2.0-r5         apk                           
 libtheora                                               1.2.0-r1          apk                           
 libudfread                                              1.2.0-r1          apk                           
@@ -452,7 +446,6 @@ math-intrinsics                                         1.1.0             npm
 matrix                                                  0.4.3             gem                           
 maybe-rayon                                             0.1.1             rust-crate                    
 mbedtls3                                                3.6.8-r0          apk                           
-mdn-data                                                2.27.1            npm                           
 media-typer                                             1.1.1             npm                           
 memchr                                                  2.7.5             rust-crate                    
 memoffset                                               0.9.0             rust-crate                    
@@ -460,11 +453,11 @@ merge-descriptors                                       2.0.0             npm
 mime-db                                                 1.54.0            npm                           
 mime-types                                              3.0.2             npm                           
 mime-types                                              3.7.0             gem                           
-mime-types-data                                         3.2026.1027       gem                           
+mime-types-data                                         3.2026.1103       gem                           
 mini_mime                                               1.1.5             gem                           
 minimal-lexical                                         0.2.1             rust-crate                    
 minitest                                                6.0.0             gem                           
-minitest                                                6.0.6             gem                           
+minitest                                                6.1.0             gem                           
 mpg123-libs                                             1.33.5-r0         apk                           
 ms                                                      2.1.3             npm                           
 msgpack                                                 1.8.7             gem                           
@@ -492,7 +485,7 @@ nginx                                                   1.30.7-r0         apk
 nio4r                                                   2.7.5             gem                           
 nkf                                                     0.2.0             gem                           
 nodejs                                                  24.22.3-r0        apk                           
-nokogiri                                                1.19.6            gem                           
+nokogiri                                                1.19.7            gem                           
 nom                                                     7.1.3             rust-crate                    
 nom                                                     8.0.0             rust-crate                    
 noop_proc_macro                                         0.3.0             rust-crate                    
@@ -524,7 +517,7 @@ openexr-libopenexr                                      3.4.15-r0         apk
 openexr-libopenexrcore                                  3.4.15-r0         apk                           
 openid_connect                                          2.5.0             gem                           
 openjpeg                                                2.5.4-r2          apk                           
-openssl                                                 3.5.9-r0          apk                           
+openssl                                                 3.5.9-r1          apk                           
 openssl                                                 4.0.2             gem           (+1 duplicate)  
 openssl-signature_algorithm                             1.3.0             gem                           
 opentelemetry-api                                       1.11.1            gem                           
@@ -547,7 +540,7 @@ opentelemetry-instrumentation-excon                     0.29.1            gem
 opentelemetry-instrumentation-faraday                   0.33.0            gem                           
 opentelemetry-instrumentation-http                      0.30.0            gem                           
 opentelemetry-instrumentation-http_client               0.29.1            gem                           
-opentelemetry-instrumentation-net_http                  0.29.2            gem                           
+opentelemetry-instrumentation-net_http                  0.30.0            gem                           
 opentelemetry-instrumentation-pg                        0.37.1            gem                           
 opentelemetry-instrumentation-rack                      0.31.2            gem                           
 opentelemetry-instrumentation-rails                     0.42.0            gem                           
@@ -565,7 +558,8 @@ orm_adapter                                             0.5.0             gem
 ostruct                                                 0.6.3             gem           (+1 duplicate)  
 ox                                                      2.14.29           gem                           
 pango                                                   1.57.1-r0         apk                           
-parse5                                                  8.0.1             npm                           
+parse5                                                  8.1.0             npm                           
+parse5-parser-stream                                    8.1.0             npm                           
 parseurl                                                1.3.3             npm                           
 parslet                                                 2.0.0             gem                           
 paste                                                   1.0.15            rust-crate                    
@@ -630,7 +624,7 @@ proxy-addr                                              2.0.8             npm
 pstore                                                  0.2.1             gem                           
 psych                                                   5.3.1             gem                           
 public_suffix                                           7.0.5             gem                           
-puma                                                    8.0.2             gem                           
+puma                                                    8.0.3             gem                           
 pundit                                                  2.5.2             gem                           
 punycode                                                2.3.1             npm                           
 qs                                                      6.16.1            npm                           
@@ -684,7 +678,6 @@ reline                                                  0.6.3             gem
 reline                                                  0.7.0             gem                           
 repl_type_completor                                     0.1.12            gem                           
 request_store                                           1.7.0             gem                           
-require-from-string                                     2.0.2             npm                           
 resolv                                                  0.7.2             gem                           
 resolv-replace                                          0.1.1             gem                           
 responders                                              3.2.1             gem                           
@@ -696,7 +689,7 @@ router                                                  2.2.0             npm
 rqrcode                                                 3.2.0             gem                           
 rqrcode_core                                            2.1.0             gem                           
 rss                                                     0.3.2             gem                           
-ruby                                                    4.0.9             binary                        
+ruby                                                    4.0.10            binary                        
 ruby-progressbar                                        1.13.0            gem                           
 ruby-saml                                               1.18.1            gem                           
 ruby-vips                                               2.3.0             gem                           
@@ -707,7 +700,7 @@ rustix                                                  1.0.7             rust-c
 safe-stable-stringify                                   2.5.0             npm                           
 safer-buffer                                            2.1.2             npm                           
 safety_net_attestation                                  0.5.0             gem                           
-sanitize                                                7.0.1             gem                           
+sanitize                                                7.0.2             gem                           
 saxes                                                   6.0.0             npm                           
 scan_fmt                                                0.2.6             rust-crate                    
 scanelf                                                 1.3.9-r1          apk                           
@@ -742,7 +735,6 @@ singleton                                               0.3.0             gem
 skalibs-libs                                            2.15.0.0-r0       apk                           
 sonic-boom                                              4.2.1             npm                           
 sord-libs                                               0.16.22-r0        apk                           
-source-map-js                                           1.2.2             npm                           
 soxr                                                    0.1.3-r7          apk                           
 speexdsp                                                1.2.1-r2          apk                           
 spirv-tools                                             1.4.341.0-r0      apk                           
@@ -802,7 +794,7 @@ tzdata                                                  2026f-r0          apk
 tzinfo                                                  2.0.6             gem                           
 tzinfo-data                                             1.2026.6          gem                           
 un                                                      0.3.0             gem                           
-undici                                                  8.12.2            npm                           
+undici                                                  8.12.4            npm                           
 unicode-ident                                           1.0.18            rust-crate                    
 unicode-width                                           0.2.1             rust-crate                    
 unpipe                                                  1.0.0             npm                           
@@ -825,14 +817,14 @@ w3c-xmlserializer                                       6.0.0             npm
 warden                                                  1.2.9             gem                           
 wayland-libs-client                                     1.25.0-r0         apk                           
 weakref                                                 0.1.4             gem                           
-webauthn                                                3.5.0             gem                           
+webauthn                                                3.5.1             gem                           
 webfinger                                               2.1.3             gem                           
 webidl-conversions                                      8.0.1             npm                           
 webrick                                                 1.9.2             gem                           
 websocket-driver                                        0.8.2             gem                           
 websocket-extensions                                    0.1.5             gem                           
 whatwg-mimetype                                         5.0.0             npm                           
-whatwg-url                                              17.2.0            npm                           
+whatwg-url                                              17.3.0            npm                           
 wisper                                                  2.0.1             gem                           
 wrappy                                                  1.0.2             npm                           
 ws                                                      8.22.1            npm                           
